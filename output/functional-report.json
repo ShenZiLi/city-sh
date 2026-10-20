@@ -1,0 +1,124 @@
+{
+  "checks": [
+    {
+      "name": "13 selectable landmarks",
+      "pass": true
+    },
+    {
+      "name": "80–120 ordinary buildings",
+      "pass": true
+    },
+    {
+      "name": "time 暮色",
+      "pass": true
+    },
+    {
+      "name": "time 入夜",
+      "pass": true
+    },
+    {
+      "name": "time 白昼",
+      "pass": true
+    },
+    {
+      "name": "time change preserves camera",
+      "pass": true
+    },
+    {
+      "name": "rapid switch reaches last choice",
+      "pass": true
+    },
+    {
+      "name": "view 陆家嘴",
+      "pass": true
+    },
+    {
+      "name": "view 外滩",
+      "pass": true
+    },
+    {
+      "name": "view 江面",
+      "pass": true
+    },
+    {
+      "name": "view 全景",
+      "pass": true
+    },
+    {
+      "name": "keyboard reset syncs view",
+      "pass": true
+    },
+    {
+      "name": "keyboard time sync",
+      "pass": true
+    },
+    {
+      "name": "labels off",
+      "pass": true
+    },
+    {
+      "name": "landmark info",
+      "pass": true
+    },
+    {
+      "name": "focus moves target",
+      "pass": true
+    },
+    {
+      "name": "low quality",
+      "pass": true
+    },
+    {
+      "name": "high quality",
+      "pass": true
+    },
+    {
+      "name": "drag pauses auto orbit",
+      "pass": true
+    },
+    {
+      "name": "help opens",
+      "pass": true
+    },
+    {
+      "name": "help closes",
+      "pass": true
+    },
+    {
+      "name": "fullscreen blocked: graceful feedback",
+      "pass": true
+    },
+    {
+      "name": "PNG export",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no failed requests",
+      "pass": true
+    }
+  ],
+  "performance": {
+    "calls": 528,
+    "triangles": 502913,
+    "buildings": 97,
+    "time": "day",
+    "quality": "high",
+    "width": 1280,
+    "height": 720,
+    "cssWidth": 1920,
+    "cssHeight": 1080,
+    "dpr": 0.6666667014360428,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "fps": "精细画质 · 30 FPS",
+    "measuredFps": 29.984008528784663
+  },
+  "fullscreenNative": false,
+  "errors": [],
+  "failed": [],
+  "exportPath": "C:\\Users\\Admin\\AppData\\Local\\Tabbit Browser\\User Data\\LocalAgent\\Runtime\\artifacts\\task-6d0af9ff-83ce-4a23-ae07-46c4349f13b3\\paper-city-export.png"
+}

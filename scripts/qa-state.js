@@ -1,0 +1,1 @@
+return await page.evaluate(()=>({stats:window.paperCity.stats(),position:window.paperCity.camera.position.toArray(),auto:window.paperCity.orbit.autoRotate,time:document.querySelector('.paper-city').dataset.time,selectedView:document.querySelector('[data-view].is-active')?.getAttribute('data-view')}));

@@ -1,0 +1,11 @@
+globalThis.qaErrors=[];globalThis.failedAssets=[];
+page.on('pageerror',e=>globalThis.qaErrors.push(e.message));
+page.on('console',m=>{if(m.type()==='error')globalThis.qaErrors.push(m.text().slice(0,1000));});
+page.on('response',r=>{if(r.status()>=400)globalThis.failedAssets.push({url:r.url(),status:r.status()});});
+await page.keyboard.press('Control+0');
+await page.setViewportSize({width:1600,height:1000});
+await page.reload({waitUntil:'networkidle'});
+await page.waitForFunction(()=>!!window.paperCity);
+await page.evaluate(()=>{window.paperCity.controls.setAutoRotate(false);window.paperCity.controls.setLabels(false);});
+await page.waitForTimeout(500);
+return {errors:globalThis.qaErrors,failed:globalThis.failedAssets,stats:await page.evaluate(()=>window.paperCity.stats()),metrics:await page.evaluate(()=>({w:innerWidth,h:innerHeight,dpr:devicePixelRatio,main:document.querySelector('main').getBoundingClientRect().toJSON()})),screenshot:await page.screenshot({fullPage:false})};

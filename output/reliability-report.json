@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "name": "missing asset names are reported",
+      "pass": true
+    },
+    {
+      "name": "partial sky uses complete fallback",
+      "pass": true
+    },
+    {
+      "name": "context loss feedback",
+      "pass": true
+    },
+    {
+      "name": "context restored",
+      "pass": true
+    },
+    {
+      "name": "reduced motion disables auto orbit",
+      "pass": true
+    },
+    {
+      "name": "reduced motion shortens transition",
+      "pass": true
+    },
+    {
+      "name": "reduced motion freezes environment",
+      "pass": true
+    },
+    {
+      "name": "dispose removes canvas and diagnostics",
+      "pass": true
+    }
+  ],
+  "contextLossSupported": true
+}

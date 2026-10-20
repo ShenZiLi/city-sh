@@ -1,0 +1,1 @@
+const art=await context.newPage();try{await art.setViewportSize({width:1280,height:1200});await art.goto('http://127.0.0.1:5173/output/review.html',{waitUntil:'networkidle'});await art.waitForFunction(()=>Array.from(document.images).every(i=>i.complete&&i.naturalWidth>0));return await art.screenshot({fullPage:true});}finally{await art.close();}

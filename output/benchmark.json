@@ -1,0 +1,47 @@
+[
+  {
+    "calls": 528,
+    "triangles": 502913,
+    "buildings": 97,
+    "time": "day",
+    "quality": "high",
+    "fps": 59.96002664890075,
+    "p95ms": 17,
+    "renderWidth": 1920,
+    "renderHeight": 1080,
+    "cssWidth": 2880,
+    "cssHeight": 1620,
+    "dpr": 0.6666667014360428,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+    "calls": 541,
+    "triangles": 502926,
+    "buildings": 97,
+    "time": "night",
+    "quality": "high",
+    "fps": 59.972013060571705,
+    "p95ms": 17,
+    "renderWidth": 1920,
+    "renderHeight": 1080,
+    "cssWidth": 2880,
+    "cssHeight": 1620,
+    "dpr": 0.6666667014360428,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+    "calls": 281,
+    "triangles": 262641,
+    "buildings": 97,
+    "time": "night",
+    "quality": "low",
+    "fps": 59.96402158704779,
+    "p95ms": 16.900000000001455,
+    "renderWidth": 1536,
+    "renderHeight": 864,
+    "cssWidth": 2880,
+    "cssHeight": 1620,
+    "dpr": 0.6666667014360428,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  }
+]

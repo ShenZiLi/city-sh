@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vite/
+*.log
+output/*.zip
+output/*-tool-output.txt
+__pycache__/
+*.pyc

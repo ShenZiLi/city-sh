@@ -1,0 +1,1 @@
+return await page.evaluate(()=>({fullscreenEnabled:document.fullscreenEnabled,fullscreen:!!document.fullscreenElement,toast:document.querySelector('.toast').textContent,errors:document.querySelector('.loading-title').textContent}));
