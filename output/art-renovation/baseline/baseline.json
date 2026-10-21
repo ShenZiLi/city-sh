@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-10-21T01:54:02.952Z",
+  "sourceCommit": "d6403ec4c9954463a3ad5a206db7976596bdd30b",
+  "archive": {
+    "path": "source.tar.gz",
+    "sha256": "5a047c485b9d2b840766f09562b52c83c3997bfd22468b599ede3394bbba7bc1"
+  },
+  "historicalEvidence": [
+    "historical/screenshots",
+    "historical/benchmark.json",
+    "historical/functional-report.json",
+    "historical/reliability-report.json",
+    "historical/review.html"
+  ],
+  "historicalEvidenceNotice": "Copied from the original delivery. Not current device measurements.",
+  "freshEvidence": "fresh/ — new baseline screenshots on this machine; see fresh/report.json",
+  "reproduction": "Extract source.tar.gz, run npm ci, then npm run dev. The archive contains original tracked assets."
+}

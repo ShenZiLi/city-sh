@@ -5,13 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && node scripts/prepare-renovation-assets.mjs --check && node scripts/check-sample-models.mjs && node scripts/check-city-assets-v2.mjs && vite build && node scripts/package-art-review.mjs",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "vitest run",
+    "test": "vitest run && node --test scripts/check-art-assets.mjs",
     "check": "tsc --noEmit",
     "serve": "node scripts/serve.mjs",
     "prepare:assets": "node scripts/prepare-assets.mjs",
-    "catalog": "node scripts/catalog.mjs"
+    "catalog": "node scripts/catalog.mjs",
+    "art:prepare": "node scripts/prepare-renovation-assets.mjs",
+    "art:check": "node scripts/prepare-renovation-assets.mjs --check",
+    "art:doctor": "node scripts/art-toolchain.mjs",
+    "art:baseline": "node scripts/snapshot-art-baseline.mjs",
+    "test:art": "node --test scripts/check-art-assets.mjs",
+    "art:models": "node scripts/build-sample-models.mjs",
+    "art:models:check": "node scripts/check-sample-models.mjs",
+    "art:v2:prepare": "node scripts/prepare-city-art-v2.mjs",
+    "art:v2:models": "node scripts/build-sample-models.mjs --v2",
+    "art:v2:check": "node scripts/check-city-assets-v2.mjs"
   },
   "dependencies": {
     "three": "^0.180.0"

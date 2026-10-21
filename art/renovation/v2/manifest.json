@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 2,
+  "selectedDirection": "RA01",
+  "status": "runtime candidate, not visually accepted",
+  "assets": [
+    {
+      "id": "V201",
+      "name": "浅金石材古典立面",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-d7bd1664-c451-4f57-8867-b68ef9d7a4dd.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V201.png",
+      "promptFile": "art/renovation/v2/prompts/V201.json",
+      "promptSha256": "a2bf59bd6e2e287bda1eb63bb10e25365c11fde019ae664f63c886d0b42f9f1b",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2736541,
+        "hasAlpha": false,
+        "sha256": "00ca91a444cef1e88a6a43885885daba92b78c6e2b52f630079c1db94af56e46"
+      },
+      "processing": {
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1254,
+          "height": 1178
+        },
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V201.webp",
+        "width": 1254,
+        "height": 1178,
+        "bytes": 420674,
+        "sha256": "f25fc972aa784b3251bf5a226cc52988254644a526001a5f588fa1a7691a495c"
+      },
+      "alpha": null,
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V202",
+      "name": "红砖与浅石窗套立面",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-abf4cb65-6a20-46a8-b3ab-e1f1e827425c.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V202.png",
+      "promptFile": "art/renovation/v2/prompts/V202.json",
+      "promptSha256": "6cd99fd88f8cff4b536468a10212614f4dcd3898995e3422d91e6f10d68a341e",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 3458028,
+        "hasAlpha": false,
+        "sha256": "145686be51691533c732678ddaf2ee75c6b57878050555b973b3f4fb09cf781c"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V202.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 714112,
+        "sha256": "364909c2da00cb59619ce6e81ee9d60025f4c9da1f5efd912bcc29379fe1f0d0"
+      },
+      "alpha": null,
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V203",
+      "name": "现代蓝色玻璃幕墙",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-906f1ae7-287d-44b5-8ab2-94e2ef549ff9.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V203.png",
+      "promptFile": "art/renovation/v2/prompts/V203.json",
+      "promptSha256": "9fd04eb091ea18849f83eabb9b8c9bb2bc435b22f6330037d744e1c79ab700fd",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2774103,
+        "hasAlpha": false,
+        "sha256": "65be6cdec0879e3e95f9c9c0f429a8b56bc4522a82219e654ba82c825eadb8c6"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V203.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 447810,
+        "sha256": "2bd677f8ef26d8512e4210920094b00ff09ce3d4cfe9c9a9cae4756572a5beb2"
+      },
+      "alpha": null,
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V204",
+      "name": "石板坡屋顶",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-7b8c1c29-6706-428a-ab2a-2b974a3baad6.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V204.png",
+      "promptFile": "art/renovation/v2/prompts/V204.json",
+      "promptSha256": "9ff360f64093195b0a75202cf587531303d5a8aa099c378cb1649173f90151f3",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 3767296,
+        "hasAlpha": false,
+        "sha256": "3cf9fd2221b21ab85f02813128aa5110f303c952e691449709136250265f9a2b"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V204.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 686484,
+        "sha256": "6697a9a75625b0f4be73d44c99525b87d30ce52b772efc729c0d04ac318189e7"
+      },
+      "alpha": null,
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V205",
+      "name": "水彩树叶簇",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-7b7ec6cd-b113-434c-8b33-a34bc601b818.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V205.png",
+      "promptFile": "art/renovation/v2/prompts/V205.json",
+      "promptSha256": "439e8345fd10ca7c7ef166c831dc2fcdc67cac3272f4aa99a98b435f66721973",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2647776,
+        "hasAlpha": true,
+        "sha256": "b7f3fd5251e6fa9c80a1722e654cd01cfcbd4470e9bb925878e9a7f2811a1971"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V205.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 843844,
+        "sha256": "7c7b3e3e2c1fe090b39a2a1e8afdb0a214c74845dcd4baaecda3d277e945a048"
+      },
+      "alpha": {
+        "transparent": 821431,
+        "opaque": 619138
+      },
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V206",
+      "name": "环绕天空云层",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-d9f855a6-cc11-4087-aaba-789f8aca6ef7.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V206.png",
+      "promptFile": "art/renovation/v2/prompts/V206.json",
+      "promptSha256": "25a0659afabb7f474dd007b9e551c6fae6e6b2e581fa9004beffb1bcb4ccaf85",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1774,
+        "height": 887,
+        "bytes": 2400210,
+        "hasAlpha": false,
+        "sha256": "2a10e7c3512ae2bb8a901de7c6611f94fadebcc1e448a9f1833f64915e285447"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V206.webp",
+        "width": 1774,
+        "height": 887,
+        "bytes": 409814,
+        "sha256": "fb15b879a02f365322b145de28a9b225a1fd45594c45293df1f2adf4b92c65f2"
+      },
+      "alpha": null,
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V207",
+      "name": "细碎江面笔触",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-96a8e937-a471-4f15-862d-d6992e9d9ff1.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V207.png",
+      "promptFile": "art/renovation/v2/prompts/V207.json",
+      "promptSha256": "f0e98339ca274cb29519985560aae54dc1e8f0acf34193723ae3f19b1d4cff1d",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 3509997,
+        "hasAlpha": false,
+        "sha256": "63d6ae6a3044a885ea00ef0f110ed24120a8651b450031d41852c73e38cdba36"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V207.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 717900,
+        "sha256": "cfe640edeb8417c61b33b2c7f033628dac3178f3cc0ec5d7bb5170497b95b600"
+      },
+      "alpha": null,
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V208",
+      "name": "暖灰步道铺装",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-573ddf97-3ec3-46fb-9ea8-0ac1cc4df6ce.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V208.png",
+      "promptFile": "art/renovation/v2/prompts/V208.json",
+      "promptSha256": "0d07c99c5aea255076d53e84d073e1f1b13c1119ba5c75febff1f6c197d2c273",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 3537086,
+        "hasAlpha": false,
+        "sha256": "36052038b17d91e9b7636d4c0c3f4b1f49970aa71410927b4018ebc74da99d7d"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V208.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 703282,
+        "sha256": "b7acf3fb5f960e952d2a166e10a56c698b685bb3b74dac394ef0c47916d69276"
+      },
+      "alpha": null,
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V209",
+      "name": "透明船尾浪",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-0afc866c-855f-4d2f-b708-4474df3d4703.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V209.png",
+      "promptFile": "art/renovation/v2/prompts/V209.json",
+      "promptSha256": "65900fe0fd5dfa178e8956e367e22490bf57b16c6077dcce860bd60feeed04cf",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1482646,
+        "hasAlpha": true,
+        "sha256": "75ae3e9c1f56b40bccdbf9bc710a9b528118e1f22c32d7e890189f59e9407163"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V209.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 545630,
+        "sha256": "2fcf9c88b749c43039e5f50df07b1a2e9417298fc477c7b8ac365537db8fe951"
+      },
+      "alpha": {
+        "transparent": 1203052,
+        "opaque": 227068
+      },
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V210",
+      "name": "独立水彩云朵",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-e447723d-4ad2-4814-abf1-8828b7408e20.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V210.png",
+      "promptFile": "art/renovation/v2/prompts/V210.json",
+      "promptSha256": "b51d63c8c5e5f11f23112985240847892706cf7c66bec6b58ee8b5f877a2a516",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1774,
+        "height": 887,
+        "bytes": 1241749,
+        "hasAlpha": true,
+        "sha256": "a8a561f039b074e4fae881c3fc2be934e45698c885b51133d299070ce6f9941e"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V210.webp",
+        "width": 1774,
+        "height": 887,
+        "bytes": 343508,
+        "sha256": "f4ee30facf55e2ce9c7ba84b5bb1c95b6ea779eaad6b265dfc3974e216ede0f2"
+      },
+      "alpha": {
+        "transparent": 1022431,
+        "opaque": 508408
+      },
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "RT02-copper",
+      "method": "crop from existing image_gen original",
+      "original": "art/renovation/originals/RT02.png",
+      "originalSha256": "fcb49e7753b32a21623ce6374d8eb53d75fec9f92dad231f3eed86d25d99b09c",
+      "processing": {
+        "crop": {
+          "left": 13,
+          "top": 640,
+          "width": 601,
+          "height": 601
+        },
+        "upscaled": false
+      },
+      "status": "integrated",
+      "runtime": {
+        "path": "assets/renovation/v2/textures/RT02-copper.webp",
+        "bytes": 171312,
+        "sha256": "b7f480fbafdd77aa42c2be8ad10f0b5f3f7510a9120fdd551f646ffb208b2c16"
+      },
+      "visualAcceptance": "pending"
+    },
+    {
+      "id": "RT03-rose",
+      "method": "crop from existing image_gen original",
+      "original": "art/renovation/originals/RT03.png",
+      "originalSha256": "74510848a5095b66b442c706e709bcaaa323b7c8fcd362424ba89b70f04290f9",
+      "processing": {
+        "crop": {
+          "left": 13,
+          "top": 13,
+          "width": 601,
+          "height": 601
+        },
+        "upscaled": false
+      },
+      "status": "integrated",
+      "runtime": {
+        "path": "assets/renovation/v2/textures/RT03-rose.webp",
+        "bytes": 169104,
+        "sha256": "2a6baf0061ef066278136be556a509bf107cf4af0a94d801ec8021ecf1b08181"
+      },
+      "visualAcceptance": "pending"
+    },
+    {
+      "id": "V201-stone",
+      "method": "crop from existing image_gen original",
+      "original": "art/renovation/v2/originals/V201.png",
+      "originalSha256": "00ca91a444cef1e88a6a43885885daba92b78c6e2b52f630079c1db94af56e46",
+      "processing": {
+        "crop": {
+          "left": 6,
+          "top": 75,
+          "width": 33,
+          "height": 150
+        },
+        "upscaled": false
+      },
+      "status": "integrated",
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V201-stone.webp",
+        "bytes": 1682,
+        "sha256": "6b38bad40a597a6e65b71346711063e2ba6eedb7362aba83ec4505bdcbb27913"
+      },
+      "visualAcceptance": "pending"
+    }
+  ]
+}

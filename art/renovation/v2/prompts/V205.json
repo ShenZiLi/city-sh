@@ -1,0 +1,8 @@
+{
+  "id": "V205",
+  "tool": "OpenAI built-in image_gen",
+  "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-7b7ec6cd-b113-434c-8b33-a34bc601b818.png",
+  "status": "candidate",
+  "prompt": "Use case: stylized-concept. Asset type: genuinely transparent RGBA leaf cluster texture for 3D volumetric tree crowns in a watercolor Shanghai city. Reference image is painting style only. Generate a single irregular airy leafy cluster, dozens of small distinct plane-tree leaves with visible gaps and fine twig hints, botanical sage, olive, moss and yellow-green, delicate hand painted watercolor pigment, soft natural variation without strong lighting direction, sharply controlled alpha edges. Isolated on fully transparent background. Not a complete tree, no trunk, no ground, no text, no border, no white background, no dark outline. Leaf cluster fills 85% of image with transparent margin and tiny internal holes. Target 2048 square.",
+  "reference": "art/renovation/originals/RA01.png"
+}

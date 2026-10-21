@@ -1,0 +1,8 @@
+Use case: stylized-concept. Asset type: RT03 Oriental Pearl building production material atlas, SQUARE image requested 2048x2048.
+Use reference solely for architectural watercolor/gouache style and muted rose, cream and blue colors.
+Four EXACT equal full-bleed rectangular swatches in a 2 by 2 grid, no gutters, frames, captions or text.
+TOP LEFT: dusty rose and burgundy-red small triangular cladding and pale silver narrow structural seams, delicate painterly pigment. Flat surface material, NOT a sphere or building.
+TOP RIGHT: warm cream-white architectural concrete and brushed ivory metal, extremely subtle weathering and painterly tonal variation, no geometry or shadows.
+BOTTOM LEFT: cool blue-grey horizontal glass band with narrow muted teal mullions, uniform fine repeating handpainted window divisions, no environmental reflections or perspective.
+BOTTOM RIGHT: soft champagne bronze metal, very fine linear seams and warm-grey gouache flecks, flat ambient lighting.
+Delicate opaque watercolor and gouache, crisp material marks and subdued paper tooth, even neutral light, no sunlight gradient or baked cast shadow. No silhouettes, sky, city, text, words, numbers, watermark, UI, spheres, building shapes, reflections of objects or labels. Used as actual UV-mapped material swatches on a real 3D tower.

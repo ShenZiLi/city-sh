@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "project": "纸上浦江",
+  "selectedCandidate": "RA01",
+  "reference": {
+    "path": "art/renovation/references/user-target.png",
+    "width": 1672,
+    "height": 941,
+    "format": "png",
+    "hasAlpha": false,
+    "bytes": 3482662,
+    "sha256": "522c1ef3a4308793a25eadaf1c34ab3e318eb09ab3c710b2a8b27e707d6e5abc",
+    "role": "user-supplied style and composition reference; not a runtime texture"
+  },
+  "assets": [
+    {
+      "id": "RA01",
+      "name": "A · 接近图2",
+      "kind": "concept",
+      "status": "candidate",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-5fcc38f9-dd69-437b-a251-7077ae1ce25b.png",
+      "version": 1,
+      "original": "art/renovation/originals/RA01.png",
+      "promptFile": "art/renovation/prompts/RA01.txt",
+      "references": [
+        {
+          "path": "art/renovation/references/user-target.png",
+          "sha256": "522c1ef3a4308793a25eadaf1c34ab3e318eb09ab3c710b2a8b27e707d6e5abc",
+          "role": "style and composition reference"
+        }
+      ],
+      "metadata": {
+        "width": 1672,
+        "height": 941,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3574851,
+        "sha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc"
+      },
+      "transparent": false,
+      "runtime": null,
+      "preview": {
+        "path": "art/renovation/previews/RA01.webp",
+        "width": 1600,
+        "height": 900,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 639640,
+        "sha256": "53b736767693b845e5950c7e5da41e17327ec667fe77a45f0b1e30e908e4a516"
+      },
+      "notes": "A 已由用户选择为美术方向。构图最接近图2；远景桥梁仅属概念表达，三维布局仍须遵守河口与桥梁约束。",
+      "userApproval": {
+        "status": "approved",
+        "scope": "art direction only; not approval of a runtime scene",
+        "evidence": "User reply: A：接近图2（推荐）"
+      },
+      "visualReview": {
+        "verdict": "not-runtime-reviewed",
+        "evidence": []
+      },
+      "promptSha256": "a392c6426dd288a30b530933f65bf165610631575a12a1e76e27892c36d82722"
+    },
+    {
+      "id": "RA02",
+      "name": "B · 低视角临江",
+      "kind": "concept",
+      "status": "candidate",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-1785c43c-4145-4689-8a71-62a2f8ffa964.png",
+      "version": 1,
+      "original": "art/renovation/originals/RA02.png",
+      "promptFile": "art/renovation/prompts/RA02.txt",
+      "references": [
+        {
+          "path": "art/renovation/references/user-target.png",
+          "sha256": "522c1ef3a4308793a25eadaf1c34ab3e318eb09ab3c710b2a8b27e707d6e5abc",
+          "role": "style and composition reference"
+        }
+      ],
+      "metadata": {
+        "width": 1672,
+        "height": 941,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3373167,
+        "sha256": "cce898f03eebbf48b36206fbe228fe48cf23b13fc49778dbeb27f9617ed1473f"
+      },
+      "transparent": false,
+      "runtime": null,
+      "preview": {
+        "path": "art/renovation/previews/RA02.webp",
+        "width": 1600,
+        "height": 900,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 592722,
+        "sha256": "d1542b3b43babd98f283fa8d0d447404c8a850425171f1b19115ab5fbe66ceb8"
+      },
+      "notes": "更低视角、更强的江岸临场感；没有被选为最终方向。",
+      "userApproval": {
+        "status": "not-selected",
+        "scope": "art direction only; not approval of a runtime scene",
+        "evidence": null
+      },
+      "visualReview": {
+        "verdict": "not-runtime-reviewed",
+        "evidence": []
+      },
+      "promptSha256": "4eefa7c4cdfbdf68a063860ac094b35f601d6cb8402a3357b02dee15bdf4a963"
+    },
+    {
+      "id": "RA03",
+      "name": "C · 街区层次",
+      "kind": "concept",
+      "status": "candidate",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-aeecab78-0f45-4e9b-be8d-81211a567a8c.png",
+      "version": 1,
+      "original": "art/renovation/originals/RA03.png",
+      "promptFile": "art/renovation/prompts/RA03.txt",
+      "references": [
+        {
+          "path": "art/renovation/references/user-target.png",
+          "sha256": "522c1ef3a4308793a25eadaf1c34ab3e318eb09ab3c710b2a8b27e707d6e5abc",
+          "role": "style and composition reference"
+        }
+      ],
+      "metadata": {
+        "width": 1672,
+        "height": 941,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3747641,
+        "sha256": "c58d80bbbef7bd7bf020f07224de23a01e7335b76e8c8872d927f3ff67fe4aaf"
+      },
+      "transparent": false,
+      "runtime": null,
+      "preview": {
+        "path": "art/renovation/previews/RA03.webp",
+        "width": 1600,
+        "height": 900,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 685788,
+        "sha256": "a67cd1cb7d07971eabf49d14f4caecebb8b0c3b158292d5bc9ea89975ae48ebf"
+      },
+      "notes": "街区层次更丰富，但出现重复钟楼，不能直接作为建筑布局依据；没有被选为最终方向。",
+      "userApproval": {
+        "status": "not-selected",
+        "scope": "art direction only; not approval of a runtime scene",
+        "evidence": null
+      },
+      "visualReview": {
+        "verdict": "not-runtime-reviewed",
+        "evidence": []
+      },
+      "promptSha256": "dad8815ccb6ba7dd407f527d7d7c74e2fbfd792a48f46c46a842a1449790985f"
+    },
+    {
+      "id": "RA04",
+      "name": "A · 暮色色稿",
+      "kind": "concept",
+      "status": "candidate",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-5d28689a-415e-4ea3-b267-bcda8ee9a65f.png",
+      "version": 1,
+      "original": "art/renovation/originals/RA04.png",
+      "promptFile": "art/renovation/prompts/RA04.txt",
+      "references": [
+        {
+          "path": "art/renovation/originals/RA01.png",
+          "sha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+          "role": "edit target; preserve geometry and composition"
+        }
+      ],
+      "metadata": {
+        "width": 1672,
+        "height": 941,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3623148,
+        "sha256": "05aa8ed5325ec465563b3fdeaab2e4ccb1454a1ae291f034af9f393640952245"
+      },
+      "transparent": false,
+      "runtime": null,
+      "preview": {
+        "path": "art/renovation/previews/RA04.webp",
+        "width": 1600,
+        "height": 900,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 693526,
+        "sha256": "53d4f326e45e4456fbaf34fb7be368029b0775c9ac1bc9f296cb41e2afa76e7c"
+      },
+      "notes": "以A编辑，仅调整暮色光照。建筑布局用于保持风格关系，仍须用三维样片验证。",
+      "userApproval": {
+        "status": "pending",
+        "scope": "derived color-key review"
+      },
+      "visualReview": {
+        "verdict": "not-runtime-reviewed",
+        "evidence": []
+      },
+      "promptSha256": "069fd668982532ba9619fd856fcd22b78c2f842e8b3508b9dd5a989cb9046bcb"
+    },
+    {
+      "id": "RA05",
+      "name": "A · 入夜色稿",
+      "kind": "concept",
+      "status": "candidate",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-0a8adc26-086f-4271-b4d0-8c13c64328b1.png",
+      "version": 1,
+      "original": "art/renovation/originals/RA05.png",
+      "promptFile": "art/renovation/prompts/RA05.txt",
+      "references": [
+        {
+          "path": "art/renovation/originals/RA01.png",
+          "sha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+          "role": "edit target; preserve geometry and composition"
+        }
+      ],
+      "metadata": {
+        "width": 1672,
+        "height": 941,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3541200,
+        "sha256": "91a874f2940e5752f2383c90fe4c9c5aa06c4224a6eab8ae620d0daf9a436759"
+      },
+      "transparent": false,
+      "runtime": null,
+      "preview": {
+        "path": "art/renovation/previews/RA05.webp",
+        "width": 1600,
+        "height": 900,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 645710,
+        "sha256": "52a8ce3dacdf14f45f1424c338e6ee93aedc384aeaa1d9d3d42425537703e0ac"
+      },
+      "notes": "以A编辑，入夜蓝色大气、暖色外滩与有限彩色倒影；不是运行截图。",
+      "userApproval": {
+        "status": "pending",
+        "scope": "derived color-key review"
+      },
+      "visualReview": {
+        "verdict": "not-runtime-reviewed",
+        "evidence": []
+      },
+      "promptSha256": "04f35c67a956e8954f120e91874b48dab22e3ae6ff6bc8b6ea733be6450d2633"
+    },
+    {
+      "id": "RA06",
+      "name": "A · 反向视角色稿",
+      "kind": "concept",
+      "status": "candidate",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-82330963-f83f-4172-8cec-d0f6894c47af.png",
+      "version": 1,
+      "original": "art/renovation/originals/RA06.png",
+      "promptFile": "art/renovation/prompts/RA06.txt",
+      "references": [
+        {
+          "path": "art/renovation/originals/RA01.png",
+          "sha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+          "role": "city identity and style reference"
+        }
+      ],
+      "metadata": {
+        "width": 1672,
+        "height": 941,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3641433,
+        "sha256": "e31817bc48efdcc892654f8f121242da1e8f3133583a88525ffee4571566fd6d"
+      },
+      "transparent": false,
+      "runtime": null,
+      "preview": {
+        "path": "art/renovation/previews/RA06.webp",
+        "width": 1600,
+        "height": 900,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 686262,
+        "sha256": "af10027b98820403c26b6660108e52a22f35e38056f30b0864a5d0739d485d39"
+      },
+      "notes": "新相机从北向南，浦东在左、外滩在右。构图可作侧背面制作参考，但具体建筑位置不能从生成图直接当作地理真值。",
+      "userApproval": {
+        "status": "pending",
+        "scope": "derived color-key review"
+      },
+      "visualReview": {
+        "verdict": "not-runtime-reviewed",
+        "evidence": []
+      },
+      "promptSha256": "6ad245787b007dbf8ca9ba4596bce5253c108bbdd70143f6486726e488a7359a"
+    },
+    {
+      "id": "RT01",
+      "name": "海关大楼 · 立面与屋顶图集",
+      "kind": "texture",
+      "status": "integrated",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-356e2510-4c3c-4b9d-8776-229d0e24bdf1.png",
+      "version": 1,
+      "original": "art/renovation/originals/RT01.png",
+      "promptFile": "art/renovation/prompts/RT01.txt",
+      "references": [
+        {
+          "path": "art/renovation/originals/RA01.png",
+          "sha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+          "role": "approved art direction, style only"
+        }
+      ],
+      "metadata": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3522741,
+        "sha256": "b6df336fb41bfd6e8dbdb6ccef38935d499b7d14d4be19682e646dc5583e8025"
+      },
+      "transparent": false,
+      "runtime": "public/assets/renovation/models/customs-lod0.glb",
+      "preview": {
+        "path": "art/renovation/previews/RT01.webp",
+        "width": 1254,
+        "height": 1254,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 586842,
+        "sha256": "f24bcf1414fa7ec76f0c03f4a47709236b625066cd5ac5bd41efad40c151a039"
+      },
+      "notes": "四象限图集；钟面数字有瑕疵，该象限不用于模型，钟面使用立体刻度。原图实际1254级，未放大冒充2048。",
+      "userApproval": {
+        "status": "pending",
+        "scope": "runtime review required"
+      },
+      "visualReview": {
+        "verdict": "pending",
+        "evidence": [
+          "output/art-renovation/sample/day-front.png",
+          "output/art-renovation/sample/night-front.png"
+        ],
+        "notes": "Actually loaded in the P3 sample; visual target has not been accepted."
+      },
+      "runtimeUsage": "image embedded in GLB; model manifest lists consumers",
+      "promptSha256": "f9f0c9413870a08ed9feeb77b83bc0fda21046de80f391de7a5451adde424c81"
+    },
+    {
+      "id": "RT02",
+      "name": "原汇丰银行大楼 · 立面与铜绿屋顶",
+      "kind": "texture",
+      "status": "integrated",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-977217e6-60e4-4520-926e-b7c5b3ea5605.png",
+      "version": 1,
+      "original": "art/renovation/originals/RT02.png",
+      "promptFile": "art/renovation/prompts/RT02.txt",
+      "references": [
+        {
+          "path": "art/renovation/originals/RA01.png",
+          "sha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+          "role": "approved art direction, style only"
+        }
+      ],
+      "metadata": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3488677,
+        "sha256": "fcb49e7753b32a21623ce6374d8eb53d75fec9f92dad231f3eed86d25d99b09c"
+      },
+      "transparent": false,
+      "runtime": "public/assets/renovation/models/hsbc-lod0.glb",
+      "preview": {
+        "path": "art/renovation/previews/RT02.webp",
+        "width": 1254,
+        "height": 1254,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 598618,
+        "sha256": "98d131b87bd534b2a03436e12b2d35be9176f91ad1b42ad97761f8da741e3573"
+      },
+      "notes": "正面、侧背面、屋顶、石材分别对应模型；非场景背景。",
+      "userApproval": {
+        "status": "pending",
+        "scope": "runtime review required"
+      },
+      "visualReview": {
+        "verdict": "pending",
+        "evidence": [
+          "output/art-renovation/sample/day-front.png",
+          "output/art-renovation/sample/night-front.png"
+        ],
+        "notes": "Actually loaded in the P3 sample; visual target has not been accepted."
+      },
+      "runtimeUsage": "image embedded in GLB; model manifest lists consumers",
+      "promptSha256": "ecc310146d63867be0fa38faae4772ccfbd147f3b024f994030f6e16d6597f49"
+    },
+    {
+      "id": "RT03",
+      "name": "东方明珠 · 玫瑰红与玻璃材质",
+      "kind": "texture",
+      "status": "integrated",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-3c9589a6-b1a6-4455-bdf6-a239f1b3732d.png",
+      "version": 1,
+      "original": "art/renovation/originals/RT03.png",
+      "promptFile": "art/renovation/prompts/RT03.txt",
+      "references": [
+        {
+          "path": "art/renovation/originals/RA01.png",
+          "sha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+          "role": "approved art direction, style only"
+        }
+      ],
+      "metadata": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3324302,
+        "sha256": "74510848a5095b66b442c706e709bcaaa323b7c8fcd362424ba89b70f04290f9"
+      },
+      "transparent": false,
+      "runtime": "public/assets/renovation/models/pearl-lod0.glb",
+      "preview": {
+        "path": "art/renovation/previews/RT03.webp",
+        "width": 1254,
+        "height": 1254,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 516028,
+        "sha256": "8730ed239c076ae6ceaa3d9637d4dcc10dce0b9bbca290b4ea1a41e8855246bf"
+      },
+      "notes": "玫瑰红、混凝土、玻璃、金属四种材质；UV区域分配到球体、支撑和环带。",
+      "userApproval": {
+        "status": "pending",
+        "scope": "runtime review required"
+      },
+      "visualReview": {
+        "verdict": "pending",
+        "evidence": [
+          "output/art-renovation/sample/day-front.png",
+          "output/art-renovation/sample/night-front.png"
+        ],
+        "notes": "Actually loaded in the P3 sample; visual target has not been accepted."
+      },
+      "runtimeUsage": "image embedded in GLB; model manifest lists consumers",
+      "promptSha256": "96b921cf01b0f31f404617263325e51f8528b4099436d7f2ca63b9518899818a"
+    },
+    {
+      "id": "RT04",
+      "name": "三时段 · 水彩天空图集",
+      "kind": "texture",
+      "status": "integrated",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutputFilename": "exec-c26e5396-c753-4489-9adc-efb002639afd.png",
+      "version": 1,
+      "original": "art/renovation/originals/RT04.png",
+      "promptFile": "art/renovation/prompts/RT04.txt",
+      "references": [
+        {
+          "path": "art/renovation/originals/RA01.png",
+          "sha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+          "role": "cloud style and color reference"
+        }
+      ],
+      "metadata": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 2862077,
+        "sha256": "9b5e1e2592567836cd113566059633581cce2b50e1987c3c765e5cbc28f92992"
+      },
+      "transparent": false,
+      "runtime": "public/assets/renovation/textures/RT04-day.webp",
+      "runtimeVariants": [
+        {
+          "time": "day",
+          "path": "public/assets/renovation/textures/RT04-day.webp",
+          "width": 1254,
+          "height": 418,
+          "format": "webp",
+          "hasAlpha": false,
+          "bytes": 218480,
+          "sha256": "c1ca392845fd91e4d6f28ba1e16554aa2f1fb03afcd7312aa90881bbfff5986f"
+        },
+        {
+          "time": "dusk",
+          "path": "public/assets/renovation/textures/RT04-dusk.webp",
+          "width": 1254,
+          "height": 418,
+          "format": "webp",
+          "hasAlpha": false,
+          "bytes": 209466,
+          "sha256": "2499d5de597019258e897d70c87236056de176228412511ca4c7b77592a2aa0c"
+        },
+        {
+          "time": "night",
+          "path": "public/assets/renovation/textures/RT04-night.webp",
+          "width": 1254,
+          "height": 418,
+          "format": "webp",
+          "hasAlpha": false,
+          "bytes": 208240,
+          "sha256": "6a89163e5b3b2b0744cc2c0c3aebf2be1ccaf0eadf240b21efcba3616ec29abb"
+        }
+      ],
+      "preview": {
+        "path": "art/renovation/previews/RT04.webp",
+        "width": 1254,
+        "height": 1254,
+        "format": "webp",
+        "hasAlpha": false,
+        "bytes": 476216,
+        "sha256": "aebd139d26b30e399e914a55294bf35f895e9eacdfb443dbade7e00721da8b4b"
+      },
+      "notes": "三个水平色带分别裁切为三时段天空，只做裁切与压缩，未放大。天空专用图，不含建筑。",
+      "userApproval": {
+        "status": "pending",
+        "scope": "runtime visual review"
+      },
+      "visualReview": {
+        "verdict": "pending",
+        "evidence": [
+          "output/art-renovation/sample/day-front.png",
+          "output/art-renovation/sample/night-front.png"
+        ],
+        "notes": "Actually loaded in the P3 sample; visual target has not been accepted."
+      },
+      "promptSha256": "4bc4d0c2dcdc7349fa6b6693b85216d5b552e8021116a5592c9b53c58295647f"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Use case: stylized-concept. Asset type: RT01 Customs House production texture atlas, SQUARE 2048x2048 requested, strict orthographic hand-painted game asset.
+Use the reference only for the architectural watercolor brushwork, cream stone, slate roofs and muted blue-grey windows. This is a TEXTURE ATLAS for a real 3D building, not a scene and not a concept painting.
+Four exactly equal quadrants, dividing at x=50%, y=50%, no padding, no borders, no text labels:
+TOP LEFT: seamless full rectangular front facade of the main low Shanghai Customs House wing, 4 stories of cream carved neoclassical stone, 13 regular window bays, narrow pale cornices between floors, dark blue-grey inset windows, a more ornate ground-floor entrance in center. Flat front elevation fills entire quadrant, no roof, no clocktower silhouette. No background around facade.
+TOP RIGHT: matching side/rear wall, 4 stories, 7 window bays, warm cream stone, understated ornamental surrounds, flat front elevation fills entire quadrant, no roof.
+BOTTOM LEFT: full-bleed flat top-down blue-grey slate roof texture, subtle hand-painted tile pattern and pigment, no building outline or sky.
+BOTTOM RIGHT: one centered round ivory clockface with dark slender Roman numerals and two dark hands at 9:10, brass circular rim against full-bleed cream stone, front-on, entirely inside quadrant.
+All panels evenly lit with diffuse neutral ambient light, NO baked sunlight, large cast shadows, perspective, environment reflections, or lighting gradients. Delicate real masonry detail and paint variation, crisp readable window structures. Subtle watercolor and gouache pigment on cold-pressed paper, restrained saturation, not cartoon, not plastic. No UI, watermark, words or labels anywhere.

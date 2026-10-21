@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-21T01:58:03.502Z",
+  "node": "v24.16.0",
+  "platform": "darwin",
+  "arch": "arm64",
+  "blender": {
+    "executable": "/Applications/Blender.app/Contents/MacOS/Blender",
+    "version": "Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)"
+  },
+  "ready": true,
+  "missing": [],
+  "fallbackPolicy": "Missing Blender never authorizes replacing promised GLB assets with procedural blocks."
+}

@@ -1,0 +1,7 @@
+Use case: stylized-concept. Asset type: RT04 sky texture atlas for a navigable watercolor city, square requested 2048x2048, three equal HORIZONTAL BANDS stacked vertically with exact boundaries at one-third and two-thirds.
+Reference only for rich watercolor cloud style, not its buildings or river.
+Each band is a panoramic SKY ONLY texture, horizon at the bottom of its own band; soft clouds on subtle paper, evenly composed left-right with matching edge colors to facilitate wrapping.
+TOP THIRD: luminous daytime blue sky, large warm-white and palest apricot cumulus with painterly cobalt-blue cloud shadows, palest blue atmospheric bottom edge.
+MIDDLE THIRD: early dusk apricot and soft rose near the bottom blending to muted lavender-blue top, clouds with warm peach edges and lavender shadows.
+BOTTOM THIRD: elegant deep ultramarine night sky with indigo painterly clouds and faint slightly lighter blue near the bottom, no moon or stars.
+No land, skyline, city, river, buildings, labels, text, UI, borders, watermark or hard panel separators. Detailed expressive watercolor and opaque gouache with layered brushwork, soft irregular cloud edges and restrained fine granulation, not a photographic sky and not a flat gradient.

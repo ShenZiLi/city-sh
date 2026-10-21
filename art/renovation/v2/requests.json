@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "reference": "art/renovation/originals/RA01.png",
+  "assets": [
+    {
+      "id": "V201",
+      "name": "浅金石材古典立面",
+      "prompt": "Use case: stylized-concept. Asset type: production texture for an interactive Three.js watercolor Shanghai city. Reference image is STYLE ONLY: warm luminous stone, delicate transparent watercolor pigment, crisp architectural readability. Generate a NEW texture, not a concept scene. Orthographic flat front, NO perspective, NO cast shadows, NO sun glare, NO baked environment reflections, NO text, NO labels, NO border, NO montage. Fill the entire image edge to edge. Fine brush granulation, restrained contrast. Target 2048 square; actual returned size will be recorded. A single seamless architectural elevation module, ivory and honey limestone, EXACTLY six equal vertical window bays and five equal horizontal storeys, repetitive dark desaturated teal rectangular recessed windows, slim pale stone mullions and elegantly painted architraves. Window centres on an evenly spaced grid. Full facing stone surrounds. No roof, no ground, no clock, no columns extending outside the grid. Rich small-scale watercolor detail, flat even illumination."
+    },
+    {
+      "id": "V202",
+      "name": "红砖与浅石窗套立面",
+      "prompt": "Use case: stylized-concept. Asset type: production texture for an interactive Three.js watercolor Shanghai city. Reference image is STYLE ONLY: warm luminous stone, delicate transparent watercolor pigment, crisp architectural readability. Generate a NEW texture, not a concept scene. Orthographic flat front, NO perspective, NO cast shadows, NO sun glare, NO baked environment reflections, NO text, NO labels, NO border, NO montage. Fill the entire image edge to edge. Fine brush granulation, restrained contrast. Target 2048 square; actual returned size will be recorded. A single orthographic brick-and-stone Shanghai apartment facade module, EXACTLY six equal vertical bays and five equal horizontal storeys. Weathered warm terracotta red brick, pale cream stone window lintels, dark blue-grey rectangular windows, elegant old Shanghai architectural watercolor. Very fine brickwork and subtle pigment variation. No roof, no ground, no sky, no balconies protruding, evenly spaced window grid. No strong shadow."
+    },
+    {
+      "id": "V203",
+      "name": "现代蓝色玻璃幕墙",
+      "prompt": "Use case: stylized-concept. Asset type: production texture for an interactive Three.js watercolor Shanghai city. Reference image is STYLE ONLY: warm luminous stone, delicate transparent watercolor pigment, crisp architectural readability. Generate a NEW texture, not a concept scene. Orthographic flat front, NO perspective, NO cast shadows, NO sun glare, NO baked environment reflections, NO text, NO labels, NO border, NO montage. Fill the entire image edge to edge. Fine brush granulation, restrained contrast. Target 2048 square; actual returned size will be recorded. A single seamless pale blue and muted cobalt glass curtain-wall surface with EXACTLY eight equal vertical bays and sixteen equal horizontal storeys, ultra-thin grey mullions, gentle individual pane variation in teal, powder blue, slate blue. Flat uniform illumination. Watercolor painted glass, subtle pigment granulation, architectural legibility. No reflected buildings or clouds, no bright highlights, no gradient across whole image, no roof or skyline."
+    },
+    {
+      "id": "V204",
+      "name": "石板坡屋顶",
+      "prompt": "Use case: stylized-concept. Asset type: production texture for an interactive Three.js watercolor Shanghai city. Reference image is STYLE ONLY: warm luminous stone, delicate transparent watercolor pigment, crisp architectural readability. Generate a NEW texture, not a concept scene. Orthographic flat front, NO perspective, NO cast shadows, NO sun glare, NO baked environment reflections, NO text, NO labels, NO border, NO montage. Fill the entire image edge to edge. Fine brush granulation, restrained contrast. Target 2048 square; actual returned size will be recorded. A seamless top-down material of small overlapping French blue-grey slate roof tiles with hints of lavender, warm grey and graphite, handmade watercolor paint detail. Tiles in clean regular staggered rows, fine scale and controlled contrast, consistent from edge to edge. A pure roof surface ONLY, no dormers, chimneys, building edges or sky."
+    },
+    {
+      "id": "V205",
+      "name": "水彩树叶簇",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: genuinely transparent RGBA leaf cluster texture for 3D volumetric tree crowns in a watercolor Shanghai city. Reference image is painting style only. Generate a single irregular airy leafy cluster, dozens of small distinct plane-tree leaves with visible gaps and fine twig hints, botanical sage, olive, moss and yellow-green, delicate hand painted watercolor pigment, soft natural variation without strong lighting direction, sharply controlled alpha edges. Isolated on fully transparent background. Not a complete tree, no trunk, no ground, no text, no border, no white background, no dark outline. Leaf cluster fills 85% of image with transparent margin and tiny internal holes. Target 2048 square."
+    },
+    {
+      "id": "V206",
+      "name": "环绕天空云层",
+      "prompt": "Use case: stylized-concept. Asset type: wide equirectangular upper-hemisphere watercolor sky texture for a real 3D Shanghai city. Reference image is STYLE ONLY. Generate sky ONLY, no city, buildings, water, horizon objects, sun disk or text. Wide panoramic 2:1 image. Subtle pale warm blue sky with delicately painted cream cumulus clouds, clear luminous spaces, small-scale fine watercolor edges, sky gradient darker blue at top and pale ivory near bottom. Balanced scattered cloud formations, not one giant cloud; left and right edges visually matching without a strong seam. No paper border, flat edge-to-edge image. No high-contrast oversized strokes. Requested 3072x1536; actual dimensions recorded."
+    },
+    {
+      "id": "V207",
+      "name": "细碎江面笔触",
+      "prompt": "Use case: stylized-concept. Asset type: production texture for an interactive Three.js watercolor Shanghai city. Reference image is STYLE ONLY: warm luminous stone, delicate transparent watercolor pigment, crisp architectural readability. Generate a NEW texture, not a concept scene. Orthographic flat front, NO perspective, NO cast shadows, NO sun glare, NO baked environment reflections, NO text, NO labels, NO border, NO montage. Fill the entire image edge to edge. Fine brush granulation, restrained contrast. Target 2048 square; actual returned size will be recorded. A seamless top-down watercolor river surface microtexture, uniform mid-tone desaturated blue with small slender horizontal dashes and broken soft turquoise pigment patches, subtle low contrast, fine scale. NO clouds, NO sky, NO shore, NO boats, NO wakes, NO directional sunlight or large white patches. Pure repeating fine river brush marks to combine with separately rendered 3D reflections."
+    },
+    {
+      "id": "V208",
+      "name": "暖灰步道铺装",
+      "prompt": "Use case: stylized-concept. Asset type: production texture for an interactive Three.js watercolor Shanghai city. Reference image is STYLE ONLY: warm luminous stone, delicate transparent watercolor pigment, crisp architectural readability. Generate a NEW texture, not a concept scene. Orthographic flat front, NO perspective, NO cast shadows, NO sun glare, NO baked environment reflections, NO text, NO labels, NO border, NO montage. Fill the entire image edge to edge. Fine brush granulation, restrained contrast. Target 2048 square; actual returned size will be recorded. A seamless top-down texture of small warm grey and light sandy limestone promenade paving slabs, evenly spaced staggered rectangular slabs, delicate muted watercolor pigment and tiny worn variations, clean joints, not rustic cobbles. No plants, shadows, stains, writing, street objects or edges. Low contrast surface, consistent scale."
+    },
+    {
+      "id": "V209",
+      "name": "透明船尾浪",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: genuinely transparent RGBA boat wake decal for a watercolor Shanghai river. A single elegant white and pale turquoise V-shaped foamy wake seen directly from above, narrow point at TOP CENTER where a boat would be, two delicate widening diverging arms extending towards BOTTOM corners, and a soft broken central propeller trail. Small fine hand-painted watercolor strokes with substantial transparent space between foam marks. No water background, no boat, no land, no shadow, no text. Transparent alpha throughout negative space, soft fading edge, fill 90% of square. Reference only for watercolor painting style. Target 2048 square."
+    },
+    {
+      "id": "V210",
+      "name": "独立水彩云朵",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Production asset: ONE isolated wide airy cumulus cloud for an interactive 3D watercolor Shanghai city. Genuine transparent RGBA background, no sky rectangle. Delicate fine transparent watercolor brushwork, warm ivory and pale gold upper lobes, faint lavender-blue soft undersides, irregular evaporating edge and small wispy tendrils, subtle granulation. Light fluffy varied silhouette, wide 3:1 cloud, no hard outline, no dark shadow, no horizon, no objects, no border, no text. Reference image for painting style only. Preserve fine cloud gaps and transparent margins. Cloud should fill most of horizontal frame. Request 2048x1024, record actual size."
+    }
+  ]
+}

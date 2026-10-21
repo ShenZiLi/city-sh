@@ -1,0 +1,1485 @@
+{
+  "schemaVersion": 2,
+  "status": "candidate",
+  "assets": [
+    {
+      "id": "pearl",
+      "name": "东方明珠",
+      "category": "landmark",
+      "height": 83.5,
+      "boundsBlender": {
+        "min": [
+          -7.8,
+          -8.542852401733398,
+          0.0
+        ],
+        "max": [
+          9.732926368713379,
+          8.542852401733398,
+          83.0
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          84.8,
+          0
+        ],
+        "focus": [
+          0,
+          35.905,
+          0
+        ]
+      },
+      "materialSlots": [
+        "trim",
+        "white",
+        "rose",
+        "glass",
+        "gold"
+      ],
+      "artIds": [
+        "RT03-rose",
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/pearl.blend",
+      "sourceBytes": 3306048,
+      "sourceSha256": "8f1b922c9470d5c26bb8158c83eea04869e2e3ede53bbab58d912a8936a2b8e2",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/pearl-lod0.glb",
+          "bytes": 689696,
+          "sha256": "c2cf7362d72063821cbcc9dfc7a4928c85bcaf8c0a329a062a50569e2101a785",
+          "triangles": 21712
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/pearl-lod1.glb",
+          "bytes": 290588,
+          "sha256": "41d2e999d60b406ba1ff950507ac9c2a6957a2209c01e7840f1e39fcee05b23f",
+          "triangles": 8072
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/pearl-lod2.glb",
+          "bytes": 126520,
+          "sha256": "884cb2b0fa68e8f1a0a0a612e19c4334956ad61f57d6cf8a3eb5e9322c45f86d",
+          "triangles": 2728
+        }
+      ]
+    },
+    {
+      "id": "shanghai",
+      "name": "上海中心",
+      "category": "landmark",
+      "height": 114.8,
+      "boundsBlender": {
+        "min": [
+          -10.85,
+          -9.35,
+          -0.007656574249267578
+        ],
+        "max": [
+          10.85,
+          9.35,
+          114.325
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          116.1,
+          0
+        ],
+        "focus": [
+          0,
+          49.364,
+          0
+        ]
+      },
+      "materialSlots": [
+        "glass",
+        "trim",
+        "gold"
+      ],
+      "artIds": [
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/shanghai.blend",
+      "sourceBytes": 3481474,
+      "sourceSha256": "8dea1c933f9b9dbe87cff80c534de533f69a38f363dc040f672697d1feb79725",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/shanghai-lod0.glb",
+          "bytes": 1894308,
+          "sha256": "fc5fbeb52e33989207241d886d5058fc201a5dff2f07131d8533fdf838d30ad6",
+          "triangles": 25028
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/shanghai-lod1.glb",
+          "bytes": 964204,
+          "sha256": "0c320584244bd60ce40cec98880b3a8ef8975a31ef6c52622d77c03deed03503",
+          "triangles": 12508
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/shanghai-lod2.glb",
+          "bytes": 82856,
+          "sha256": "79504767a529cb6314a4227cf5c531b0718388f3da47f8837a5acf0b7bbb643d",
+          "triangles": 1124
+        }
+      ]
+    },
+    {
+      "id": "swfc",
+      "name": "环球金融中心",
+      "category": "landmark",
+      "height": 96,
+      "boundsBlender": {
+        "min": [
+          -11.5,
+          -8.0,
+          -0.003208160400390625
+        ],
+        "max": [
+          11.5,
+          8.0,
+          95.35
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          97.3,
+          0
+        ],
+        "focus": [
+          0,
+          41.28,
+          0
+        ]
+      },
+      "materialSlots": [
+        "glass",
+        "trim"
+      ],
+      "artIds": [
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/swfc.blend",
+      "sourceBytes": 3060223,
+      "sourceSha256": "16d10ddd8fa479945de967cd74f0d9be72ac0bf1f7eebecc119fd5e1f0760f4a",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/swfc-lod0.glb",
+          "bytes": 51368,
+          "sha256": "14aaabbb538a33a4a824e09df3abf8abcfcdbd263afe76435bec3b772565cf11",
+          "triangles": 686
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/swfc-lod1.glb",
+          "bytes": 33296,
+          "sha256": "7db09144f5badaca3f9b8fda32a7b747a073657471d1eb0ccd0069e6b6c2af33",
+          "triangles": 426
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/swfc-lod2.glb",
+          "bytes": 24892,
+          "sha256": "2452a42f8ccf6c0f1691d9ec08496c3003d03aa2c1a9dbe9bc4f33b2c446176a",
+          "triangles": 306
+        }
+      ]
+    },
+    {
+      "id": "jinmao",
+      "name": "金茂大厦",
+      "category": "landmark",
+      "height": 92.18,
+      "boundsBlender": {
+        "min": [
+          -11.0,
+          -9.5,
+          0.0
+        ],
+        "max": [
+          11.0,
+          9.5,
+          92.18
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          93.48,
+          0
+        ],
+        "focus": [
+          0,
+          39.6374,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "glass",
+        "trim",
+        "gold"
+      ],
+      "artIds": [
+        "V203",
+        "V201"
+      ],
+      "source": "art/renovation/v2/models/jinmao.blend",
+      "sourceBytes": 5837082,
+      "sourceSha256": "d06de083045c98007b2027083c983e4f9c541113a9324085ef5b2b3eeedafe06",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/jinmao-lod0.glb",
+          "bytes": 300864,
+          "sha256": "7d33d0061c480cfab8eae376840561d6b0f22b079f58b4994afad1cda3b75d25",
+          "triangles": 4028
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/jinmao-lod1.glb",
+          "bytes": 294388,
+          "sha256": "0c2f2413316f1f2a9ce6b09a624f07ef80f200ce11a321d5741e6358cca6b29c",
+          "triangles": 3940
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/jinmao-lod2.glb",
+          "bytes": 65780,
+          "sha256": "5488b1c42f4e2d8a7602af68fd2445e27e9ecc5fb9c5a949e282673c1d4ea57b",
+          "triangles": 860
+        }
+      ]
+    },
+    {
+      "id": "customs",
+      "name": "海关大楼",
+      "category": "landmark",
+      "height": 32,
+      "boundsBlender": {
+        "min": [
+          -16.4,
+          -9.9,
+          0.0
+        ],
+        "max": [
+          16.4,
+          9.9,
+          32.0
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          33.3,
+          0
+        ],
+        "focus": [
+          0,
+          13.76,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "trim",
+        "slate",
+        "gold",
+        "white",
+        "dark",
+        "copper"
+      ],
+      "artIds": [
+        "V201",
+        "V204"
+      ],
+      "source": "art/renovation/v2/models/customs.blend",
+      "sourceBytes": 9681636,
+      "sourceSha256": "d1c5807ddea9b4fc6508dc637e1629286ee3e6782037dc7cb387f2b095e46847",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/customs-lod0.glb",
+          "bytes": 251416,
+          "sha256": "a163db2b2f69478adea0c3fb434ef6f63a434cfe5a189a694aa925c8980eec8c",
+          "triangles": 3388
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/customs-lod1.glb",
+          "bytes": 243928,
+          "sha256": "3fde6f9d2a7a137cedc5cceff2a3b3a1414f3db32e7a67653d0ba586a8405171",
+          "triangles": 3284
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/customs-lod2.glb",
+          "bytes": 171108,
+          "sha256": "5bcf795e9adc37f899c8bfdfb4ac6b1db834910bf18cc6205accc6fa8082a482",
+          "triangles": 2244
+        }
+      ]
+    },
+    {
+      "id": "hsbc",
+      "name": "原汇丰银行大楼",
+      "category": "landmark",
+      "height": 26.5,
+      "boundsBlender": {
+        "min": [
+          -17.9,
+          -13.55,
+          0.0
+        ],
+        "max": [
+          17.9,
+          13.55,
+          26.3
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          27.8,
+          0
+        ],
+        "focus": [
+          0,
+          11.395,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "trim",
+        "slate",
+        "copper",
+        "gold"
+      ],
+      "artIds": [
+        "V201",
+        "RT02-copper",
+        "V204"
+      ],
+      "source": "art/renovation/v2/models/hsbc.blend",
+      "sourceBytes": 9768415,
+      "sourceSha256": "5aef88541213ae43128f0f6077e3e4323eb1f68e4c7d90f655888357f4e1989d",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/hsbc-lod0.glb",
+          "bytes": 422236,
+          "sha256": "cc012853f332eebe56b9d55cf1d77d867e0f3857203cce9b07f9a438455317d8",
+          "triangles": 7958
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/hsbc-lod1.glb",
+          "bytes": 232436,
+          "sha256": "b0654a1ecf84de5fd0750ca1038a36a4cf1a62587470a9d6685106bc3726cf46",
+          "triangles": 3910
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/hsbc-lod2.glb",
+          "bytes": 110956,
+          "sha256": "589ff4908ad288500b9e212008a583f7b552a9ae5ee80f611e35eb81661e7ca2",
+          "triangles": 1670
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "name": "和平饭店",
+      "category": "landmark",
+      "height": 37.5,
+      "boundsBlender": {
+        "min": [
+          -12.85,
+          -10.35,
+          0.0
+        ],
+        "max": [
+          12.85,
+          10.35,
+          37.25
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          38.8,
+          0
+        ],
+        "focus": [
+          0,
+          16.125,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "trim",
+        "copper",
+        "gold"
+      ],
+      "artIds": [
+        "V201",
+        "RT02-copper"
+      ],
+      "source": "art/renovation/v2/models/peace.blend",
+      "sourceBytes": 9675870,
+      "sourceSha256": "82d0c542655f07e269e3b2f24ed4ee00e5e13b57de869688cd7af63029989cc6",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/peace-lod0.glb",
+          "bytes": 47664,
+          "sha256": "2a673acc2799ced791a1cf8fed640dc6b06017c7060e467c067078995fb01873",
+          "triangles": 618
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/peace-lod1.glb",
+          "bytes": 44736,
+          "sha256": "de0ae4688bd3f8411b3f9b3912b2c936f1e55c422c5251a2575cea31805753ef",
+          "triangles": 578
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/peace-lod2.glb",
+          "bytes": 14980,
+          "sha256": "fd788130d42c335b679d2e7e9cdec521aa6ff89d5200beed99eaab2b441cdf85",
+          "triangles": 162
+        }
+      ]
+    },
+    {
+      "id": "heritage-0",
+      "name": "柱廊",
+      "category": "heritage",
+      "height": 16,
+      "boundsBlender": {
+        "min": [
+          -14.9,
+          -11.55,
+          0.0
+        ],
+        "max": [
+          14.9,
+          11.55,
+          16.5
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          17.3,
+          0
+        ],
+        "focus": [
+          0,
+          6.88,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "trim",
+        "slate"
+      ],
+      "artIds": [
+        "V201",
+        "V202",
+        "V204"
+      ],
+      "source": "art/renovation/v2/models/heritage-0.blend",
+      "sourceBytes": 9729354,
+      "sourceSha256": "e8c4611a781d7a68a85d4919f351409cf96079b7cc403cccc9fe005b5b9816a7",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/heritage-0-lod0.glb",
+          "bytes": 239336,
+          "sha256": "160e5a3972c921c29ce8504d3fdd082010619103917d3ede2991d1e026a811fa",
+          "triangles": 3336
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/heritage-0-lod1.glb",
+          "bytes": 149740,
+          "sha256": "acdfa76efe9e1c26e5ac6150f226bcd880e350f1740796825b49c6c255e57f84",
+          "triangles": 2056
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/heritage-0-lod2.glb",
+          "bytes": 119500,
+          "sha256": "43538cfda6e57944b0f09960023035961f6c3662ba55c4280436335aa1e57e43",
+          "triangles": 1624
+        }
+      ]
+    },
+    {
+      "id": "heritage-1",
+      "name": "拱窗",
+      "category": "heritage",
+      "height": 18,
+      "boundsBlender": {
+        "min": [
+          -11.9,
+          -8.9,
+          0.0
+        ],
+        "max": [
+          11.9,
+          8.9,
+          16.95
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          19.3,
+          0
+        ],
+        "focus": [
+          0,
+          7.74,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "trim",
+        "slate",
+        "dark"
+      ],
+      "artIds": [
+        "V201",
+        "V202",
+        "V204"
+      ],
+      "source": "art/renovation/v2/models/heritage-1.blend",
+      "sourceBytes": 9952865,
+      "sourceSha256": "a3d70e04da256faeae8291b0198a251918c6c016aaa66eeec452bb1fc908d1fa",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/heritage-1-lod0.glb",
+          "bytes": 1594500,
+          "sha256": "729088d0125bcd26513390f007a0165293e13a9c08167281ce508ed424cd3005",
+          "triangles": 22462
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/heritage-1-lod1.glb",
+          "bytes": 599484,
+          "sha256": "e0bb7d8dee44828ae7102ebafa3fb3c21af7bcaef8d081218e1dcd8cb47db850",
+          "triangles": 8350
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/heritage-1-lod2.glb",
+          "bytes": 179140,
+          "sha256": "39f144afa2feca9cebf4550a22f3ae5a2312651219bcadda008b7a6e73c07ea0",
+          "triangles": 2422
+        }
+      ]
+    },
+    {
+      "id": "heritage-2",
+      "name": "装饰艺术",
+      "category": "heritage",
+      "height": 31,
+      "boundsBlender": {
+        "min": [
+          -9.85,
+          -8.924999999999999,
+          0.0
+        ],
+        "max": [
+          9.85,
+          8.85,
+          33.5
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          32.3,
+          0
+        ],
+        "focus": [
+          0,
+          13.33,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "trim",
+        "gold"
+      ],
+      "artIds": [
+        "V201",
+        "V202",
+        "V204"
+      ],
+      "source": "art/renovation/v2/models/heritage-2.blend",
+      "sourceBytes": 9711297,
+      "sourceSha256": "adcb1de0c6318b87fec5d9923a62b77c51c4a0d1d439f5d588e8e2f8544e28f1",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/heritage-2-lod0.glb",
+          "bytes": 43600,
+          "sha256": "ea1ccce698ab998630e6e42cb5e350347cf1faa3ada99f5ed2539e3d33b9ea1d",
+          "triangles": 572
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/heritage-2-lod1.glb",
+          "bytes": 40672,
+          "sha256": "5ca8ea50c65496c42bad83a5d0a242fc5d37fba2da23a5934a7779678729c902",
+          "triangles": 532
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/heritage-2-lod2.glb",
+          "bytes": 16452,
+          "sha256": "b5a9881147a537a4c0e77c11c1b56ad72428c75a30fd255f2b46dddbe187a258",
+          "triangles": 188
+        }
+      ]
+    },
+    {
+      "id": "heritage-3",
+      "name": "坡屋顶",
+      "category": "heritage",
+      "height": 16,
+      "boundsBlender": {
+        "min": [
+          -13.4,
+          -9.4,
+          0.0
+        ],
+        "max": [
+          13.4,
+          9.4,
+          14.95
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          17.3,
+          0
+        ],
+        "focus": [
+          0,
+          6.88,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "trim",
+        "slate"
+      ],
+      "artIds": [
+        "V201",
+        "V202",
+        "V204"
+      ],
+      "source": "art/renovation/v2/models/heritage-3.blend",
+      "sourceBytes": 9726527,
+      "sourceSha256": "5c780382fbdf8c8e0454fc2deabf36c1e4eae49ee14546825f0af3e64c2c3291",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/heritage-3-lod0.glb",
+          "bytes": 67880,
+          "sha256": "72e7df90afe99bc666609ebd0e1287c968b58ad64169f2ee1a317fa8e647d62c",
+          "triangles": 910
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/heritage-3-lod1.glb",
+          "bytes": 67884,
+          "sha256": "8f61a2a267c71ee4115dcef8a8b5b7a86c8a59c750d87db6d481e2c9842174cd",
+          "triangles": 910
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/heritage-3-lod2.glb",
+          "bytes": 8136,
+          "sha256": "641db7c496ad10640cf5a66b5cb294bac4ef99d428f4d1190a11be45096ed93a",
+          "triangles": 70
+        }
+      ]
+    },
+    {
+      "id": "heritage-4",
+      "name": "砖石",
+      "category": "heritage",
+      "height": 19,
+      "boundsBlender": {
+        "min": [
+          -11.4,
+          -9.4,
+          0.0
+        ],
+        "max": [
+          11.4,
+          9.4,
+          18.6
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          20.3,
+          0
+        ],
+        "focus": [
+          0,
+          8.17,
+          0
+        ]
+      },
+      "materialSlots": [
+        "brick",
+        "trim",
+        "slate"
+      ],
+      "artIds": [
+        "V201",
+        "V202",
+        "V204"
+      ],
+      "source": "art/renovation/v2/models/heritage-4.blend",
+      "sourceBytes": 13155913,
+      "sourceSha256": "ae4b6ca2cfc50233311e6488231e3a76dfaa95baad9bd464cfafe2363656d75b",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/heritage-4-lod0.glb",
+          "bytes": 35044,
+          "sha256": "b7324f1c8cae4c5d766f3df52325f6e1b1fa58d8dcc3d3bac88017ec59c79393",
+          "triangles": 454
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/heritage-4-lod1.glb",
+          "bytes": 35052,
+          "sha256": "d4a856b139464faa4095db07d6ca235091aac4a33c08ef1a4331365039a27d19",
+          "triangles": 454
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/heritage-4-lod2.glb",
+          "bytes": 9840,
+          "sha256": "d3317ab47f1b64219f1ffde846fca6d33c9f4b82091460c835048e9a832a683b",
+          "triangles": 94
+        }
+      ]
+    },
+    {
+      "id": "heritage-5",
+      "name": "公寓",
+      "category": "heritage",
+      "height": 21,
+      "boundsBlender": {
+        "min": [
+          -15.4,
+          -11.299999999999999,
+          0.0
+        ],
+        "max": [
+          15.4,
+          11.299999999999999,
+          19.95
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          22.3,
+          0
+        ],
+        "focus": [
+          0,
+          9.03,
+          0
+        ]
+      },
+      "materialSlots": [
+        "brick",
+        "trim",
+        "slate"
+      ],
+      "artIds": [
+        "V201",
+        "V202",
+        "V204"
+      ],
+      "source": "art/renovation/v2/models/heritage-5.blend",
+      "sourceBytes": 13175396,
+      "sourceSha256": "83ab39e1a993af082e08ae3f8b10b96ae1ec5dd94a2ffc5442b27e3fe049a13b",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/heritage-5-lod0.glb",
+          "bytes": 86372,
+          "sha256": "00dd5c60517224f76f4ffae817071a4533499cf47a05f896d2dff3fe822426dd",
+          "triangles": 1174
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/heritage-5-lod1.glb",
+          "bytes": 86376,
+          "sha256": "bebce68a36582d2f43ea4fa139624e1f6f5052c33732cf16e879594f9b1eb5ef",
+          "triangles": 1174
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/heritage-5-lod2.glb",
+          "bytes": 13188,
+          "sha256": "bb0f91db29ae892ecdd15c5dbfed71b74ea89720ccbbd14b0f12a42896962efc",
+          "triangles": 142
+        }
+      ]
+    },
+    {
+      "id": "modern-0",
+      "name": "玻璃塔楼",
+      "category": "modern",
+      "height": 45,
+      "boundsBlender": {
+        "min": [
+          -12.0,
+          -9.5,
+          0.0
+        ],
+        "max": [
+          12.0,
+          9.5,
+          45.0
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          46.3,
+          0
+        ],
+        "focus": [
+          0,
+          19.35,
+          0
+        ]
+      },
+      "materialSlots": [
+        "glass",
+        "trim",
+        "slate"
+      ],
+      "artIds": [
+        "V201",
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/modern-0.blend",
+      "sourceBytes": 13174159,
+      "sourceSha256": "5f0f476223c26c7e93da102599a961de191af4e01712976e8727318729265437",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/modern-0-lod0.glb",
+          "bytes": 27492,
+          "sha256": "2cf3e89c853c71ae0fdba86e9d206084afcd7d1d0d62b1e65debcb02c8131fe2",
+          "triangles": 348
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/modern-0-lod1.glb",
+          "bytes": 27496,
+          "sha256": "e0275670301188d311bba648418e8ca5a63aadc5c67c6f13b32da4f13a1c35d9",
+          "triangles": 348
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/modern-0-lod2.glb",
+          "bytes": 9004,
+          "sha256": "80261493a293a514c5d24c8c8c4acf900737d6d37ba4a9dede95c6d876afbade",
+          "triangles": 84
+        }
+      ]
+    },
+    {
+      "id": "modern-1",
+      "name": "板楼",
+      "category": "modern",
+      "height": 33,
+      "boundsBlender": {
+        "min": [
+          -12.85,
+          -5.35,
+          0.0
+        ],
+        "max": [
+          12.85,
+          5.35,
+          32.115
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          34.3,
+          0
+        ],
+        "focus": [
+          0,
+          14.19,
+          0
+        ]
+      },
+      "materialSlots": [
+        "glass",
+        "trim"
+      ],
+      "artIds": [
+        "V201",
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/modern-1.blend",
+      "sourceBytes": 13184995,
+      "sourceSha256": "a6c8f44e9e5f2604baf325b954a9ad43f371476d3c38c5977895f7888b0b818b",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/modern-1-lod0.glb",
+          "bytes": 32512,
+          "sha256": "f5d818159a35b91bf771d45e8ea351d0f4c595e9a12dca18a198a96820823bf9",
+          "triangles": 432
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/modern-1-lod1.glb",
+          "bytes": 32516,
+          "sha256": "8c31be73f41b4d0855563bcb4a8f63b54a776fb5a8f23ba01ea8f66676fd55b6",
+          "triangles": 432
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/modern-1-lod2.glb",
+          "bytes": 10668,
+          "sha256": "7c75854dabbc80ce6a229a473804b281b676df0477789ba3af11a5de2dc7b525",
+          "triangles": 120
+        }
+      ]
+    },
+    {
+      "id": "modern-2",
+      "name": "阶梯楼",
+      "category": "modern",
+      "height": 36,
+      "boundsBlender": {
+        "min": [
+          -11.0,
+          -8.5,
+          0.0
+        ],
+        "max": [
+          11.0,
+          8.5,
+          32.0
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          37.3,
+          0
+        ],
+        "focus": [
+          0,
+          15.48,
+          0
+        ]
+      },
+      "materialSlots": [
+        "glass"
+      ],
+      "artIds": [
+        "V201",
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/modern-2.blend",
+      "sourceBytes": 13186416,
+      "sourceSha256": "4dd9ce9a447b798647134744ce09bbe1452f2e4961341a5fe4c6245c5c5990a3",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/modern-2-lod0.glb",
+          "bytes": 5552,
+          "sha256": "709cda137ed7c5456f98f78ce35c81fdc6a17a06bfb2ebed6233b865b3bf1b7a",
+          "triangles": 60
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/modern-2-lod1.glb",
+          "bytes": 5556,
+          "sha256": "a272b58ff3ea61dee669f2525b9f307e7d0082fc82a92d4fe27f238d4709c5d5",
+          "triangles": 60
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/modern-2-lod2.glb",
+          "bytes": 5556,
+          "sha256": "ccb3f3060123d322fff9cf27980357b347f6c1b3bf2b31150516bf569a8d4289",
+          "triangles": 60
+        }
+      ]
+    },
+    {
+      "id": "modern-3",
+      "name": "商业裙房",
+      "category": "modern",
+      "height": 24,
+      "boundsBlender": {
+        "min": [
+          -16.5,
+          -12.5,
+          0.0
+        ],
+        "max": [
+          16.5,
+          12.5,
+          24.0
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          25.3,
+          0
+        ],
+        "focus": [
+          0,
+          10.32,
+          0
+        ]
+      },
+      "materialSlots": [
+        "glass",
+        "trim",
+        "stone",
+        "copper"
+      ],
+      "artIds": [
+        "V201",
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/modern-3.blend",
+      "sourceBytes": 13200870,
+      "sourceSha256": "545efb44a6e52e7fdb8c6618244abf29a39b4a1504a7149881f4a2a8ae238cfa",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/modern-3-lod0.glb",
+          "bytes": 44776,
+          "sha256": "c2b3201450ddf17b1c75045bd744450836376c5a8af4306aee1f64c745ccad20",
+          "triangles": 586
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/modern-3-lod1.glb",
+          "bytes": 44780,
+          "sha256": "de474a0b00b55f54568af9a981bbc4c19693fedf7956b0cf50d1af8f2d9332ca",
+          "triangles": 586
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/modern-3-lod2.glb",
+          "bytes": 9480,
+          "sha256": "dc80dac2e5bdd9dc3fd5ff7e20c0f7f0a8ea2dfa1c6a1040375e9aeb73bf8baf",
+          "triangles": 82
+        }
+      ]
+    },
+    {
+      "id": "modern-4",
+      "name": "住宅",
+      "category": "modern",
+      "height": 32,
+      "boundsBlender": {
+        "min": [
+          -9.5,
+          -7.6499999999999995,
+          0.0
+        ],
+        "max": [
+          9.5,
+          6.85,
+          32.0
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          33.3,
+          0
+        ],
+        "focus": [
+          0,
+          13.76,
+          0
+        ]
+      },
+      "materialSlots": [
+        "stone",
+        "trim",
+        "slate"
+      ],
+      "artIds": [
+        "V201",
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/modern-4.blend",
+      "sourceBytes": 13211379,
+      "sourceSha256": "8b5ad38aa7c7676bcb0b7150f0c11f038fbad881c1a9e83f2225b506712a5752",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/modern-4-lod0.glb",
+          "bytes": 36516,
+          "sha256": "573b8788c7f7e8914f8b5899944e3d14cfcb20a1cfd1d3f6c5d82605105237d9",
+          "triangles": 480
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/modern-4-lod1.glb",
+          "bytes": 36520,
+          "sha256": "cc57406357ded3748d361c45f33c18505abc86e668ee11ef7836fbb227d337ef",
+          "triangles": 480
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/modern-4-lod2.glb",
+          "bytes": 16356,
+          "sha256": "a337373140cb57acde56dc19dd86fa9db027099f3d0051e8b0bd95cbbdf4ff35",
+          "triangles": 192
+        }
+      ]
+    },
+    {
+      "id": "modern-5",
+      "name": "办公楼",
+      "category": "modern",
+      "height": 42,
+      "boundsBlender": {
+        "min": [
+          -12.0,
+          -9.0,
+          0
+        ],
+        "max": [
+          12.0,
+          9.0,
+          41
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          43.3,
+          0
+        ],
+        "focus": [
+          0,
+          18.06,
+          0
+        ]
+      },
+      "materialSlots": [
+        "glass",
+        "trim"
+      ],
+      "artIds": [
+        "V201",
+        "V203"
+      ],
+      "source": "art/renovation/v2/models/modern-5.blend",
+      "sourceBytes": 13240437,
+      "sourceSha256": "b0019c88b19f8ebe0691147b5acdf5c249786797a946eca18bc8923631d6895a",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/modern-5-lod0.glb",
+          "bytes": 124916,
+          "sha256": "a1ee20eeb341dbead5bc1b0259632927d7d3f18a06e9f423f9e9a1c3f783ab55",
+          "triangles": 1740
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/modern-5-lod1.glb",
+          "bytes": 64436,
+          "sha256": "5a65ccd11ece03272e2b3ad1af53148f8f2f659f4d4910c6c863c1097341555d",
+          "triangles": 876
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/modern-5-lod2.glb",
+          "bytes": 34188,
+          "sha256": "f4e63b02e57ce7b18580327667de7c99ba48a4f2e75cce913cc9fd32d66fe027",
+          "triangles": 444
+        }
+      ]
+    },
+    {
+      "id": "boat-0",
+      "name": "三层游船",
+      "category": "prop",
+      "height": 5.6,
+      "boundsBlender": {
+        "min": [
+          -1.8,
+          -6.0,
+          0
+        ],
+        "max": [
+          1.8,
+          6.0,
+          5.5
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          6.8999999999999995,
+          0
+        ],
+        "focus": [
+          0,
+          2.408,
+          0
+        ]
+      },
+      "materialSlots": [
+        "white",
+        "dark",
+        "gold"
+      ],
+      "artIds": [],
+      "source": "art/renovation/v2/models/boat-0.blend",
+      "sourceBytes": 13230566,
+      "sourceSha256": "cf53c8b88a396eb8dfad6efca70846ba0e0c741dc55d7c16c4727100540415cf",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/boat-0-lod0.glb",
+          "bytes": 60168,
+          "sha256": "f830ed66577e17c80f910bddfb9f2229a0c81749fd3523400e1c9043249c221f",
+          "triangles": 813
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/boat-0-lod1.glb",
+          "bytes": 57372,
+          "sha256": "559c79bde85637071268ba7fbbfc92c8dc21aaa2712912292d61361591a37529",
+          "triangles": 773
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/boat-0-lod2.glb",
+          "bytes": 56812,
+          "sha256": "0446c290444681fdb9c5157ed2bf7ef96173b008a098d22fbc2b42d3cf54cbc6",
+          "triangles": 765
+        }
+      ]
+    },
+    {
+      "id": "boat-1",
+      "name": "双层渡轮",
+      "category": "prop",
+      "height": 5.6,
+      "boundsBlender": {
+        "min": [
+          -1.3,
+          -4.0,
+          0
+        ],
+        "max": [
+          1.3,
+          4.0,
+          5.5
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          6.8999999999999995,
+          0
+        ],
+        "focus": [
+          0,
+          2.408,
+          0
+        ]
+      },
+      "materialSlots": [
+        "white",
+        "dark",
+        "gold"
+      ],
+      "artIds": [],
+      "source": "art/renovation/v2/models/boat-1.blend",
+      "sourceBytes": 13238857,
+      "sourceSha256": "07458af3f1dc2e66396834d787ab0e8bf37759a27b51babfdc1431e34390b465",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/boat-1-lod0.glb",
+          "bytes": 43368,
+          "sha256": "c845b4afb05c31159b2f9ab527474869b95c7bcce4a23d677499a98934c5a6e6",
+          "triangles": 573
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/boat-1-lod1.glb",
+          "bytes": 40572,
+          "sha256": "6077bb566cc39066d33ebe14bea69cd1b822fda43711a5aeab38a8f9eda97e40",
+          "triangles": 533
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/boat-1-lod2.glb",
+          "bytes": 40008,
+          "sha256": "f2fa9f0ff00e675f77fa9c16f0fab64291e0dd02738b9558e4c4807672b6bedc",
+          "triangles": 525
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "name": "外白渡桥",
+      "category": "prop",
+      "height": 8.5,
+      "boundsBlender": {
+        "min": [
+          -8.0,
+          -15.0,
+          -0.6000000000000001
+        ],
+        "max": [
+          8.0,
+          18.063762664794922,
+          7.778423309326172
+        ]
+      },
+      "anchors": {
+        "label": [
+          0,
+          9.8,
+          0
+        ],
+        "focus": [
+          0,
+          3.655,
+          0
+        ]
+      },
+      "materialSlots": [
+        "asphalt",
+        "trim",
+        "copper"
+      ],
+      "artIds": [
+        "RT02-copper"
+      ],
+      "source": "art/renovation/v2/models/bridge.blend",
+      "sourceBytes": 13278521,
+      "sourceSha256": "cb57dbf0cb49a56a9648e05ffdb6cc0d4314ed88f760227c44e7178b5182b2a8",
+      "method": "individually authored offline Blender geometry; shared imagegen paint textures",
+      "status": "candidate",
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/v2/models/bridge-lod0.glb",
+          "bytes": 127624,
+          "sha256": "d99726dadd2a822641acdcc8b391d8b8e7ead11eeacc168277f5d6dafc6fc5d4",
+          "triangles": 2472
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/v2/models/bridge-lod1.glb",
+          "bytes": 105292,
+          "sha256": "b02f4f7b9596bfcc2e9308895d6d2cb8a61efb2d6f9c76e40f070c926ca47689",
+          "triangles": 1992
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/v2/models/bridge-lod2.glb",
+          "bytes": 105292,
+          "sha256": "87eb0f7b12f511031aefec7627119adfddead653afd1ff2ee4922acfcd0254bc",
+          "triangles": 1992
+        }
+      ]
+    }
+  ]
+}

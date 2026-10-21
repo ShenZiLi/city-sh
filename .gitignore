@@ -6,3 +6,6 @@ output/*.zip
 output/*-tool-output.txt
 __pycache__/
 *.pyc
+*.blend1
+*.blend2
+output/art-renovation/baseline/source.tar.gz

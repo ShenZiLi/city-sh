@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "purpose": "P2/P3 sample only; not the completed city",
+  "assets": [
+    {
+      "id": "pearl",
+      "name": "东方明珠",
+      "status": "candidate",
+      "source": "art/renovation/models/pearl.blend",
+      "sourceBytes": 3550482,
+      "sourceSha256": "b3351fdc9a699028c8c29a6f444274550d6223283e76a6a205348529acd6e985",
+      "method": "offline Blender geometry with image_gen facade/material atlases",
+      "artIds": [
+        "RT03"
+      ],
+      "height": 63.5,
+      "anchors": {
+        "label": [
+          0,
+          64.5,
+          0
+        ],
+        "focus": [
+          0,
+          27.305,
+          0
+        ]
+      },
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/models/pearl-lod0.glb",
+          "bytes": 3647876,
+          "sha256": "c5cd8ed66315c949b8c1ef9315a7b03a03d58331ee4d82edcace4c34cf02954a",
+          "triangles": 10716
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/models/pearl-lod1.glb",
+          "bytes": 3492804,
+          "sha256": "4efc9b2592c9bb0fe92e428f55164c8931a32b52a8e885addc08cf08e383b29f",
+          "triangles": 5028
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/models/pearl-lod2.glb",
+          "bytes": 3390976,
+          "sha256": "b8e84e5f267a9db1e93769b14520102b6d19aff65009c6f489e3672ea87d2013",
+          "triangles": 1788
+        }
+      ],
+      "visualAcceptance": "pending actual browser screenshots and user review"
+    },
+    {
+      "id": "customs",
+      "name": "海关大楼",
+      "status": "candidate",
+      "source": "art/renovation/models/customs.blend",
+      "sourceBytes": 6928308,
+      "sourceSha256": "f1d06dc63176c0c4da3dd9c86f4c9ce644433040976806a8071aa07e08ee6fe9",
+      "method": "offline Blender geometry with image_gen facade/material atlases",
+      "artIds": [
+        "RT01"
+      ],
+      "height": 24.5,
+      "anchors": {
+        "label": [
+          0,
+          25.5,
+          0
+        ],
+        "focus": [
+          0,
+          10.535,
+          0
+        ]
+      },
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/models/customs-lod0.glb",
+          "bytes": 3831940,
+          "sha256": "249d75de89ee57cc708dee5c489da094f75f942725fef24c7eed534e8dd9fc6b",
+          "triangles": 5254
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/models/customs-lod1.glb",
+          "bytes": 3710732,
+          "sha256": "59339c9e5bc8e5d26d91fa4b4731ae03b88b05a9ff7ad652d32f3813f82b79ee",
+          "triangles": 3102
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/models/customs-lod2.glb",
+          "bytes": 3625696,
+          "sha256": "853f0773dfdbfdc345db40678808c77715589339dc04af749d124b17611f0436",
+          "triangles": 1686
+        }
+      ],
+      "visualAcceptance": "pending actual browser screenshots and user review"
+    },
+    {
+      "id": "hsbc",
+      "name": "原汇丰银行大楼",
+      "status": "candidate",
+      "source": "art/renovation/models/hsbc.blend",
+      "sourceBytes": 10439581,
+      "sourceSha256": "e4ecc958c51827bbad089061351cb619985b1b2afdfb8900af2291b4e57d2342",
+      "method": "offline Blender geometry with image_gen facade/material atlases",
+      "artIds": [
+        "RT02"
+      ],
+      "height": 18.5,
+      "anchors": {
+        "label": [
+          0,
+          19.5,
+          0
+        ],
+        "focus": [
+          0,
+          7.955,
+          0
+        ]
+      },
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/models/hsbc-lod0.glb",
+          "bytes": 3962472,
+          "sha256": "e2c167a8f6ed30aba39a49ab45831a876da4bbb377227458856971f7de1dd12f",
+          "triangles": 11030
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/models/hsbc-lod1.glb",
+          "bytes": 3710608,
+          "sha256": "9bd0cf63652c6257e0ce8a9559fe67948a32ed6e29702cb4a0037b88b853ee06",
+          "triangles": 4990
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/models/hsbc-lod2.glb",
+          "bytes": 3591080,
+          "sha256": "21e681c8e2e4a0dc360ccdf36053e01e4470f1c7148d149a765d3f710b58bde7",
+          "triangles": 2222
+        }
+      ],
+      "visualAcceptance": "pending actual browser screenshots and user review"
+    },
+    {
+      "id": "heritage",
+      "name": "古典配景",
+      "status": "candidate",
+      "source": "art/renovation/models/heritage.blend",
+      "sourceBytes": 10360214,
+      "sourceSha256": "f43ba58b6926f64ab2e6998961e74a61f941bf1ce58230230a32dc7d5527f5e0",
+      "method": "offline Blender geometry with image_gen facade/material atlases",
+      "artIds": [
+        "RT01"
+      ],
+      "height": 11.5,
+      "anchors": {
+        "label": [
+          0,
+          12.5,
+          0
+        ],
+        "focus": [
+          0,
+          4.945,
+          0
+        ]
+      },
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/models/heritage-lod0.glb",
+          "bytes": 3607744,
+          "sha256": "c60d0a719c036605ba582840070df7c2f6c27bbfebceee535bf2595aa91a7fa3",
+          "triangles": 1138
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/models/heritage-lod1.glb",
+          "bytes": 3550384,
+          "sha256": "b2307ed035fae42a8af84f64ee13dc4c344db2afab8f894d336911907a1f11cc",
+          "triangles": 314
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/models/heritage-lod2.glb",
+          "bytes": 3537896,
+          "sha256": "57c2b85db69bebb24786c270158d5ea3d80e608326a44a29f91fd873a6266323",
+          "triangles": 154
+        }
+      ],
+      "visualAcceptance": "pending actual browser screenshots and user review"
+    },
+    {
+      "id": "modern",
+      "name": "现代配景",
+      "status": "candidate",
+      "source": "art/renovation/models/modern.blend",
+      "sourceBytes": 10364656,
+      "sourceSha256": "190fc363974ed417f6feaa93f5cc5202209af7f7dfa413f926868384418f1eec",
+      "method": "offline Blender geometry with image_gen facade/material atlases",
+      "artIds": [
+        "RT03"
+      ],
+      "height": 28.5,
+      "anchors": {
+        "label": [
+          0,
+          29.5,
+          0
+        ],
+        "focus": [
+          0,
+          12.254999999999999,
+          0
+        ]
+      },
+      "lods": [
+        {
+          "level": 0,
+          "path": "assets/renovation/models/modern-lod0.glb",
+          "bytes": 3365484,
+          "sha256": "18183a8ae87630f62dd52e0557b2f6042edc19bba3df4823bdc2e249565f5181",
+          "triangles": 552
+        },
+        {
+          "level": 1,
+          "path": "assets/renovation/models/modern-lod1.glb",
+          "bytes": 3345272,
+          "sha256": "f0f2e61e1c9d415178e9d660701241eea3a8afff72dea9387899d9c266cb81ad",
+          "triangles": 256
+        },
+        {
+          "level": 2,
+          "path": "assets/renovation/models/modern-lod2.glb",
+          "bytes": 3335236,
+          "sha256": "00aae5da4bdffe51799d565905d02d781e3abb9392a61ac2fcbe59200c6ec2f1",
+          "triangles": 120
+        }
+      ],
+      "visualAcceptance": "pending actual browser screenshots and user review"
+    }
+  ]
+}

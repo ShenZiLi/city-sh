@@ -3,6 +3,13 @@ export default defineConfig({
   base: "./",
   build: {
     chunkSizeWarningLimit: 750,
-    rollupOptions: { output: { manualChunks: { three: ["three"] } } },
+    rollupOptions: {
+      input: {
+        main: "index.html",
+        artLab: "art-lab.html",
+        artLabV1: "art-lab-v1.html",
+      },
+      output: { manualChunks: { three: ["three"] } },
+    },
   },
 });

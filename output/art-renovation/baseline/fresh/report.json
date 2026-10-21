@@ -1,0 +1,31 @@
+{
+  "capturedAt": "2026-10-21T01:58:47.039Z",
+  "kind": "fresh baseline screenshots before runtime changes",
+  "sourceCommit": "d6403ec",
+  "url": "http://127.0.0.1:4174/",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "drawingBuffer": {
+    "width": 1919,
+    "height": 1080
+  },
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "fps": null,
+  "note": "No performance conclusion drawn from screenshots. Historical RTX records are separate.",
+  "captures": [
+    {
+      "time": "day",
+      "path": "hero-day.png"
+    },
+    {
+      "time": "dusk",
+      "path": "hero-dusk.png"
+    },
+    {
+      "time": "night",
+      "path": "hero-night.png"
+    }
+  ]
+}

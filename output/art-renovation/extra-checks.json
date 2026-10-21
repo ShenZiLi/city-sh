@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "name": "missing core GLB is explicitly reported, no placeholder scene",
+      "pass": true,
+      "missing": {
+        "status": "样片未能完整加载：fetch for \"http://127.0.0.1:4180/assets/renovation/models/customs-lod0.glb\" responded with 404: Not Found。可刷新重试；不会用替代模型冒充完成。",
+        "canvasCount": 0,
+        "ready": false
+      }
+    },
+    {
+      "name": "original production main scene loads and retains time/quality/reset controls",
+      "pass": true
+    }
+  ],
+  "expectedFailure": "customs-lod0.glb 404 was intentional"
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="darkreader-lock" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <title>纸上浦江 · 三维美术样片</title>
+  </head>
+  <body>
+    <main id="art-app">
+      <div id="art-canvas"></div>
+      <header class="art-heading">
+        <p>纸上浦江 / ART STUDY</p>
+        <h1>纸上浦江</h1>
+        <p>完整主画面 · 待视觉验收</p>
+      </header>
+      <p id="art-status" role="status" aria-live="polite">
+        正在载入独立建筑资产…
+      </p>
+      <aside class="art-panel" aria-label="美术样片控制">
+        <div class="art-row" role="group" aria-label="光照时段">
+          <button data-time="day" aria-pressed="true">白昼</button
+          ><button data-time="dusk" aria-pressed="false">暮色</button
+          ><button data-time="night" aria-pressed="false">入夜</button>
+        </div>
+        <label
+          >查看对象<select id="art-subject">
+            <option value="scene">两岸完整风景</option>
+          </select></label
+        >
+        <label
+          >镜头<select id="art-view">
+            <option value="overview">全景</option>
+            <option value="lujiazui">陆家嘴</option>
+            <option value="bund">外滩</option>
+            <option value="river">江面</option>
+          </select></label
+        >
+        <details>
+          <summary>视角与画质</summary>
+          <div class="art-row">
+            <button id="art-front">正面视角</button
+            ><button id="art-back">反面视角</button
+            ><button id="art-reset">复位</button>
+          </div>
+          <div class="art-row">
+            <label
+              >细节<select id="art-lod">
+                <option value="0">近景</option>
+                <option value="1">中景</option>
+                <option value="2">远景</option>
+              </select></label
+            ><label
+              >画质<select id="art-quality">
+                <option value="high">精细</option>
+                <option value="low">流畅</option>
+              </select></label
+            >
+          </div>
+          <div class="art-row">
+            <button id="art-rotate" aria-pressed="false">自动环绕</button
+            ><button id="art-labels" aria-pressed="false">地标标签</button
+            ><button id="art-capture">保存画面</button>
+          </div>
+        </details>
+        <details>
+          <summary>画面说明</summary>
+          <p>
+            包含七处地标、十二类配景与两岸环境。拖动环绕，滚轮缩放；方向键调整视角，H
+            隐藏界面。完整十三处地标尚未交付。
+          </p>
+          <p id="art-metrics"></p>
+          <p>
+            <a href="./art/renovation/v2/review.html">美术色稿与原图</a> ·
+            <a href="./output/art-renovation/v2/review.html">实际画面对照</a> ·
+            <a href="./art-lab-v1.html">上一轮样片</a> ·
+            <a href="./index.html">原版作品</a>
+          </p>
+        </details>
+      </aside>
+      <aside id="art-selection" hidden>
+        <strong id="art-selected-name"></strong>
+        <p id="art-selected-copy"></p>
+        <button id="art-focus">聚焦</button>
+        <button id="art-close-selection">关闭</button>
+      </aside>
+    </main>
+    <script type="module" src="/src/art-v2/main.ts"></script>
+  </body>
+</html>

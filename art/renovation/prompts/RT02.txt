@@ -1,0 +1,8 @@
+Use case: stylized-concept. Asset type: RT02 former HSBC Building Bund production texture atlas, SQUARE image, requested 2048x2048.
+Reference ONLY for style: detailed watercolor and opaque gouache, warm cream carved limestone, blue-grey windows, copper roof, subtle cold pressed paper.
+Create four exactly equal FULL-BLEED quadrants meeting at x=50%,y=50%, no labels or gutters.
+TOP LEFT: completely flat orthographic front elevation of a neoclassical bank facade, four stories and nine tall window bays, dark narrow blue-grey windows, intricate cream carved window surrounds and horizontal cornices, center lower two stories a six-column Corinthian portico. RECTANGULAR WALL ONLY, no roof or dome, no sky/ground/margins.
+TOP RIGHT: flat matching four-storey side/rear facade with seven regular bays and smaller ornamental pilasters, rectangular wall filling entire quadrant.
+BOTTOM LEFT: seamless top-down muted weathered copper verdigris roof texture with subtle seams and soft pigment granulation, no objects.
+BOTTOM RIGHT: full-bleed warm ivory carved limestone with small horizontal masonry joints and very delicate tonal variation, no objects.
+Crisp believable stone detail, calm neutral diffuse lighting, no baked sun or large cast shadows, no perspective, reflections of environment, text, logo, labels, watermark or complete city. Texture meant for UV mapping onto a full volumetric 3D building. No cartoon and no plastic.

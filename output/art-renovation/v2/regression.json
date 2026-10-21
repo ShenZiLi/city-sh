@@ -1,0 +1,389 @@
+{
+  "checks": [
+    {
+      "name": "seven stable landmark IDs, twelve families, default static composition",
+      "pass": true
+    },
+    {
+      "name": "four camera presets",
+      "pass": true
+    },
+    {
+      "name": "interrupted time changes end at last selection without moving camera",
+      "pass": true
+    },
+    {
+      "name": "native ray selection after landmark focus",
+      "pass": true
+    },
+    {
+      "name": "label switch and selection information",
+      "pass": true
+    },
+    {
+      "name": "three detail levels and stable resources after repeated cycles",
+      "pass": true,
+      "geometries": 219,
+      "textures": 38
+    },
+    {
+      "name": "quality limits and sustained frame-time samples",
+      "pass": true
+    },
+    {
+      "name": "reduced motion disables automatic orbit, waves, traffic and wakes",
+      "pass": true
+    },
+    {
+      "name": "responsive controls 390x844 (simulated)",
+      "pass": true
+    },
+    {
+      "name": "responsive controls 844x390 (simulated)",
+      "pass": true
+    },
+    {
+      "name": "WebGL context recovery recreates render targets and exports actual frame",
+      "pass": true
+    },
+    {
+      "name": "dispose removes renderer, labels and diagnostics",
+      "pass": true
+    }
+  ],
+  "performance": [
+    {
+      "version": 2,
+      "subject": "scene",
+      "time": "day",
+      "phase": 0,
+      "quality": "high",
+      "level": 0,
+      "selected": "customs",
+      "labels": true,
+      "autoRotate": false,
+      "motionReduced": false,
+      "animationTime": 10.316800000000011,
+      "camera": [
+        -150,
+        129.99999999999997,
+        290
+      ],
+      "target": [
+        0,
+        25,
+        -65
+      ],
+      "drawingBuffer": {
+        "width": 1919,
+        "height": 1080
+      },
+      "medianFPS": 59.880239520962,
+      "p95ms": 17.599999999998545,
+      "drawCalls": {
+        "main": 172,
+        "normal": 168,
+        "reflection": 0,
+        "shadow": 0,
+        "total": 358
+      },
+      "totalCalls": 358,
+      "trianglesAllPasses": 1535032,
+      "geometries": 219,
+      "textures": 38,
+      "models": [
+        {
+          "id": "pearl",
+          "height": 83.5,
+          "category": "landmark"
+        },
+        {
+          "id": "shanghai",
+          "height": 114.8,
+          "category": "landmark"
+        },
+        {
+          "id": "swfc",
+          "height": 96,
+          "category": "landmark"
+        },
+        {
+          "id": "jinmao",
+          "height": 92.18,
+          "category": "landmark"
+        },
+        {
+          "id": "customs",
+          "height": 32,
+          "category": "landmark"
+        },
+        {
+          "id": "hsbc",
+          "height": 26.5,
+          "category": "landmark"
+        },
+        {
+          "id": "peace",
+          "height": 37.5,
+          "category": "landmark"
+        },
+        {
+          "id": "heritage-0",
+          "height": 16,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-1",
+          "height": 18,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-2",
+          "height": 31,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-3",
+          "height": 16,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-4",
+          "height": 19,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-5",
+          "height": 21,
+          "category": "heritage"
+        },
+        {
+          "id": "modern-0",
+          "height": 45,
+          "category": "modern"
+        },
+        {
+          "id": "modern-1",
+          "height": 33,
+          "category": "modern"
+        },
+        {
+          "id": "modern-2",
+          "height": 36,
+          "category": "modern"
+        },
+        {
+          "id": "modern-3",
+          "height": 24,
+          "category": "modern"
+        },
+        {
+          "id": "modern-4",
+          "height": 32,
+          "category": "modern"
+        },
+        {
+          "id": "modern-5",
+          "height": 42,
+          "category": "modern"
+        },
+        {
+          "id": "boat-0",
+          "height": 5.6,
+          "category": "prop"
+        },
+        {
+          "id": "boat-1",
+          "height": 5.6,
+          "category": "prop"
+        },
+        {
+          "id": "bridge",
+          "height": 8.5,
+          "category": "prop"
+        }
+      ],
+      "landmarks": [
+        "hsbc",
+        "customs",
+        "peace",
+        "pearl",
+        "shanghai",
+        "swfc",
+        "jinmao"
+      ],
+      "instances": 536,
+      "disposed": false,
+      "contextLost": false,
+      "visualAcceptance": "pending user review"
+    },
+    {
+      "version": 2,
+      "subject": "scene",
+      "time": "day",
+      "phase": 0,
+      "quality": "low",
+      "level": 0,
+      "selected": "customs",
+      "labels": true,
+      "autoRotate": false,
+      "motionReduced": false,
+      "animationTime": 16.216599999999975,
+      "camera": [
+        -150,
+        129.99999999999997,
+        290
+      ],
+      "target": [
+        0,
+        25,
+        -65
+      ],
+      "drawingBuffer": {
+        "width": 1535,
+        "height": 864
+      },
+      "medianFPS": 59.88023952095548,
+      "p95ms": 34.20000000000073,
+      "drawCalls": {
+        "main": 172,
+        "normal": 0,
+        "reflection": 0,
+        "shadow": 0,
+        "total": 189
+      },
+      "totalCalls": 189,
+      "trianglesAllPasses": 769870,
+      "geometries": 219,
+      "textures": 36,
+      "models": [
+        {
+          "id": "pearl",
+          "height": 83.5,
+          "category": "landmark"
+        },
+        {
+          "id": "shanghai",
+          "height": 114.8,
+          "category": "landmark"
+        },
+        {
+          "id": "swfc",
+          "height": 96,
+          "category": "landmark"
+        },
+        {
+          "id": "jinmao",
+          "height": 92.18,
+          "category": "landmark"
+        },
+        {
+          "id": "customs",
+          "height": 32,
+          "category": "landmark"
+        },
+        {
+          "id": "hsbc",
+          "height": 26.5,
+          "category": "landmark"
+        },
+        {
+          "id": "peace",
+          "height": 37.5,
+          "category": "landmark"
+        },
+        {
+          "id": "heritage-0",
+          "height": 16,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-1",
+          "height": 18,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-2",
+          "height": 31,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-3",
+          "height": 16,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-4",
+          "height": 19,
+          "category": "heritage"
+        },
+        {
+          "id": "heritage-5",
+          "height": 21,
+          "category": "heritage"
+        },
+        {
+          "id": "modern-0",
+          "height": 45,
+          "category": "modern"
+        },
+        {
+          "id": "modern-1",
+          "height": 33,
+          "category": "modern"
+        },
+        {
+          "id": "modern-2",
+          "height": 36,
+          "category": "modern"
+        },
+        {
+          "id": "modern-3",
+          "height": 24,
+          "category": "modern"
+        },
+        {
+          "id": "modern-4",
+          "height": 32,
+          "category": "modern"
+        },
+        {
+          "id": "modern-5",
+          "height": 42,
+          "category": "modern"
+        },
+        {
+          "id": "boat-0",
+          "height": 5.6,
+          "category": "prop"
+        },
+        {
+          "id": "boat-1",
+          "height": 5.6,
+          "category": "prop"
+        },
+        {
+          "id": "bridge",
+          "height": 8.5,
+          "category": "prop"
+        }
+      ],
+      "landmarks": [
+        "hsbc",
+        "customs",
+        "peace",
+        "pearl",
+        "shanghai",
+        "swfc",
+        "jinmao"
+      ],
+      "instances": 536,
+      "disposed": false,
+      "contextLost": false,
+      "visualAcceptance": "pending user review"
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "visualAcceptance": "not evaluated by functional tests"
+}

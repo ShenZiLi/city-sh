@@ -1,0 +1,8 @@
+{
+  "id": "V209",
+  "tool": "OpenAI built-in image_gen",
+  "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-0afc866c-855f-4d2f-b708-4474df3d4703.png",
+  "status": "candidate",
+  "prompt": "Use case: stylized-concept. Asset type: genuinely transparent RGBA boat wake decal for a watercolor Shanghai river. A single elegant white and pale turquoise V-shaped foamy wake seen directly from above, narrow point at TOP CENTER where a boat would be, two delicate widening diverging arms extending towards BOTTOM corners, and a soft broken central propeller trail. Small fine hand-painted watercolor strokes with substantial transparent space between foam marks. No water background, no boat, no land, no shadow, no text. Transparent alpha throughout negative space, soft fading edge, fill 90% of square. Reference only for watercolor painting style. Target 2048 square.",
+  "reference": "art/renovation/originals/RA01.png"
+}

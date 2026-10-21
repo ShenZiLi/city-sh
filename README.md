@@ -2,6 +2,12 @@
 
 一座可以环绕观看的上海陆家嘴—外滩手绘三维沙盘。黄浦江、苏州河口、13 处城市地标与 97 栋配景建筑共同构成一页微缩上海。美术由 image 生图制作，建筑为真实三维几何。
 
+## 美术改造样片（进行中）
+
+新方案保留360°与三时段，使用独立Blender/GLB建筑和实际image生成的专用图集。构建并启动后打开 `/art-lab.html` 查看局部实时样片，打开 `/art/renovation/review.html` 查看色稿、原图与提示词。原主页保留旧版，样片不代表全城改造完成。
+
+用户已选择 A 作为美术方向；局部样片尚待视觉验收。完整范围与状态见 [改造计划](docs/ART_RENOVATION_PLAN.md) 和 [实施记录](docs/ART_RENOVATION_PROGRESS.md)。`npm run art:doctor` 检查Blender，`npm run art:models` 重建模型，`npm run art:prepare` 重建画册。仅运行成品不需要Blender。
+
 ## 打开作品
 
 **从 GitHub 克隆后**，先在项目目录运行 `npm ci` 和 `npm run build`，再按下述方式启动。Git 仓库保留完整源码、美术原图和验收图集；依赖、构建目录与交付压缩包不纳入版本控制。
@@ -72,3 +78,15 @@ npm run build
 Vite、TypeScript、Three.js；OrbitControls 控制相机；MeshToonMaterial 结合 AI 手绘颜色贴图；高档使用平面反射与轻量夜景柔光；低档减少树木、隐藏车辆和云层、关闭反射与柔光并降低阴影分辨率。
 
 地标介绍是针对本件艺术沙盘编写的观赏说明。地理构图参考上海官方陆家嘴与外滩资料，链接见 docs/MAKING.md。第三方代码许可见 package-lock.json 对应依赖与 THIRD_PARTY_NOTICES.md。
+
+## 浏览器美术重做 V2（2026-10-21，待视觉验收）
+
+启动后访问 `/art-lab.html` 查看七处地标、十二类配景、两类船只与外白渡桥组成的完整主画面。`/art-lab-v1.html` 保留首轮局部样片，主页仍为旧版。新样片通过视觉确认后再扩展剩余六处地标。
+
+- `npm run art:v2:prepare`：从保留的 imagegen 原图制作运行贴图、精确 UV 窗灯遮罩和来源清单；不调用生成服务。
+- `npm run art:v2:models`：通过 Blender 重建22个独立源文件与66个三档 GLB；运行模型共用纹理。
+- `npm run art:v2:check`：核对真实尺寸、来源记录、文件哈希、模型、锚点与细节档。
+- 新原图与提示词：`art/renovation/v2`；运行画面与检查报告：`output/art-renovation/v2`。
+- 所有新增绘画原图通过内置 imagegen 生成，运行资源均为本地文件；模型与 UV 遮罩的制作方式单独记录。无付费或第三方模型。
+
+美术质量、用户确认、功能与性能分别记录；构建或资源检查通过不代表视觉通过。

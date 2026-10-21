@@ -1,0 +1,1273 @@
+{
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "viewport": {
+      "width": 1745,
+      "height": 982
+    },
+    "dpr": 1.100000023841858
+  },
+  "checks": [
+    {
+      "name": "three time periods, front/back, real render-path PNG export",
+      "pass": true
+    },
+    {
+      "name": "three independent landmark GLBs and anchors",
+      "pass": true
+    },
+    {
+      "name": "all detail levels load, repeat cycles have stable geometry/texture counts",
+      "pass": true,
+      "memory": {
+        "geometries": 93,
+        "textures": 40
+      }
+    },
+    {
+      "name": "interrupted time transition ends at last selection and preserves camera",
+      "pass": true
+    },
+    {
+      "name": "quality switch applies reported drawing-buffer limits",
+      "pass": true,
+      "low": {
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "level": 0,
+        "quality": "low",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          13.867142048065372,
+          58.96211446336371,
+          153.33927560081696
+        ],
+        "target": [
+          0,
+          22,
+          -20
+        ],
+        "drawingBuffer": {
+          "width": 1535,
+          "height": 864
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 16.799999999999272,
+        "mainAndPostCalls": 101,
+        "totalCalls": 101,
+        "geometries": 93,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      }
+    },
+    {
+      "name": "reduced motion stops automatic orbit",
+      "pass": true
+    },
+    {
+      "name": "responsive layout 390x844 (simulated)",
+      "pass": true
+    },
+    {
+      "name": "responsive layout 844x390 (simulated)",
+      "pass": true
+    },
+    {
+      "name": "WebGL context loss and recovery produces a valid nontrivial PNG",
+      "pass": true
+    },
+    {
+      "name": "dispose removes canvas, labels and public diagnostics",
+      "pass": true
+    }
+  ],
+  "captures": [
+    {
+      "kind": "scene",
+      "time": "day",
+      "view": "front",
+      "path": "output/art-renovation/sample/day-front.png",
+      "bytes": 4151647,
+      "sha256": "0ffb7e1e4696f421b709769eb4f0fa8e64a4bcd92e7fb6bdbd1ca5a396a14d4f",
+      "state": {
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          13.867142048065372,
+          58.96211446336371,
+          153.33927560081696
+        ],
+        "target": [
+          0,
+          22,
+          -20
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.400000000000546,
+        "mainAndPostCalls": 94,
+        "totalCalls": 171,
+        "geometries": 48,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557973945-art-day-front.png"
+    },
+    {
+      "kind": "scene",
+      "time": "day",
+      "view": "back",
+      "path": "output/art-renovation/sample/day-back.png",
+      "bytes": 4006365,
+      "sha256": "89a21c0c1ea07e6d1a109759461bc905ac03de0ca3332a67cba32badfa3f9aee",
+      "state": {
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          -13.867142048065379,
+          58.96211446336371,
+          -153.33927560081696
+        ],
+        "target": [
+          0,
+          22,
+          20
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.300000000000182,
+        "mainAndPostCalls": 101,
+        "totalCalls": 185,
+        "geometries": 49,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557974578-art-day-back.png"
+    },
+    {
+      "kind": "scene",
+      "time": "dusk",
+      "view": "front",
+      "path": "output/art-renovation/sample/dusk-front.png",
+      "bytes": 4347674,
+      "sha256": "b42213be28f0a6068e06a014520103b92be7baa8a306dae4f1b3d8f0b55b9d95",
+      "state": {
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          13.867142048065372,
+          58.96211446336371,
+          153.33927560081696
+        ],
+        "target": [
+          0,
+          22,
+          -20
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.5,
+        "mainAndPostCalls": 101,
+        "totalCalls": 185,
+        "geometries": 49,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557977999-art-dusk-front.png"
+    },
+    {
+      "kind": "scene",
+      "time": "dusk",
+      "view": "back",
+      "path": "output/art-renovation/sample/dusk-back.png",
+      "bytes": 4189291,
+      "sha256": "b79e3b4fff9860858f55fb09331e3ab9359df08bfa9a2dca733cb840b41f6ea4",
+      "state": {
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          -13.867142048065379,
+          58.96211446336371,
+          -153.33927560081696
+        ],
+        "target": [
+          0,
+          22,
+          20
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.5,
+        "mainAndPostCalls": 101,
+        "totalCalls": 185,
+        "geometries": 49,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557978623-art-dusk-back.png"
+    },
+    {
+      "kind": "scene",
+      "time": "night",
+      "view": "front",
+      "path": "output/art-renovation/sample/night-front.png",
+      "bytes": 4150131,
+      "sha256": "af010c147bb4506e7bd8a157ff3cf8c07b62f3b6ac98bbe19b99c111ef346ec4",
+      "state": {
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          13.867142048065372,
+          58.96211446336371,
+          153.33927560081696
+        ],
+        "target": [
+          0,
+          22,
+          -20
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.5,
+        "mainAndPostCalls": 101,
+        "totalCalls": 185,
+        "geometries": 49,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557981983-art-night-front.png"
+    },
+    {
+      "kind": "scene",
+      "time": "night",
+      "view": "back",
+      "path": "output/art-renovation/sample/night-back.png",
+      "bytes": 4161846,
+      "sha256": "f43e341199c2e8f46b40f7d9105573c36f392a965d6c1a538ef226b3fc968161",
+      "state": {
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          -13.867142048065379,
+          58.96211446336371,
+          -153.33927560081696
+        ],
+        "target": [
+          0,
+          22,
+          20
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.399999999999636,
+        "mainAndPostCalls": 101,
+        "totalCalls": 185,
+        "geometries": 49,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557982605-art-night-back.png"
+    },
+    {
+      "kind": "model",
+      "subject": "pearl",
+      "path": "output/art-renovation/sample/model-pearl.png",
+      "bytes": 108694,
+      "sha256": "b4a910293334a42ec0ffe22b840a680448e025d6ecd3b56952c346475a98c665",
+      "state": {
+        "subject": "pearl",
+        "time": "day",
+        "phase": 0,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          75.44066839805696,
+          75.98082263511864,
+          140.9907176167218
+        ],
+        "target": [
+          -2.1042253390926113,
+          29.453886392828828,
+          0.0000017309953670441298
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.5,
+        "mainAndPostCalls": 23,
+        "totalCalls": 31,
+        "geometries": 49,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557985592-model-pearl.png"
+    },
+    {
+      "kind": "model",
+      "subject": "customs",
+      "path": "output/art-renovation/sample/model-customs.png",
+      "bytes": 624164,
+      "sha256": "fec6881dc5c886c0426fc2715c052f150ce685603e0f1208a389167fb112dcb0",
+      "state": {
+        "subject": "customs",
+        "time": "day",
+        "phase": 0,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          28.29750000000001,
+          29.22849999999999,
+          51.45000000000001
+        ],
+        "target": [
+          0,
+          12.249999999999998,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.5,
+        "mainAndPostCalls": 27,
+        "totalCalls": 39,
+        "geometries": 49,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557985841-model-customs.png"
+    },
+    {
+      "kind": "model",
+      "subject": "hsbc",
+      "path": "output/art-renovation/sample/model-hsbc.png",
+      "bytes": 1300580,
+      "sha256": "a912445807834a2a5b3448b45a850804af9943926c59ad3927c71b9586834d5a",
+      "state": {
+        "subject": "hsbc",
+        "time": "day",
+        "phase": 0,
+        "level": 0,
+        "quality": "high",
+        "autoRotate": false,
+        "labels": false,
+        "camera": [
+          21.25199789837325,
+          21.951197829228818,
+          38.63999617886045
+        ],
+        "target": [
+          0,
+          9.19999909020487,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.5,
+        "mainAndPostCalls": 29,
+        "totalCalls": 43,
+        "geometries": 49,
+        "textures": 30,
+        "models": [
+          {
+            "id": "pearl",
+            "anchor": {
+              "label": [
+                0,
+                64.5,
+                0
+              ],
+              "focus": [
+                0,
+                27.305,
+                0
+              ]
+            },
+            "triangles": 10716
+          },
+          {
+            "id": "customs",
+            "anchor": {
+              "label": [
+                0,
+                25.5,
+                0
+              ],
+              "focus": [
+                0,
+                10.535,
+                0
+              ]
+            },
+            "triangles": 5254
+          },
+          {
+            "id": "hsbc",
+            "anchor": {
+              "label": [
+                0,
+                19.5,
+                0
+              ],
+              "focus": [
+                0,
+                7.955,
+                0
+              ]
+            },
+            "triangles": 11030
+          },
+          {
+            "id": "heritage",
+            "anchor": {
+              "label": [
+                0,
+                12.5,
+                0
+              ],
+              "focus": [
+                0,
+                4.945,
+                0
+              ]
+            },
+            "triangles": 1138
+          },
+          {
+            "id": "modern",
+            "anchor": {
+              "label": [
+                0,
+                29.5,
+                0
+              ],
+              "focus": [
+                0,
+                12.254999999999999,
+                0
+              ]
+            },
+            "triangles": 552
+          }
+        ],
+        "visualAcceptance": "pending",
+        "disposed": false
+      },
+      "sourceArtifact": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-12c137d9-6e03-4dc8-a0a5-85cd897606d2/1792557986145-model-hsbc.png"
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "passed": true,
+  "visualAcceptance": "NOT evaluated by functional checks",
+  "capturedAt": "2026-10-21T04:49:35.792Z",
+  "source": "production build, served locally on port 4180"
+}

@@ -1,0 +1,8 @@
+{
+  "runtimeAssetBytes": 59395649,
+  "allLodModelBytes": 53706200,
+  "initialHighLodModelBytes": 18415516,
+  "modelTextureMemoryAssumption": "Each embedded 1254x1254 texture expands to RGBA8 with a full mip chain. LOD variants are separately cached.",
+  "peakModelTextureEstimateBytes": 125801280,
+  "note": "Runtime total excludes source .blend and review originals. Texture figure excludes environment and render targets, and is not measured GPU VRAM."
+}

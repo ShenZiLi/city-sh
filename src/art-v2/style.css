@@ -1,0 +1,104 @@
+.art-heading h1 {
+  font-size: 26px;
+  letter-spacing: 0.13em;
+}
+.art-heading p:last-child {
+  font-size: 11px;
+}
+.art-panel {
+  width: 302px;
+  padding: 12px;
+  background: #fffcf0e8;
+}
+.art-panel summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.art-panel details .art-row {
+  margin-top: 10px;
+}
+.art-panel details select {
+  max-width: 100%;
+}
+.art-panel button {
+  padding: 7px 8px;
+}
+.art-heading {
+  top: 20px;
+  left: 24px;
+}
+.art-heading h1 {
+  margin: 4px 0;
+}
+.art-panel label {
+  margin-bottom: 8px;
+}
+#art-status {
+  font-size: 11px;
+  background: #fff9e0c9;
+  max-width: calc(100% - 370px);
+  padding: 7px 10px;
+}
+#art-status[data-error="true"] {
+  color: #9b3021;
+  background: #fff3ed;
+}
+#art-selection {
+  position: absolute;
+  left: 24px;
+  bottom: 70px;
+  max-width: 300px;
+  background: #fffdf1ed;
+  padding: 18px 20px;
+  border: 1px solid #c5baa0;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.75;
+}
+#art-selected-name {
+  font:
+    500 21px "Songti SC",
+    serif;
+}
+#art-selection button {
+  min-width: 44px;
+}
+.hide-ui .art-heading,
+.hide-ui .art-panel,
+.hide-ui #art-status,
+.hide-ui #art-selection,
+.hide-ui .art-label {
+  display: none !important;
+}
+.art-row {
+  margin-bottom: 8px;
+}
+#art-app [hidden] {
+  display: none;
+}
+@media (max-width: 680px) {
+  .art-panel {
+    width: auto;
+    max-height: 42vh;
+  }
+  .art-heading h1 {
+    font-size: 23px;
+  }
+  .art-heading {
+    left: 16px;
+    top: 14px;
+  }
+  #art-status {
+    top: 87px;
+    max-width: calc(100% - 32px);
+  }
+  #art-selection {
+    bottom: 44vh;
+    left: 12px;
+    max-width: calc(100% - 24px);
+    padding: 10px 14px;
+    max-height: 30vh;
+    overflow: auto;
+  }
+}
