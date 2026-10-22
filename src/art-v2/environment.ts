@@ -38,20 +38,27 @@ function instances(
 export async function createEnvironment(assets: CityAssets) {
   const group = new T.Group();
   group.name = "river-and-streets";
-  const [paving, leaf, marks, skyMap, wake, cloudMap] = await Promise.all([
-    assets.texture("V208"),
-    assets.texture("V205", true),
-    assets.texture("V207"),
-    assets.texture("V206"),
-    assets.texture("V209", true),
-    assets.texture("V210", true),
-  ]);
+  const [paving, leaf, marks, skyMap, wake, cloudMap, lawn] = await Promise.all(
+    [
+      assets.texture("V208"),
+      assets.texture("V205", true),
+      assets.texture("V207"),
+      assets.texture("V206"),
+      assets.texture("V209", true),
+      assets.texture("V210", true),
+      assets.texture("V212"),
+    ],
+  );
   const pavement = new T.MeshStandardMaterial({
     map: paving,
     color: "#e5d2ad",
     roughness: 0.92,
   });
-  const land = new T.MeshStandardMaterial({ color: "#a5ab85", roughness: 1 });
+  const land = new T.MeshStandardMaterial({
+    map: paving,
+    color: "#c9c8ba",
+    roughness: 1,
+  });
   const basePlane = new T.Mesh(
     new T.PlaneGeometry(10000, 10000).rotateX(-Math.PI / 2),
     land,
@@ -60,7 +67,7 @@ export async function createEnvironment(assets: CityAssets) {
   basePlane.receiveShadow = true;
   group.add(basePlane);
   const asphalt = new T.MeshStandardMaterial({
-    color: "#858478",
+    color: "#737b7c",
     roughness: 1,
   });
   const stone = new T.MeshStandardMaterial({
@@ -81,7 +88,9 @@ export async function createEnvironment(assets: CityAssets) {
     }
     const wall = new T.Mesh(ribbon(-0.1, 0.3, -0.35, side), stone);
     group.add(wall);
-    for (const offset of side < 0 ? [66, 113, 164, 222] : [80, 157, 270]) {
+    for (const offset of side < 0
+      ? [61, 96, 133, 171, 209, 246, 283, 321]
+      : [80, 157, 270]) {
       const street = new T.Mesh(
         ribbon(offset, offset + 7, 0.05, side),
         asphalt,
@@ -136,13 +145,13 @@ export async function createEnvironment(assets: CityAssets) {
     fragmentShader: `
     varying vec3 vDirection;uniform sampler2D uMap;uniform float uPhase;uniform vec3 uHaze;
     void main(){vec3 d=normalize(vDirection);float u=atan(d.z,d.x)/6.2831853+.5;
-      float v=clamp(.30+d.y*2.2,.1,1.);vec3 paint=texture2D(uMap,vec2(u,.13+v*.72)).rgb;
-      float seam=smoothstep(0.,.035,min(u,1.-u));vec3 edge=(texture2D(uMap,vec2(.01,.13+v*.72)).rgb+texture2D(uMap,vec2(.99,.13+v*.72)).rgb)*.5;
+      float v=.15+asin(clamp(d.y,0.,1.))/.5/3.14159265*.8;vec3 paint=texture2D(uMap,vec2(u,v)).rgb;
+      float seam=smoothstep(0.,.035,min(u,1.-u));vec3 edge=(texture2D(uMap,vec2(.01,v)).rgb+texture2D(uMap,vec2(.99,v)).rgb)*.5;
       paint=mix(edge,paint,seam);float dusk=min(uPhase,1.),night=max(uPhase-1.,0.);
       paint=mix(paint,paint*vec3(1.10,.76,.73),dusk*.62);
       paint=mix(paint,paint*vec3(.065,.11,.24),night);
       vec3 horizon=mix(mix(vec3(.87,.89,.84),vec3(.82,.64,.61),dusk),vec3(.045,.075,.14),night);
-      paint=mix(uHaze,paint,smoothstep(0.,.07,d.y));gl_FragColor=vec4(paint,1.);
+      paint=mix(uHaze,paint,smoothstep(0.,.045,d.y));gl_FragColor=vec4(paint,1.);
     }`,
   });
   const sky = new T.Mesh(new T.SphereGeometry(2600, 64, 32), skyMaterial);
@@ -152,7 +161,7 @@ export async function createEnvironment(assets: CityAssets) {
     map: cloudMap,
     transparent: true,
     depthWrite: false,
-    opacity: 0.6,
+    opacity: 0.82,
     color: "#fff5e3",
     fog: false,
   });
@@ -160,13 +169,13 @@ export async function createEnvironment(assets: CityAssets) {
   for (let i = 0; i < 9; i++) {
     const a = i * 2.39996,
       sprite = new T.Sprite(cloudMaterial),
-      w = 360 + hash(i + 80) * 280;
+      w = 420 + hash(i + 80) * 300;
     sprite.position.set(
       Math.cos(a) * 1750,
-      350 + hash(i + 40) * 190,
+      190 + hash(i + 40) * 290,
       Math.sin(a) * 1750,
     );
-    sprite.scale.set(w, w * 0.5, 1);
+    sprite.scale.set(w, w * 0.62, 1);
     sky.add(sprite);
     clouds.push(sprite);
   }
@@ -175,6 +184,7 @@ export async function createEnvironment(assets: CityAssets) {
   const water = new Reflector(riverGeometry().rotateX(Math.PI / 2), {
     textureWidth: 960,
     textureHeight: 540,
+    multisample: 0,
     clipBias: 0.005,
     color: "#397f9e",
   });
@@ -194,13 +204,20 @@ export async function createEnvironment(assets: CityAssets) {
       vec3 a=texture2D(uMarks,p*vec2(.003,.006)+vec2(uTime*.002,-uTime*.0007)).rgb;
       vec3 b=texture2D(uMarks,p*vec2(.009,.018)-vec2(uTime*.003,uTime*.0004)).rgb;
       float wave=(a.r-b.g);
-      vec2 jitter=vec2((a.r-.5)*.004,(b.g-.5)*.006)+vec2(wave*.0007,0.);
+      vec2 jitter=vec2((a.r-.5)*.009,(b.g-.5)*.008)+vec2(wave*.002,0.);
       vec3 reflected=texture2D(tDiffuse,uv+jitter).rgb;
       float dusk=min(uPhase,1.),night=max(uPhase-1.,0.);vec3 base=mix(mix(vec3(.055,.25,.44),vec3(.10,.18,.34),dusk),vec3(.002,.008,.025),night);
       float shore=pow(abs(vRiver.x-.5)*2.,12.);base=mix(base,vec3(.13,.31,.31)*(1.-night*.8),shore*.52);
-      float brush=dot(a,vec3(.333));vec3 c=base*(.83+brush*.55);
-      float lum=dot(reflected,vec3(.2126,.7152,.0722));float reflectionWeight=(.38*(1.-smoothstep(.35,.92,lum))+.04)*(.3+.7*b.b);c=mix(c,reflected,reflectionWeight);float sparkle=smoothstep(.63,.79,b.b)*smoothstep(.3,.65,a.r);
-      c+=vec3(.33,.39,.36)*sparkle*.32*(1.-night*.93);
+      float brush=dot(a,vec3(.333));
+      vec3 paintWater=mix(a,b,.65)*vec3(.42,.68,.88)*(1.-night*.985);
+      vec3 c=mix(base*(.73+brush*.43),paintWater,.48);
+      float lum=dot(reflected,vec3(.2126,.7152,.0722));
+      float broken=smoothstep(.32,.63,b.b);
+      float reflectionWeight=(.47*(1.-smoothstep(.35,.92,lum))+.025)*(.15+.85*broken);
+      c=mix(c,reflected,reflectionWeight);float sparkle=smoothstep(.38,.60,b.g)*smoothstep(.10,.28,a.r);
+      vec3 rippleN=normalize(vec3((a.r-b.r)*.9,1.,(a.g-b.g)*.9));
+      float glint=pow(max(0.,dot(reflect(-normalize(vec3(-200.,270.,170.)),rippleN),normalize(cameraPosition-vWorld))),12.);
+      c+=vec3(.55,.60,.55)*sparkle*(.22+glint*.65)*(1.-night*.93);
       c=mix(c,uFogColor,smoothstep(uFogNear,uFogFar,vDistance));gl_FragColor=vec4(c,1.);
     }`;
   group.add(water);
@@ -209,7 +226,7 @@ export async function createEnvironment(assets: CityAssets) {
     alphaTest: 0.45,
     side: T.DoubleSide,
     roughness: 1,
-    color: "#c4d19d",
+    color: "#dfdfb0",
     alphaToCoverage: true,
   });
   const bark = new T.MeshStandardMaterial({ color: "#796a4a", roughness: 1 });
@@ -292,6 +309,72 @@ export async function createEnvironment(assets: CityAssets) {
         );
       }
   const buildings = cityLayout();
+  const definition = new Map(assets.definitions.map((d) => [d.id, d]));
+  const plots: Parameters<typeof instances>[2] = [],
+    parkPlots: typeof plots = [];
+  for (const b of buildings) {
+    if (b.district === "distance") continue;
+    const bounds = definition.get(b.assetId)?.boundsBlender;
+    if (!bounds) continue;
+    plots.push({
+      p: new T.Vector3(...b.position).setY(0.09),
+      s: new T.Vector3(
+        (bounds.max[0] - bounds.min[0]) * b.scale + 4,
+        0.12,
+        (bounds.max[1] - bounds.min[1]) * b.scale + 4,
+      ),
+      r: b.rotation,
+      c: b.district === "bund" ? "#d4c7af" : "#c4c9c0",
+    });
+  }
+  instances(cube, pavement, plots, group).name = "building-forecourts";
+  // Keep open parcels as designed gardens rather than an unbroken green
+  // plane. Their small groups of trees give streets an inhabited scale.
+  for (const side of [-1, 1])
+    for (let z = -420; z < 430; z += 31)
+      for (const offset of side < 0
+        ? [45, 78, 114, 151, 190, 227, 264, 301]
+        : [50, 111, 207, 244, 319]) {
+        const p = bankPosition(z, side, offset),
+          r = riverAt(z);
+        if (
+          inCreek(p, 18) ||
+          !buildings.every(
+            (b) =>
+              Math.hypot(b.position[0] - p.x, b.position[2] - p.z) >
+              (b.landmarkId ? 31 : 26),
+          )
+        )
+          continue;
+        parkPlots.push({
+          p: p.clone().setY(0.13),
+          s: new T.Vector3(18, 0.15, 21),
+          r: Math.atan2(r.tangent.x, r.tangent.z),
+        });
+        for (let n = 0; n < 5; n++)
+          tree(
+            p
+              .clone()
+              .add(
+                new T.Vector3(
+                  (hash(z + n) - 0.5) * 15,
+                  0,
+                  (hash(offset + n) - 0.5) * 17,
+                ),
+              ),
+            1.12 + hash(n + z) * 0.24,
+          );
+      }
+  instances(
+    cube,
+    new T.MeshStandardMaterial({
+      map: lawn,
+      color: "#bfc4a0",
+      roughness: 1,
+    }),
+    parkPlots,
+    group,
+  ).name = "painted-pocket-gardens";
   for (const side of [-1, 1])
     for (let z = -360; z < 330; z += 15)
       for (let offset = 37; offset < 340; offset += 18) {
@@ -417,6 +500,11 @@ export async function createEnvironment(assets: CityAssets) {
   ]);
   for (let i = 0; i < 9; i++) {
     const root = templates[i % 2].clone(true);
+    // Moving hull shadows would fall on custom water, which does not sample a
+    // shadow map. Keep the useful architectural shadows entirely static.
+    root.traverse((o) => {
+      if (o instanceof T.Mesh) o.castShadow = false;
+    });
     const wakeMesh = new T.Mesh(
       new T.PlaneGeometry(10, 30),
       new T.MeshBasicMaterial({
@@ -447,10 +535,16 @@ export async function createEnvironment(assets: CityAssets) {
   water.onBeforeRender = (...args) => {
     if (elapsed - lastReflection < (quality === "high" ? 0.05 : 0.12)) return;
     lastReflection = elapsed;
-    const old = leaves.visible;
+    const old = leaves.visible,
+      oldSky = sky.visible;
     leaves.visible = false;
-    reflect(...args);
-    leaves.visible = old;
+    sky.visible = false;
+    try {
+      reflect(...args);
+    } finally {
+      leaves.visible = old;
+      sky.visible = oldSky;
+    }
   };
   return {
     group,
@@ -469,7 +563,7 @@ export async function createEnvironment(assets: CityAssets) {
         .set("#fff5e3")
         .lerp(new T.Color("#f4b9ab"), Math.min(phase, 1))
         .lerp(new T.Color("#274565"), Math.max(phase - 1, 0));
-      cloudMaterial.opacity = 0.6 - Math.max(phase - 1, 0) * 0.3;
+      cloudMaterial.opacity = 0.82 - Math.max(phase - 1, 0) * 0.4;
       for (const boat of boats) {
         const z = motion
           ? T.MathUtils.euclideanModulo(

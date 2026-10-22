@@ -1,0 +1,331 @@
+{
+  "createdAt": "2026-10-22T01:54:40.478Z",
+  "scope": "V2 runtime assets; source .blend, imagegen originals, review screenshots excluded from runtime transfer",
+  "units": "bytes; budget MB is decimal; MiB display uses 1048576",
+  "firstScreenConservativeUncompressedBytes": 17721490,
+  "v2AllRuntimeBytes": 16205833,
+  "allPublicRuntimeBytes": 75601748,
+  "blenderSourceBytes": 89478309,
+  "textures": [
+    {
+      "file": "public/assets/renovation/v2/textures/V201.webp",
+      "width": 1254,
+      "height": 1178,
+      "bytes": 420674,
+      "estimatedRGBA8WithMipmaps": 7878464
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V202.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 714112,
+      "estimatedRGBA8WithMipmaps": 8386752
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V204.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 686484,
+      "estimatedRGBA8WithMipmaps": 8386752
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V205.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 843844,
+      "estimatedRGBA8WithMipmaps": 8386752
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V206.webp",
+      "width": 1774,
+      "height": 887,
+      "bytes": 409814,
+      "estimatedRGBA8WithMipmaps": 8392203
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V207.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 717900,
+      "estimatedRGBA8WithMipmaps": 8386752
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V208.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 703282,
+      "estimatedRGBA8WithMipmaps": 8386752
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V209.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 545630,
+      "estimatedRGBA8WithMipmaps": 8386752
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V210.webp",
+      "width": 1774,
+      "height": 887,
+      "bytes": 343508,
+      "estimatedRGBA8WithMipmaps": 8392203
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V211.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 182528,
+      "estimatedRGBA8WithMipmaps": 8386752
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V212.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 750370,
+      "estimatedRGBA8WithMipmaps": 8386752
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/RT02-copper.webp",
+      "width": 601,
+      "height": 601,
+      "bytes": 171312,
+      "estimatedRGBA8WithMipmaps": 1926406
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/RT03-rose.webp",
+      "width": 601,
+      "height": 601,
+      "bytes": 169104,
+      "estimatedRGBA8WithMipmaps": 1926406
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V201-stone.webp",
+      "width": 33,
+      "height": 150,
+      "bytes": 1682,
+      "estimatedRGBA8WithMipmaps": 26400
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V201-windows.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 7595,
+      "estimatedRGBA8WithMipmaps": 1398102
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V202-windows.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 7252,
+      "estimatedRGBA8WithMipmaps": 1398102
+    },
+    {
+      "file": "public/assets/renovation/v2/textures/V211-windows.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 7904,
+      "estimatedRGBA8WithMipmaps": 1398102
+    }
+  ],
+  "estimatedTextureBytes": 99830404,
+  "qualities": [
+    {
+      "quality": "high",
+      "drawingBuffer": {
+        "width": 1920,
+        "height": 1080
+      },
+      "renderTargets": [
+        {
+          "name": "composer RGBA16F + depth",
+          "width": 1920,
+          "height": 1080,
+          "count": 2,
+          "estimatedBytes": 49766400
+        },
+        {
+          "name": "normal RGBA8 + depth texture (allocated in both qualities)",
+          "width": 960,
+          "height": 540,
+          "count": 1,
+          "estimatedBytes": 4147200
+        },
+        {
+          "name": "reflection RGBA16F + depth, no MSAA",
+          "width": 960,
+          "height": 540,
+          "count": 1,
+          "estimatedBytes": 6220800
+        },
+        {
+          "name": "SMAA edges and weights RGBA16F",
+          "width": 1920,
+          "height": 1080,
+          "count": 2,
+          "estimatedBytes": 33177600
+        },
+        {
+          "name": "bloom bright RGBA16F + depth",
+          "width": 960,
+          "height": 540,
+          "count": 1,
+          "estimatedBytes": 6220800
+        },
+        {
+          "name": "bloom blur level 0",
+          "width": 960,
+          "height": 540,
+          "count": 2,
+          "estimatedBytes": 12441600
+        },
+        {
+          "name": "bloom blur level 1",
+          "width": 480,
+          "height": 270,
+          "count": 2,
+          "estimatedBytes": 3110400
+        },
+        {
+          "name": "bloom blur level 2",
+          "width": 240,
+          "height": 135,
+          "count": 2,
+          "estimatedBytes": 777600
+        },
+        {
+          "name": "bloom blur level 3",
+          "width": 120,
+          "height": 68,
+          "count": 2,
+          "estimatedBytes": 195840
+        },
+        {
+          "name": "bloom blur level 4",
+          "width": 60,
+          "height": 34,
+          "count": 2,
+          "estimatedBytes": 48960
+        },
+        {
+          "name": "shadow RGBA8 + depth",
+          "width": 2048,
+          "height": 2048,
+          "count": 1,
+          "estimatedBytes": 33554432
+        },
+        {
+          "name": "drawing buffer allowance incl. MSAA/compositor",
+          "width": 1920,
+          "height": 1080,
+          "count": 1,
+          "estimatedBytes": 99532800
+        }
+      ],
+      "auxiliaryTextureAllowanceBytes": 4194304,
+      "estimatedTotalBytes": 353219140,
+      "within512MB": true
+    },
+    {
+      "quality": "low",
+      "drawingBuffer": {
+        "width": 1536,
+        "height": 864
+      },
+      "renderTargets": [
+        {
+          "name": "composer RGBA16F + depth",
+          "width": 1536,
+          "height": 864,
+          "count": 2,
+          "estimatedBytes": 31850496
+        },
+        {
+          "name": "normal RGBA8 + depth texture (allocated in both qualities)",
+          "width": 768,
+          "height": 432,
+          "count": 1,
+          "estimatedBytes": 2654208
+        },
+        {
+          "name": "reflection RGBA16F + depth, no MSAA",
+          "width": 384,
+          "height": 216,
+          "count": 1,
+          "estimatedBytes": 995328
+        },
+        {
+          "name": "SMAA edges and weights RGBA16F",
+          "width": 1536,
+          "height": 864,
+          "count": 2,
+          "estimatedBytes": 21233664
+        },
+        {
+          "name": "bloom bright RGBA16F + depth",
+          "width": 768,
+          "height": 432,
+          "count": 1,
+          "estimatedBytes": 3981312
+        },
+        {
+          "name": "bloom blur level 0",
+          "width": 768,
+          "height": 432,
+          "count": 2,
+          "estimatedBytes": 7962624
+        },
+        {
+          "name": "bloom blur level 1",
+          "width": 384,
+          "height": 216,
+          "count": 2,
+          "estimatedBytes": 1990656
+        },
+        {
+          "name": "bloom blur level 2",
+          "width": 192,
+          "height": 108,
+          "count": 2,
+          "estimatedBytes": 497664
+        },
+        {
+          "name": "bloom blur level 3",
+          "width": 96,
+          "height": 54,
+          "count": 2,
+          "estimatedBytes": 124416
+        },
+        {
+          "name": "bloom blur level 4",
+          "width": 48,
+          "height": 27,
+          "count": 2,
+          "estimatedBytes": 31104
+        },
+        {
+          "name": "shadow RGBA8 + depth",
+          "width": 1024,
+          "height": 1024,
+          "count": 1,
+          "estimatedBytes": 8388608
+        },
+        {
+          "name": "drawing buffer allowance incl. MSAA/compositor",
+          "width": 1536,
+          "height": 864,
+          "count": 1,
+          "estimatedBytes": 63700992
+        }
+      ],
+      "auxiliaryTextureAllowanceBytes": 4194304,
+      "estimatedTotalBytes": 247435780,
+      "within512MB": true
+    }
+  ],
+  "limitations": [
+    "Texture/render-target estimate, not measured VRAM; excludes geometry buffers and unknown driver overhead.",
+    "Initial bytes are a conservative uncompressed file sum, not a cold-network measurement.",
+    "All public runtime includes preserved legacy/V1 assets; current V2 first screen does not load those assets.",
+    "Physical mobile hardware not tested."
+  ]
+}

@@ -12,8 +12,8 @@ OUT=ROOT/'public/assets/renovation/v2/models'
 SRC=ROOT/'art/renovation/v2/models'
 OUT.mkdir(parents=True,exist_ok=True);SRC.mkdir(parents=True,exist_ok=True)
 LOD=0
-COLORS={'stone':(.80,.66,.44),'trim':(.93,.83,.64),'brick':(.65,.31,.20),'glass':(.25,.49,.63),'slate':(.30,.34,.40),'copper':(.28,.48,.39),'dark':(.065,.12,.16),'rose':(.66,.21,.29),'gold':(.64,.47,.21),'white':(.92,.87,.74),'asphalt':(.23,.26,.27)}
-TEXTURES={'stone':'V201','brick':'V202','glass':'V203','slate':'V204','copper':'RT02-copper','rose':'RT03-rose','trim':'V201-stone','white':'V201-stone'}
+COLORS={'stone':(.80,.66,.44),'trim':(.93,.83,.64),'brick':(.65,.31,.20),'glass':(.25,.49,.63),'slate':(.30,.34,.40),'copper':(.28,.48,.39),'dark':(.065,.12,.16),'rose':(.66,.21,.29),'gold':(.64,.47,.21),'white':(.92,.87,.74),'asphalt':(.23,.26,.27),'frame':(.50,.61,.66)}
+TEXTURES={'stone':'V201','brick':'V202','glass':'V211','slate':'V204','copper':'RT02-copper','rose':'RT03-rose','trim':'V201-stone','white':'V201-stone','frame':'V201-stone'}
 
 class Mesh:
     def __init__(self): self.v=[];self.f=[];self.uv=[];self.mi=[];self.mats=[]
@@ -60,18 +60,18 @@ class Mesh:
         p=[(-w/2,-d/2,z),(w/2,-d/2,z),(w/2,d/2,z),(-w/2,d/2,z),(-w*top/2,-d*top/2,z+h),(w*top/2,-d*top/2,z+h),(w*top/2,d*top/2,z+h),(-w*top/2,d*top/2,z+h)]
         for ids in [(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7),(4,5,6,7)]:self.face([p[i] for i in ids],mat)
     def building(self,w,d,h,mat='stone',floors=5,roof=True):
-        self.box(0,0,h/2,w,d,h,mat,(max(1,round(w/18)),floors/4 if mat in ['stone','brick'] else floors/5))
-        for z in [0.35,h*.2,h*.8,h]:self.box(0,0,z,w+.7,d+.7,.23,'trim')
+        self.box(0,0,h/2,w,d,h,mat,(max(1,round(w/18)),floors/4 if mat in ['stone','brick'] else floors/16))
+        for z in ([.25,h] if mat=='glass' else [0.35,h*.2,h*.8,h]):self.box(0,0,z,w+.7,d+.7,.18,'frame' if mat=='glass' else 'trim')
         if roof:self.roof(w+.8,d+.8,h+.15)
         if LOD<2:
             bays=max(4,round(w/3))
             for i in range(bays+1):
                 x=(i/bays-.5)*w
-                for side in [-1,1]:self.box(x,side*(d/2+.09),h*.49,.22,.24,h*.94,'trim')
+                for side in [-1,1]:self.box(x,side*(d/2+.09),h*.49,.10 if mat=='glass' else .22,.12 if mat=='glass' else .24,h*.94,'frame' if mat=='glass' else 'trim')
             for side in [-1,1]:
                 for i in range(max(3,round(d/3))+1):
                     y=(i/max(3,round(d/3))-.5)*d
-                    self.box(side*(w/2+.1),y,h*.49,.24,.22,h*.94,'trim')
+                    self.box(side*(w/2+.1),y,h*.49,.12 if mat=='glass' else .24,.10 if mat=='glass' else .22,h*.94,'frame' if mat=='glass' else 'trim')
     def dormers(self,w,d,z):
         if LOD==2:return
         for side in [-1,1]:
@@ -86,6 +86,19 @@ class Mesh:
                 self.cyl(x,y,z+3,.34,5.5,'trim',16);self.cyl(x,y,z+.35,.55,.35,'trim',16)
                 self.box(x,y,z+5.8,1.05,1.05,.4,'trim')
             self.box(0,side*(d/2+1),z+6.3,w*.9,2.1,.65,'trim')
+    def arch(self,x,y,z,r,side):
+        # Extruded voussoir surround and inset arched glass, instead of a
+        # hemisphere pasted onto the facade. Both elevations remain complete.
+        steps=[16,10,6][LOD]
+        for i in range(steps):
+            a=i*math.pi/steps;b=(i+1)*math.pi/steps
+            def p(radius,angle,depth=0):return (x+math.cos(angle)*radius,y+side*depth,z+math.sin(angle)*radius)
+            pane=[(x,y,z),p(r,a),p(r,b)]
+            rim=[p(r,a,.04),p(r+.17,a,.04),p(r+.17,b,.04),p(r,b,.04)]
+            if side>0:pane.reverse();rim.reverse()
+            self.face(pane,'dark',[(.5,0),(0,1),(1,1)])
+            self.face(rim,'trim')
+            self.face([p(r,a),p(r,b),p(r,b,.04),p(r,a,.04)],'trim')
 
 def customs(m):
     m.building(32,19,13,floors=5);m.dormers(32,19,13)
@@ -149,12 +162,12 @@ def shanghai(m):
     for j in range(steps):
         for i in range(n):m.face([p(i,j),p(i+1,j),p(i+1,j+1),p(i,j+1)],'glass',[(i/n*3,j/steps*8),((i+1)/n*3,j/steps*8),((i+1)/n*3,(j+1)/steps*8),(i/n*3,(j+1)/steps*8)])
     for z in range(4,110,[3,5,9][LOD]):
-        t=z/h;r=8.7-4.1*t;start=len(m.v);m.loft([(z,r+.07),(z+.10,r+.07)],'trim',48,0)
+        t=z/h;r=8.7-4.1*t;start=len(m.v);m.loft([(z,r+.07),(z+.10,r+.07)],'frame',48,0)
         for k in range(start,len(m.v)):
             x,y,zz=m.v[k];a=math.atan2(y,x);r0=math.hypot(x,y)*(1+.085*math.cos(3*(a-t*math.radians(115))));m.v[k]=(math.cos(a)*r0,math.sin(a)*r0,zz)
     if LOD<2:
         for i in range(12):
-            for j in range(steps):m.beam(p(i*n/12,j),p(i*n/12,j+1),.045,'trim',6)
+            for j in range(steps):m.beam(p(i*n/12,j),p(i*n/12,j+1),.045,'frame',6)
     m.loft([(110,4.7),(113,4.4),(114,3.4)],'glass',48);m.cyl(0,0,114.2,3.4,.25,'gold',32)
     m.building(21,18,4,'glass',2,False);return 114.8
 
@@ -165,8 +178,8 @@ def swfc(m):
     for ids in [(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7),(4,5,6,7)]:m.face([pts[i] for i in ids],'glass',[(0,0),(1,0),(1,5),(0,5)])
     m.box(-4.8,0,86.3,1.6,6,14.6,'glass',(1,1));m.box(4.8,0,86.3,1.6,6,14.6,'glass',(1,1));m.box(0,0,94,11.2,6,2.7,'glass')
     for side in [-1,1]:
-        m.beam((side*8,-4.6,0),(side*5.5,-3.1,95),.11,'trim');m.beam((side*8,4.6,0),(side*5.5,3.1,95),.11,'trim')
-    for z in range(2,79,[2,4,8][LOD]):m.box(0,0,z,16-z/79*5.2,9-z/79*3,.08,'trim')
+        m.beam((side*8,-4.6,0),(side*5.5,-3.1,95),.11,'frame');m.beam((side*8,4.6,0),(side*5.5,3.1,95),.11,'frame')
+    for z in range(2,79,[2,4,8][LOD]):m.box(0,0,z,16-z/79*5.2,9-z/79*3,.08,'frame')
     m.box(0,0,3,23,16,6,'glass',(1,.5));return 96
 
 def jinmao(m):
@@ -175,22 +188,31 @@ def jinmao(m):
     for tier in range(12):
         r=8-tier*.48;h=8.8-tier*.47
         m.loft([(z,r),(z+h,r)],'glass',8,0,(2,h/10))
-        m.loft([(z+h-.12,r+.45),(z+h+.28,r+.45)],'trim',8)
+        m.loft([(z+h-.12,r+.45),(z+h+.28,r+.45)],'frame',8)
         if LOD<2:
             for a in range(8):
-                angle=a*math.tau/8;m.beam((math.cos(angle)*r,math.sin(angle)*r,z),(math.cos(angle)*r,math.sin(angle)*r,z+h),.10,'trim',6)
+                angle=a*math.tau/8;m.beam((math.cos(angle)*r,math.sin(angle)*r,z),(math.cos(angle)*r,math.sin(angle)*r,z+h),.10,'frame',6)
         z+=h
-    m.loft([(z,2),(z+4,1),(z+7,.5)],'trim',16);m.cyl(0,0,z+10,.08,6,'gold');return z+13
+    m.loft([(z,2),(z+4,1),(z+7,.5)],'frame',16);m.cyl(0,0,z+10,.08,6,'gold');return z+13
 
 def heritage(m,kind):
     configs=[(29,19,12,'stone'),(23,17,14,'stone'),(19,17,22,'stone'),(26,18,12,'stone'),(22,18,15,'brick'),(30,20,17,'brick')]
-    w,d,h,mat=configs[kind];m.building(w,d,h,mat,round(h/2.7),kind!=2)
+    w,d,h,mat=configs[kind]
+    if kind==5:
+        # Four individual mansard wings around a true open roof courtyard.
+        for x,y,ww,dd in [(-11.5,0,7,20),(11.5,0,7,20),(0,-7,16,6),(0,7,16,6)]:
+            start=len(m.v);m.building(ww,dd,h,mat,round(h/2.7))
+            if LOD<2:m.dormers(ww,dd,h)
+            for k in range(start,len(m.v)):
+                a,b,c=m.v[k];m.v[k]=(a+x,b+y,c)
+        return h+4
+    m.building(w,d,h,mat,round(h/2.7),kind!=2)
     if kind==0:m.colonnade(w,d,0,10);m.roof(w*.65,d*.8,h+2.5,2,'slate',.05)
     if kind==1:
         for side in [-1,1]:
             for i in range(7):
                 x=(i-3)*3.1;m.box(x,side*(d/2+.18),2.1,1.5,.3,3.4,'dark')
-                m.sphere(x,side*(d/2+.2),3.5,.75,'trim',(1,.25,1),True)
+                m.arch(x,side*(d/2+.22),3.5,.75,side)
     if kind==2:
         for i in range(3):m.box(0,0,h+i*1.8,w-i*4,d-i*3,2.1,'stone',(1,.2))
         for i in range(5):m.box((i-2)*3.1,-d/2-.2,h*.5,.5,.45,h,'trim')
@@ -208,7 +230,7 @@ def modern(m,kind):
         m.building(15,12,43,'glass',24,False);m.box(0,0,44,13,10,2,'slate');m.box(0,0,2,24,19,4,'glass')
     elif kind==1:
         m.building(25,10,32,'glass',18,False)
-        for x in [-11,-5,1,7,11]:m.box(x,0,16,.4,10.3,32,'trim')
+        for x in [-11,-5,1,7,11]:m.box(x,0,16,.4,10.3,32,'frame')
     elif kind==2:
         for i in range(5):m.box(i*.8,0,4+i*6,22-i*3,17-i*2,8,'glass',(1,.5))
     elif kind==3:
@@ -216,11 +238,11 @@ def modern(m,kind):
         m.roof(33,25,8.1,.4,'copper',.9)
     elif kind==4:
         m.building(18,13,30,'stone',12,False)
-        for z in range(3,31,3):m.box(0,-6.8,z,19,1.7,.2,'trim')
+        for z in range(3,31,3):m.box(0,-6.8,z,19,1.7,.2,'frame')
         m.box(0,0,31,13,10,2,'slate')
     else:
         m.loft([(0,8),(36,8),(41,5)],'glass',32,0,(2,4),.75)
-        for z in range(3,39,3):m.loft([(z,8.06),(z+.1,8.06)],'trim',32,0,(1,1),.75)
+        for z in range(3,39,3):m.loft([(z,8.06),(z+.1,8.06)],'frame',32,0,(1,1),.75)
         m.box(0,0,2,24,18,4,'glass')
     return [45,33,36,24,32,42][kind]
 
@@ -255,6 +277,7 @@ def export(asset_id,label,builder,category,art):
     variants=[];height=0;bounds=None
     for lod in range(3):
         LOD=lod;bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
+        bpy.data.orphans_purge(do_recursive=True)
         m=Mesh();height=builder(m)
         data=bpy.data.meshes.new(asset_id);data.from_pydata(m.v,[],m.f);data.update()
         obj=bpy.data.objects.new(asset_id+'_architecture',data);bpy.context.collection.objects.link(obj)
@@ -287,12 +310,13 @@ def export(asset_id,label,builder,category,art):
             bpy.ops.file.pack_all();bpy.ops.wm.save_as_mainfile(filepath=str(SRC/f'{asset_id}.blend'))
         raw=(OUT/filename).read_bytes();variants.append({'level':lod,'path':f'assets/renovation/v2/models/{filename}','bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest(),'triangles':triangles})
     raw=(SRC/f'{asset_id}.blend').read_bytes()
+    art=sorted({TEXTURES[name] for name in m.mats if name in TEXTURES})
     return {'id':asset_id,'name':label,'category':category,'height':height,'boundsBlender':bounds,'anchors':{'label':[0,height+1.3,0],'focus':[0,height*.43,0]},'materialSlots':m.mats,'artIds':art,'source':f'art/renovation/v2/models/{asset_id}.blend','sourceBytes':len(raw),'sourceSha256':hashlib.sha256(raw).hexdigest(),'method':'individually authored offline Blender geometry; shared imagegen paint textures','status':'candidate','lods':variants}
 
 assets=[]
-for id,name,fn,art in [('pearl','东方明珠',pearl,['RT03-rose','V203']),('shanghai','上海中心',shanghai,['V203']),('swfc','环球金融中心',swfc,['V203']),('jinmao','金茂大厦',jinmao,['V203','V201']),('customs','海关大楼',customs,['V201','V204']),('hsbc','原汇丰银行大楼',hsbc,['V201','RT02-copper','V204']),('peace','和平饭店',peace,['V201','RT02-copper'])]:assets.append(export(id,name,fn,'landmark',art))
+for id,name,fn,art in [('pearl','东方明珠',pearl,['RT03-rose','V211']),('shanghai','上海中心',shanghai,['V211']),('swfc','环球金融中心',swfc,['V211']),('jinmao','金茂大厦',jinmao,['V211','V201']),('customs','海关大楼',customs,['V201','V204']),('hsbc','原汇丰银行大楼',hsbc,['V201','RT02-copper','V204']),('peace','和平饭店',peace,['V201','RT02-copper'])]:assets.append(export(id,name,fn,'landmark',art))
 for i,name in enumerate(['柱廊','拱窗','装饰艺术','坡屋顶','砖石','公寓']):assets.append(export(f'heritage-{i}',name,lambda m,i=i:heritage(m,i),'heritage',['V201','V202','V204']))
-for i,name in enumerate(['玻璃塔楼','板楼','阶梯楼','商业裙房','住宅','办公楼']):assets.append(export(f'modern-{i}',name,lambda m,i=i:modern(m,i),'modern',['V201','V203']))
+for i,name in enumerate(['玻璃塔楼','板楼','阶梯楼','商业裙房','住宅','办公楼']):assets.append(export(f'modern-{i}',name,lambda m,i=i:modern(m,i),'modern',['V201','V211']))
 for i,name in enumerate(['三层游船','双层渡轮']):assets.append(export(f'boat-{i}',name,lambda m,i=i:boat(m,i),'prop',[]))
 assets.append(export('bridge','外白渡桥',bridge,'prop',['RT02-copper']))
 (OUT/'manifest.json').write_text(json.dumps({'schemaVersion':2,'status':'candidate','assets':assets},ensure_ascii=False,indent=2)+'\n')

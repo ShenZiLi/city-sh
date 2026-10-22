@@ -80,7 +80,8 @@
       "method": "image_gen",
       "generator": "OpenAI built-in image_gen",
       "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-906f1ae7-287d-44b5-8ab2-94e2ef549ff9.png",
-      "status": "integrated",
+      "status": "candidate",
+      "supersededBy": "V211",
       "original": "art/renovation/v2/originals/V203.png",
       "promptFile": "art/renovation/v2/prompts/V203.json",
       "promptSha256": "9fd04eb091ea18849f83eabb9b8c9bb2bc435b22f6330037d744e1c79ab700fd",
@@ -345,6 +346,72 @@
         "transparent": 1022431,
         "opaque": 508408
       },
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V211",
+      "name": "克制的蓝灰玻璃幕墙",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-21e7182e-61a7-40d0-9777-26075033d505.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V211.png",
+      "promptFile": "art/renovation/v2/prompts/V211.json",
+      "promptSha256": "e8dc6af14a784723bb89c7f2bf6476c83faace1967307263c5d9994adc503a9c",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2139932,
+        "hasAlpha": false,
+        "sha256": "92e16713c63767bde452a0141f9cafcb61dc7eb99c6f35c59676d3818ed7687b"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V211.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 182528,
+        "sha256": "eecb6b61397b05636857abff8bb4912b8b2cbf28703ba23e1c69bf465e654aa5"
+      },
+      "alpha": null,
+      "visualAcceptance": "pending actual render review"
+    },
+    {
+      "id": "V212",
+      "name": "公园地表水彩笔触",
+      "method": "image_gen",
+      "generator": "OpenAI built-in image_gen",
+      "toolOutput": "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-f813be2e-9dad-49e2-bd4c-6b1a91000be7.png",
+      "status": "integrated",
+      "original": "art/renovation/v2/originals/V212.png",
+      "promptFile": "art/renovation/v2/prompts/V212.json",
+      "promptSha256": "212f699a1c81db23010a32df5043bd32f351b346e9b5386bb675f4e8e0bb7c41",
+      "reference": "art/renovation/originals/RA01.png",
+      "referenceSha256": "aae3a5adbdae0f4ff49627b63938e0ca6053c625542b133101eb661da879ccfc",
+      "originalMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 3749065,
+        "hasAlpha": false,
+        "sha256": "d7d10e26b00537d7812bfd201f227f31865aa50d10ca5d3b2fdbd8cb220db240"
+      },
+      "processing": {
+        "crop": null,
+        "upscaled": false
+      },
+      "runtime": {
+        "path": "assets/renovation/v2/textures/V212.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 750370,
+        "sha256": "a059a2a6673be515f49424867639d87d648ecc45b0e8cdb4e8b9f08129c3779e"
+      },
+      "alpha": null,
       "visualAcceptance": "pending actual render review"
     },
     {

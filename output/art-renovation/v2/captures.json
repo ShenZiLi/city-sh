@@ -1,4 +1,8 @@
 {
+  "capturedAt": "2026-10-22T01:53:34.530Z",
+  "entryBundles": [
+    "http://127.0.0.1:4183/assets/artLab-BPajBh5n.js"
+  ],
   "environment": {
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
     "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
@@ -13,9 +17,9 @@
       "name": "day-main",
       "kind": "main",
       "time": "day",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-main.png",
-      "bytes": 3804374,
-      "sha256": "95a90e6ed9fbd10c5dfc94edb95bc03b0f92a1fab545cb39f40b60e3bef65c6d",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-main.png",
+      "bytes": 4055459,
+      "sha256": "c6c0a4e862f0abec45e732aa72009158372132e7368a5edf90e46df1b9fe00d4",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -27,34 +31,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 6.084000000000014,
+        "animationTime": 8.227900000095367,
         "camera": [
-          -150,
-          129.99999999999997,
-          290
+          -170.00000000000003,
+          156,
+          267
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.88023952095874,
-        "p95ms": 17.399999999999636,
+        "p95ms": 33.70000000000073,
         "drawCalls": {
-          "main": 172,
-          "normal": 168,
-          "reflection": 171,
+          "main": 180,
+          "normal": 175,
+          "reflection": 172,
           "shadow": 0,
-          "total": 529
+          "total": 545
         },
-        "totalCalls": 529,
-        "trianglesAllPasses": 2281019,
-        "geometries": 152,
-        "textures": 38,
+        "totalCalls": 545,
+        "trianglesAllPasses": 2187309,
+        "geometries": 157,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -168,20 +172,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-main.png"
+      }
     },
     {
       "name": "day-orbit-0",
@@ -189,9 +192,9 @@
       "time": "day",
       "index": 0,
       "angle": -22.9,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-orbit-0.png",
-      "bytes": 3804857,
-      "sha256": "983c4f8b8c0bf1a2f4eac3bc13cf28ab4470c1a58d7cbfe71644ad7f3c826ada",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-orbit-0.png",
+      "bytes": 4043582,
+      "sha256": "49663aa8da7796a8f40c48b07ef579919fcd3038caf18c0a568cdd1cbd239170",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -203,34 +206,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 6.6003000000000185,
+        "animationTime": 9.393900000095368,
         "camera": [
-          -149.96425090421684,
-          129.99999999999997,
-          290.0151031304684
+          -162.70035042763985,
+          156,
+          270.1656734065527
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.88023952095874,
-        "p95ms": 17.5,
+        "p95ms": 34.19999999999982,
         "drawCalls": {
-          "main": 172,
-          "normal": 168,
+          "main": 180,
+          "normal": 175,
           "reflection": 0,
           "shadow": 0,
-          "total": 358
+          "total": 373
         },
-        "totalCalls": 358,
-        "trianglesAllPasses": 1535032,
-        "geometries": 152,
-        "textures": 38,
+        "totalCalls": 373,
+        "trianglesAllPasses": 1478374,
+        "geometries": 157,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -344,20 +347,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-orbit-0.png"
+      }
     },
     {
       "name": "day-orbit-1",
@@ -365,9 +367,9 @@
       "time": "day",
       "index": 1,
       "angle": 22.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-orbit-1.png",
-      "bytes": 3735666,
-      "sha256": "d3ead949ed1309b6683c2a1e93f8cd1def7d76dbb43045b7722ab762584e5970",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-orbit-1.png",
+      "bytes": 4067915,
+      "sha256": "d333ed0cbc4afcb675e2c70b0fc88c061f5a8165baf3c83c6c4962399f09a1c7",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -379,34 +381,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 7.350600000000025,
+        "animationTime": 10.477700000047683,
         "camera": [
-          144.99284809726316,
-          129.99999999999997,
-          292.0743255971283
+          157.30673845724476,
+          156,
+          272.39978063486825
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.88023952095874,
-        "p95ms": 17.600000000000364,
+        "p95ms": 34.100000000000364,
         "drawCalls": {
-          "main": 171,
-          "normal": 167,
-          "reflection": 169,
+          "main": 178,
+          "normal": 174,
+          "reflection": 173,
           "shadow": 0,
-          "total": 525
+          "total": 543
         },
-        "totalCalls": 525,
-        "trianglesAllPasses": 2281011,
-        "geometries": 152,
-        "textures": 38,
+        "totalCalls": 543,
+        "trianglesAllPasses": 2190123,
+        "geometries": 157,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -520,20 +522,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-orbit-1.png"
+      }
     },
     {
       "name": "day-orbit-2",
@@ -541,9 +542,9 @@
       "time": "day",
       "index": 2,
       "angle": 67.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-orbit-2.png",
-      "bytes": 3483365,
-      "sha256": "406b4c4db4e9dc7ab482bde18c2043ab453c0c11aacaf41b2013df4077d82065",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-orbit-2.png",
+      "bytes": 3975431,
+      "sha256": "1800ce7aa2c307200b0ebc779173cd4c2aea23d7da70feef6925e1a2cdd34e5b",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -555,34 +556,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 8.633000000000026,
+        "animationTime": 11.515799999952316,
         "camera": [
-          355.0151031304684,
-          129.99999999999997,
-          84.96425090421684
+          385.16567340655274,
+          156,
+          47.700350427639876
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.88023952095874,
-        "p95ms": 33.399999999999636,
+        "p95ms": 34.19999999999982,
         "drawCalls": {
-          "main": 166,
-          "normal": 162,
+          "main": 179,
+          "normal": 175,
           "reflection": 0,
           "shadow": 0,
-          "total": 346
+          "total": 372
         },
-        "totalCalls": 346,
-        "trianglesAllPasses": 1483464,
-        "geometries": 153,
-        "textures": 38,
+        "totalCalls": 372,
+        "trianglesAllPasses": 1478372,
+        "geometries": 157,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -696,20 +697,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-orbit-2.png"
+      }
     },
     {
       "name": "day-orbit-3",
@@ -717,9 +717,9 @@
       "time": "day",
       "index": 3,
       "angle": 112.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-orbit-3.png",
-      "bytes": 3402747,
-      "sha256": "ca53cf97fbb115a08c46b0a0d6d68d4f2b1dc316ea0e1a3fe5f2f393ad947a6c",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-orbit-3.png",
+      "bytes": 3968558,
+      "sha256": "865ba4dc456fd554f1c4033393381e2e775b23e444409b19b1ce5194eac50a12",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -731,34 +731,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 9.86630000000003,
+        "animationTime": 12.8375,
         "camera": [
-          357.0743255971283,
-          129.99999999999997,
-          -209.9928480972631
+          387.39978063486825,
+          156,
+          -272.3067384572447
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
-        "medianFPS": 59.88023952095548,
-        "p95ms": 33.899999999999636,
+        "medianFPS": 59.880239520962,
+        "p95ms": 34.30000000000109,
         "drawCalls": {
-          "main": 167,
-          "normal": 163,
-          "reflection": 162,
-          "shadow": 95,
-          "total": 605
+          "main": 185,
+          "normal": 181,
+          "reflection": 174,
+          "shadow": 0,
+          "total": 558
         },
-        "totalCalls": 605,
-        "trianglesAllPasses": 2791267,
-        "geometries": 154,
-        "textures": 38,
+        "totalCalls": 558,
+        "trianglesAllPasses": 2166534,
+        "geometries": 160,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -872,20 +872,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-orbit-3.png"
+      }
     },
     {
       "name": "day-orbit-4",
@@ -893,9 +892,9 @@
       "time": "day",
       "index": 4,
       "angle": 157.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-orbit-4.png",
-      "bytes": 3542898,
-      "sha256": "63c3f8c82d97e9a84d42c53cbdc21ef9582b4fcd95430566654c0f602ef71c91",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-orbit-4.png",
+      "bytes": 3986238,
+      "sha256": "4dd2d46b44f2def5e9ea2b5ad1907ea85b971c493392dc4935b8ee38c33944d3",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -907,34 +906,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 10.783200000000024,
+        "animationTime": 13.648400000095368,
         "camera": [
-          149.96425090421687,
-          129.99999999999997,
-          -420.0151031304684
+          162.70035042763988,
+          156,
+          -500.1656734065527
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
-        "medianFPS": 59.88023952095548,
-        "p95ms": 49.399999999999636,
+        "medianFPS": 59.880239520962,
+        "p95ms": 34.19999999999891,
         "drawCalls": {
-          "main": 173,
-          "normal": 169,
-          "reflection": 164,
+          "main": 186,
+          "normal": 182,
+          "reflection": 0,
           "shadow": 0,
-          "total": 524
+          "total": 386
         },
-        "totalCalls": 524,
-        "trianglesAllPasses": 2243102,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 386,
+        "trianglesAllPasses": 1479362,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -1048,20 +1047,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-orbit-4.png"
+      }
     },
     {
       "name": "day-orbit-5",
@@ -1069,9 +1067,9 @@
       "time": "day",
       "index": 5,
       "angle": 202.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-orbit-5.png",
-      "bytes": 3714192,
-      "sha256": "d3d8f3363d6879941d6e367405a149b146187610410a941482786892d7ca29dd",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-orbit-5.png",
+      "bytes": 3997219,
+      "sha256": "5d8c97b3dd7582c9e55c289914cb736f149bc1c8d96a69ee8b4738c61e6cb952",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -1083,34 +1081,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 11.783100000000019,
+        "animationTime": 14.415700000047684,
         "camera": [
-          -144.992848097263,
-          129.99999999999994,
-          -422.0743255971283
+          -157.30673845724462,
+          156,
+          -502.39978063486825
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
-        "medianFPS": 59.88023952095548,
-        "p95ms": 49.900000000001455,
+        "medianFPS": 59.880239520962,
+        "p95ms": 34,
         "drawCalls": {
-          "main": 169,
-          "normal": 164,
-          "reflection": 0,
+          "main": 188,
+          "normal": 183,
+          "reflection": 181,
           "shadow": 0,
-          "total": 351
+          "total": 570
         },
-        "totalCalls": 351,
-        "trianglesAllPasses": 1479696,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 570,
+        "trianglesAllPasses": 2192218,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -1224,20 +1222,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-orbit-5.png"
+      }
     },
     {
       "name": "day-orbit-6",
@@ -1245,9 +1242,9 @@
       "time": "day",
       "index": 6,
       "angle": 247.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-orbit-6.png",
-      "bytes": 3819073,
-      "sha256": "a94a88f58ff6b1f21e6b1cc448a83959b2c52fd7b4614525e7f513185621f2b4",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-orbit-6.png",
+      "bytes": 4037251,
+      "sha256": "66cc1aad6da1db308b1285ffe5b7a87ae2e18cbc2530298acb781829f1f48194",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -1259,34 +1256,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 13.334100000000026,
+        "animationTime": 15.732700000047684,
         "camera": [
-          -355.01510313046833,
-          129.99999999999994,
-          -214.96425090421687
+          -385.1656734065527,
+          156,
+          -277.70035042763993
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
-        "medianFPS": 59.88023952095548,
-        "p95ms": 66.60000000000036,
+        "medianFPS": 59.880239520962,
+        "p95ms": 34.100000000000364,
         "drawCalls": {
-          "main": 174,
-          "normal": 169,
-          "reflection": 172,
+          "main": 186,
+          "normal": 180,
+          "reflection": 0,
           "shadow": 0,
-          "total": 533
+          "total": 384
         },
-        "totalCalls": 533,
-        "trianglesAllPasses": 2273296,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 384,
+        "trianglesAllPasses": 1474678,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -1400,20 +1397,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-orbit-6.png"
+      }
     },
     {
       "name": "day-orbit-7",
@@ -1421,9 +1417,9 @@
       "time": "day",
       "index": 7,
       "angle": 292.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/day-orbit-7.png",
-      "bytes": 3875625,
-      "sha256": "eaf26a3d347aaf2ba6cfff5e579e587ddcf435391ee50187713a3ff55982eb96",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/day-orbit-7.png",
+      "bytes": 4081331,
+      "sha256": "5ee4ec234831884f0bb64a0a4c96349266fa16f8657e4373af9619b71b5630b3",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -1435,34 +1431,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 14.748900000000033,
+        "animationTime": 16.515799999952318,
         "camera": [
-          -357.0743255971281,
-          129.99999999999994,
-          79.99284809726336
+          -387.39978063486814,
+          156,
+          42.30673845724502
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
-        "medianFPS": 59.88023952095548,
-        "p95ms": 66.59999999999854,
+        "medianFPS": 59.880239520962,
+        "p95ms": 33.79999999999927,
         "drawCalls": {
-          "main": 166,
-          "normal": 161,
-          "reflection": 0,
+          "main": 178,
+          "normal": 173,
+          "reflection": 171,
           "shadow": 0,
-          "total": 345
+          "total": 540
         },
-        "totalCalls": 345,
-        "trianglesAllPasses": 1528480,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 540,
+        "trianglesAllPasses": 2188026,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -1576,28 +1572,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/day-orbit-7.png"
+      }
     },
     {
       "name": "dusk-main",
       "kind": "main",
       "time": "dusk",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-main.png",
-      "bytes": 3882057,
-      "sha256": "c62470da46e55d1b6ec60096ceeea3518b424c69bb9ec9801bfdac4579058064",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-main.png",
+      "bytes": 4016929,
+      "sha256": "cdd7f5ebee17aa8a37a04e28712e94b8b3681d9d9eb034f5856ed35c5dc1edc0",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -1609,34 +1604,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 19.232799999999976,
+        "animationTime": 22.282400000095368,
         "camera": [
-          -150,
-          129.99999999999997,
-          290
+          -170.00000000000003,
+          156,
+          267
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.88023952095548,
-        "p95ms": 101.10000000000218,
+        "p95ms": 17.099999999998545,
         "drawCalls": {
-          "main": 171,
-          "normal": 167,
-          "reflection": 170,
+          "main": 180,
+          "normal": 175,
+          "reflection": 0,
           "shadow": 0,
-          "total": 526
+          "total": 373
         },
-        "totalCalls": 526,
-        "trianglesAllPasses": 2281013,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 373,
+        "trianglesAllPasses": 1478374,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -1750,20 +1745,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-main.png"
+      }
     },
     {
       "name": "dusk-orbit-0",
@@ -1771,9 +1765,9 @@
       "time": "dusk",
       "index": 0,
       "angle": -22.9,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-orbit-0.png",
-      "bytes": 3882049,
-      "sha256": "191ecbcddb0c898a47c134ebd36e679d7b0428487aed0271b5c1eaec9dba58eb",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-orbit-0.png",
+      "bytes": 4006265,
+      "sha256": "9edd57b8cb1928d9ecc8e2ab684aece00e359f09b6d844ef0928ae28d3f42dbd",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -1785,34 +1779,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 19.865899999999964,
+        "animationTime": 23.670099999904632,
         "camera": [
-          -149.96425090421684,
-          129.99999999999997,
-          290.0151031304684
+          -162.70035042763985,
+          156,
+          270.1656734065527
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.88023952095548,
-        "p95ms": 67.09999999999854,
+        "p95ms": 17.5,
         "drawCalls": {
-          "main": 171,
-          "normal": 167,
+          "main": 180,
+          "normal": 175,
           "reflection": 0,
           "shadow": 0,
-          "total": 356
+          "total": 373
         },
-        "totalCalls": 356,
-        "trianglesAllPasses": 1535028,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 373,
+        "trianglesAllPasses": 1478374,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -1926,20 +1920,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-orbit-0.png"
+      }
     },
     {
       "name": "dusk-orbit-1",
@@ -1947,9 +1940,9 @@
       "time": "dusk",
       "index": 1,
       "angle": 22.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-orbit-1.png",
-      "bytes": 3782113,
-      "sha256": "379daddf5facbe4936e0c6ee56ad30fcb41fca75a74b884e03890a4abf9d2b8d",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-orbit-1.png",
+      "bytes": 4001175,
+      "sha256": "6dacb20411dbb30eae6dab787d2d07c123d6dd053df124f4ee50ce4826cf0576",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -1961,34 +1954,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 20.382699999999947,
+        "animationTime": 24.515599999904634,
         "camera": [
-          144.99284809726316,
-          129.99999999999997,
-          292.0743255971283
+          157.30673845724476,
+          156,
+          272.39978063486825
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.88023952095548,
-        "p95ms": 66.79999999999927,
+        "p95ms": 17.5,
         "drawCalls": {
-          "main": 171,
-          "normal": 167,
+          "main": 178,
+          "normal": 174,
           "reflection": 0,
           "shadow": 0,
-          "total": 356
+          "total": 370
         },
-        "totalCalls": 356,
-        "trianglesAllPasses": 1535028,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 370,
+        "trianglesAllPasses": 1478116,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -2102,20 +2095,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-orbit-1.png"
+      }
     },
     {
       "name": "dusk-orbit-2",
@@ -2123,9 +2115,9 @@
       "time": "dusk",
       "index": 2,
       "angle": 67.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-orbit-2.png",
-      "bytes": 3567585,
-      "sha256": "ddd1911316cbaca65096f6afd452d5faa186c388b2355773ffb72afa603b5571",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-orbit-2.png",
+      "bytes": 3910372,
+      "sha256": "38347c2a3406213981420129bb0a01755976593a97498c15804756c3abb110c5",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -2137,34 +2129,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 20.899499999999932,
+        "animationTime": 25.148900000095367,
         "camera": [
-          355.0151031304684,
-          129.99999999999997,
-          84.96425090421684
+          385.16567340655274,
+          156,
+          47.700350427639876
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.88023952095548,
-        "p95ms": 50.900000000001455,
+        "p95ms": 17.5,
         "drawCalls": {
-          "main": 166,
-          "normal": 162,
-          "reflection": 0,
+          "main": 179,
+          "normal": 175,
+          "reflection": 170,
           "shadow": 0,
-          "total": 346
+          "total": 542
         },
-        "totalCalls": 346,
-        "trianglesAllPasses": 1483464,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 542,
+        "trianglesAllPasses": 2165423,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -2278,20 +2270,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-orbit-2.png"
+      }
     },
     {
       "name": "dusk-orbit-3",
@@ -2299,9 +2290,9 @@
       "time": "dusk",
       "index": 3,
       "angle": 112.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-orbit-3.png",
-      "bytes": 3497663,
-      "sha256": "5bb0641b5854ba71e54843ff948563d4c3458b765b151b77520bbbc5ffb85f52",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-orbit-3.png",
+      "bytes": 3914575,
+      "sha256": "e9838126adc7072cd342ab218e95f8be52fc3c6ed5945e48c093cd01cd304ab5",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -2313,16 +2304,366 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 21.449399999999915,
+        "animationTime": 26.058799999952317,
         "camera": [
-          357.0743255971283,
-          129.99999999999997,
-          -209.9928480972631
+          387.39978063486825,
+          156,
+          -272.3067384572447
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.599999999998545,
+        "drawCalls": {
+          "main": 185,
+          "normal": 181,
+          "reflection": 174,
+          "shadow": 0,
+          "total": 558
+        },
+        "totalCalls": 558,
+        "trianglesAllPasses": 2166534,
+        "geometries": 163,
+        "textures": 39,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "hsbc",
+          "customs",
+          "peace",
+          "pearl",
+          "swfc",
+          "shanghai",
+          "jinmao"
+        ],
+        "instances": 861,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-4",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 4,
+      "angle": 157.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-orbit-4.png",
+      "bytes": 3955776,
+      "sha256": "640b963ad886af81c5ccad45d3c4e0f3a814c2aae84d76dff4ea90c88de00883",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 27.3915,
+        "camera": [
+          162.70035042763988,
+          156,
+          -500.1656734065527
+        ],
+        "target": [
+          0,
+          30,
+          -115
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 33.29999999999927,
+        "drawCalls": {
+          "main": 186,
+          "normal": 182,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 386
+        },
+        "totalCalls": 386,
+        "trianglesAllPasses": 1479362,
+        "geometries": 163,
+        "textures": 39,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "hsbc",
+          "customs",
+          "peace",
+          "pearl",
+          "swfc",
+          "shanghai",
+          "jinmao"
+        ],
+        "instances": 861,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-5",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 5,
+      "angle": 202.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-orbit-5.png",
+      "bytes": 3946874,
+      "sha256": "8e4768020a6015fc3644a10aaf553d522f0090cfd35ce362f88015bbd176ce2b",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 28.134799999952318,
+        "camera": [
+          -157.30673845724462,
+          156,
+          -502.39978063486825
+        ],
+        "target": [
+          0,
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
@@ -2331,16 +2672,16 @@
         "medianFPS": 59.88023952095548,
         "p95ms": 17.700000000000728,
         "drawCalls": {
-          "main": 167,
-          "normal": 163,
+          "main": 188,
+          "normal": 183,
           "reflection": 0,
           "shadow": 0,
-          "total": 348
+          "total": 389
         },
-        "totalCalls": 348,
-        "trianglesAllPasses": 1532760,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 389,
+        "trianglesAllPasses": 1479620,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -2454,372 +2795,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-orbit-3.png"
-    },
-    {
-      "name": "dusk-orbit-4",
-      "kind": "orbit",
-      "time": "dusk",
-      "index": 4,
-      "angle": 157.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-orbit-4.png",
-      "bytes": 3634888,
-      "sha256": "b3bfba89984a231c415de6d35d48187f9b3b0cb6c2b19145926c13e895c9f13f",
-      "state": {
-        "version": 2,
-        "subject": "scene",
-        "time": "dusk",
-        "phase": 1,
-        "quality": "high",
-        "level": 0,
-        "selected": null,
-        "labels": false,
-        "autoRotate": false,
-        "motionReduced": false,
-        "animationTime": 21.948499999999907,
-        "camera": [
-          149.96425090421687,
-          129.99999999999997,
-          -420.0151031304684
-        ],
-        "target": [
-          0,
-          25,
-          -65
-        ],
-        "drawingBuffer": {
-          "width": 1919,
-          "height": 1080
-        },
-        "medianFPS": 59.88023952095548,
-        "p95ms": 17.599999999998545,
-        "drawCalls": {
-          "main": 173,
-          "normal": 169,
-          "reflection": 0,
-          "shadow": 0,
-          "total": 360
-        },
-        "totalCalls": 360,
-        "trianglesAllPasses": 1531026,
-        "geometries": 157,
-        "textures": 38,
-        "models": [
-          {
-            "id": "pearl",
-            "height": 83.5,
-            "category": "landmark"
-          },
-          {
-            "id": "shanghai",
-            "height": 114.8,
-            "category": "landmark"
-          },
-          {
-            "id": "swfc",
-            "height": 96,
-            "category": "landmark"
-          },
-          {
-            "id": "jinmao",
-            "height": 92.18,
-            "category": "landmark"
-          },
-          {
-            "id": "customs",
-            "height": 32,
-            "category": "landmark"
-          },
-          {
-            "id": "hsbc",
-            "height": 26.5,
-            "category": "landmark"
-          },
-          {
-            "id": "peace",
-            "height": 37.5,
-            "category": "landmark"
-          },
-          {
-            "id": "heritage-0",
-            "height": 16,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-1",
-            "height": 18,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-2",
-            "height": 31,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-3",
-            "height": 16,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-4",
-            "height": 19,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-5",
-            "height": 21,
-            "category": "heritage"
-          },
-          {
-            "id": "modern-0",
-            "height": 45,
-            "category": "modern"
-          },
-          {
-            "id": "modern-1",
-            "height": 33,
-            "category": "modern"
-          },
-          {
-            "id": "modern-2",
-            "height": 36,
-            "category": "modern"
-          },
-          {
-            "id": "modern-3",
-            "height": 24,
-            "category": "modern"
-          },
-          {
-            "id": "modern-4",
-            "height": 32,
-            "category": "modern"
-          },
-          {
-            "id": "modern-5",
-            "height": 42,
-            "category": "modern"
-          },
-          {
-            "id": "boat-0",
-            "height": 5.6,
-            "category": "prop"
-          },
-          {
-            "id": "boat-1",
-            "height": 5.6,
-            "category": "prop"
-          },
-          {
-            "id": "bridge",
-            "height": 8.5,
-            "category": "prop"
-          }
-        ],
-        "landmarks": [
-          "peace",
-          "customs",
-          "hsbc",
-          "swfc",
-          "pearl",
-          "jinmao",
-          "shanghai"
-        ],
-        "instances": 536,
-        "disposed": false,
-        "contextLost": false,
-        "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-orbit-4.png"
-    },
-    {
-      "name": "dusk-orbit-5",
-      "kind": "orbit",
-      "time": "dusk",
-      "index": 5,
-      "angle": 202.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-orbit-5.png",
-      "bytes": 3750326,
-      "sha256": "5ca8aea361bfb0a57486c9c72e5b237191ec3b2610543bb7e59e175047353a67",
-      "state": {
-        "version": 2,
-        "subject": "scene",
-        "time": "dusk",
-        "phase": 1,
-        "quality": "high",
-        "level": 0,
-        "selected": null,
-        "labels": false,
-        "autoRotate": false,
-        "motionReduced": false,
-        "animationTime": 22.499499999999895,
-        "camera": [
-          -144.992848097263,
-          129.99999999999994,
-          -422.0743255971283
-        ],
-        "target": [
-          0,
-          25,
-          -65
-        ],
-        "drawingBuffer": {
-          "width": 1919,
-          "height": 1080
-        },
-        "medianFPS": 60.24096385541377,
-        "p95ms": 17.599999999998545,
-        "drawCalls": {
-          "main": 169,
-          "normal": 164,
-          "reflection": 168,
-          "shadow": 0,
-          "total": 519
-        },
-        "totalCalls": 519,
-        "trianglesAllPasses": 2201770,
-        "geometries": 157,
-        "textures": 38,
-        "models": [
-          {
-            "id": "pearl",
-            "height": 83.5,
-            "category": "landmark"
-          },
-          {
-            "id": "shanghai",
-            "height": 114.8,
-            "category": "landmark"
-          },
-          {
-            "id": "swfc",
-            "height": 96,
-            "category": "landmark"
-          },
-          {
-            "id": "jinmao",
-            "height": 92.18,
-            "category": "landmark"
-          },
-          {
-            "id": "customs",
-            "height": 32,
-            "category": "landmark"
-          },
-          {
-            "id": "hsbc",
-            "height": 26.5,
-            "category": "landmark"
-          },
-          {
-            "id": "peace",
-            "height": 37.5,
-            "category": "landmark"
-          },
-          {
-            "id": "heritage-0",
-            "height": 16,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-1",
-            "height": 18,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-2",
-            "height": 31,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-3",
-            "height": 16,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-4",
-            "height": 19,
-            "category": "heritage"
-          },
-          {
-            "id": "heritage-5",
-            "height": 21,
-            "category": "heritage"
-          },
-          {
-            "id": "modern-0",
-            "height": 45,
-            "category": "modern"
-          },
-          {
-            "id": "modern-1",
-            "height": 33,
-            "category": "modern"
-          },
-          {
-            "id": "modern-2",
-            "height": 36,
-            "category": "modern"
-          },
-          {
-            "id": "modern-3",
-            "height": 24,
-            "category": "modern"
-          },
-          {
-            "id": "modern-4",
-            "height": 32,
-            "category": "modern"
-          },
-          {
-            "id": "modern-5",
-            "height": 42,
-            "category": "modern"
-          },
-          {
-            "id": "boat-0",
-            "height": 5.6,
-            "category": "prop"
-          },
-          {
-            "id": "boat-1",
-            "height": 5.6,
-            "category": "prop"
-          },
-          {
-            "id": "bridge",
-            "height": 8.5,
-            "category": "prop"
-          }
-        ],
-        "landmarks": [
-          "peace",
-          "customs",
-          "hsbc",
-          "swfc",
-          "pearl",
-          "jinmao",
-          "shanghai"
-        ],
-        "instances": 536,
-        "disposed": false,
-        "contextLost": false,
-        "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-orbit-5.png"
+      }
     },
     {
       "name": "dusk-orbit-6",
@@ -2827,9 +2815,9 @@
       "time": "dusk",
       "index": 6,
       "angle": 247.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-orbit-6.png",
-      "bytes": 3886772,
-      "sha256": "b78a5b788843e48e0f1d8381fc05982d36051c146889a05a027edc1419f6f289",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-orbit-6.png",
+      "bytes": 3983595,
+      "sha256": "bd82ef74cbf08ed3841dbbb5f812ffa8d89b8a01a9e28a993724390bfc22edef",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -2841,34 +2829,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 23.01609999999988,
+        "animationTime": 28.915599999904632,
         "camera": [
-          -355.01510313046833,
-          129.99999999999994,
-          -214.96425090421687
+          -385.1656734065527,
+          156,
+          -277.70035042763993
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
-        "medianFPS": 60.24096385541377,
-        "p95ms": 17.599999999998545,
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.700000000000728,
         "drawCalls": {
-          "main": 174,
-          "normal": 169,
-          "reflection": 172,
+          "main": 186,
+          "normal": 180,
+          "reflection": 0,
           "shadow": 0,
-          "total": 533
+          "total": 384
         },
-        "totalCalls": 533,
-        "trianglesAllPasses": 2273296,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 384,
+        "trianglesAllPasses": 1474678,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -2982,20 +2970,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-orbit-6.png"
+      }
     },
     {
       "name": "dusk-orbit-7",
@@ -3003,9 +2990,9 @@
       "time": "dusk",
       "index": 7,
       "angle": 292.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/dusk-orbit-7.png",
-      "bytes": 3979018,
-      "sha256": "ecc1308dbb6f80db4cc0c8d077919423112d8ba889fbf577d385e90737b0bdb8",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/dusk-orbit-7.png",
+      "bytes": 4052886,
+      "sha256": "e886b17d607c48e266b0e49c9e55b66d5737a0343f7c296c058963c055e9d180",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -3017,34 +3004,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 23.681699999999886,
+        "animationTime": 29.7865,
         "camera": [
-          -357.0743255971281,
-          129.99999999999994,
-          79.99284809726336
+          -387.39978063486814,
+          156,
+          42.30673845724502
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
-        "medianFPS": 59.880239520968516,
+        "medianFPS": 59.88023952095548,
         "p95ms": 17.600000000002183,
         "drawCalls": {
-          "main": 166,
-          "normal": 161,
-          "reflection": 163,
-          "shadow": 95,
-          "total": 603
+          "main": 177,
+          "normal": 172,
+          "reflection": 170,
+          "shadow": 0,
+          "total": 537
         },
-        "totalCalls": 603,
-        "trianglesAllPasses": 2809828,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 537,
+        "trianglesAllPasses": 2188020,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -3158,28 +3145,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/dusk-orbit-7.png"
+      }
     },
     {
       "name": "night-main",
       "kind": "main",
       "time": "night",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-main.png",
-      "bytes": 3835707,
-      "sha256": "b632b10aef370befa8d6373085e06a74ffbf8fd066c989061ecfc6e60ffea176",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-main.png",
+      "bytes": 3897707,
+      "sha256": "81a5173aa4ae8b5b8571da4b664e04244853c34c7471a1a63f73afdc06696570",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -3191,34 +3177,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 28.613099999999857,
+        "animationTime": 35.498299999952316,
         "camera": [
-          -150,
-          129.99999999999997,
-          290
+          -170.00000000000003,
+          156,
+          267
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
-        "medianFPS": 59.88023952095548,
-        "p95ms": 67.59999999999854,
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.599999999998545,
         "drawCalls": {
-          "main": 171,
-          "normal": 167,
-          "reflection": 170,
+          "main": 180,
+          "normal": 175,
+          "reflection": 0,
           "shadow": 0,
-          "total": 526
+          "total": 373
         },
-        "totalCalls": 526,
-        "trianglesAllPasses": 2281013,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 373,
+        "trianglesAllPasses": 1478374,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -3332,20 +3318,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-main.png"
+      }
     },
     {
       "name": "night-orbit-0",
@@ -3353,9 +3338,9 @@
       "time": "night",
       "index": 0,
       "angle": -22.9,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-orbit-0.png",
-      "bytes": 3835639,
-      "sha256": "22bc50b3adab57101667b5de2f01fc25b66806f40e8236dd6cd710ab290983ca",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-orbit-0.png",
+      "bytes": 3892021,
+      "sha256": "2dbac31fcbbcec687c09fea854e46ef2595ade6582a4bb750dc4212c4e933ed0",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -3367,34 +3352,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 29.24649999999985,
+        "animationTime": 36.198799999952314,
         "camera": [
-          -149.96425090421684,
-          129.99999999999997,
-          290.0151031304684
+          -162.70035042763985,
+          156,
+          270.1656734065527
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 66.5,
+        "p95ms": 17.599999999998545,
         "drawCalls": {
-          "main": 171,
-          "normal": 167,
-          "reflection": 170,
+          "main": 180,
+          "normal": 175,
+          "reflection": 0,
           "shadow": 0,
-          "total": 526
+          "total": 373
         },
-        "totalCalls": 526,
-        "trianglesAllPasses": 2281013,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 373,
+        "trianglesAllPasses": 1478374,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -3508,20 +3493,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-orbit-0.png"
+      }
     },
     {
       "name": "night-orbit-1",
@@ -3529,9 +3513,9 @@
       "time": "night",
       "index": 1,
       "angle": 22.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-orbit-1.png",
-      "bytes": 3837179,
-      "sha256": "504053d2fb026c8eed1182227d1711018dd18367e9f4257d02adcea9008ecaf5",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-orbit-1.png",
+      "bytes": 3893126,
+      "sha256": "4873dc037c3f76cbcb6fa706dc089dc4b1091d1d3eb28fcade3a60eb63dbd26d",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -3543,34 +3527,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 29.829799999999835,
+        "animationTime": 36.86540000009537,
         "camera": [
-          144.99284809726316,
-          129.99999999999997,
-          292.0743255971283
+          157.30673845724476,
+          156,
+          272.39978063486825
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 66.5,
+        "p95ms": 17.599999999998545,
         "drawCalls": {
-          "main": 171,
-          "normal": 167,
-          "reflection": 169,
+          "main": 178,
+          "normal": 174,
+          "reflection": 0,
           "shadow": 0,
-          "total": 525
+          "total": 370
         },
-        "totalCalls": 525,
-        "trianglesAllPasses": 2281011,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 370,
+        "trianglesAllPasses": 1478116,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -3684,20 +3668,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-orbit-1.png"
+      }
     },
     {
       "name": "night-orbit-2",
@@ -3705,9 +3688,9 @@
       "time": "night",
       "index": 2,
       "angle": 67.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-orbit-2.png",
-      "bytes": 3734678,
-      "sha256": "4ea8380ce79f8739661f8ae229d4cd7bd1bf5b60e07dc65c2a332985f9d2a946",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-orbit-2.png",
+      "bytes": 3897057,
+      "sha256": "5b4999b533d422bc68b1795907c79e175c75cb4530a48afb9c0cce2f5b1ca368",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -3719,34 +3702,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 30.84579999999981,
+        "animationTime": 37.81809999990463,
         "camera": [
-          355.0151031304684,
-          129.99999999999997,
-          84.96425090421684
+          385.16567340655274,
+          156,
+          47.700350427639876
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 65.70000000000437,
+        "p95ms": 17.599999999998545,
         "drawCalls": {
-          "main": 166,
-          "normal": 162,
-          "reflection": 0,
+          "main": 179,
+          "normal": 175,
+          "reflection": 170,
           "shadow": 0,
-          "total": 346
+          "total": 542
         },
-        "totalCalls": 346,
-        "trianglesAllPasses": 1483464,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 542,
+        "trianglesAllPasses": 2165423,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -3860,20 +3843,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-orbit-2.png"
+      }
     },
     {
       "name": "night-orbit-3",
@@ -3881,9 +3863,9 @@
       "time": "night",
       "index": 3,
       "angle": 112.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-orbit-3.png",
-      "bytes": 3698869,
-      "sha256": "2ee6bc8afdcb94b4e4235399e9725f8be6123faaefd074c4343bf0972b35785e",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-orbit-3.png",
+      "bytes": 3945063,
+      "sha256": "9a16190bc74b15b599cff92a4494c02fb5be4ede61e19688c5cbf5aefdc43d61",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -3895,34 +3877,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 31.57979999999979,
+        "animationTime": 38.90229999995232,
         "camera": [
-          357.0743255971283,
-          129.99999999999997,
-          -209.9928480972631
+          387.39978063486825,
+          156,
+          -272.3067384572447
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 33.400000000001455,
+        "p95ms": 17.599999999998545,
         "drawCalls": {
-          "main": 171,
-          "normal": 167,
-          "reflection": 0,
+          "main": 183,
+          "normal": 179,
+          "reflection": 172,
           "shadow": 0,
-          "total": 356
+          "total": 552
         },
-        "totalCalls": 356,
-        "trianglesAllPasses": 1534390,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 552,
+        "trianglesAllPasses": 2164821,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -4036,20 +4018,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-orbit-3.png"
+      }
     },
     {
       "name": "night-orbit-4",
@@ -4057,9 +4038,9 @@
       "time": "night",
       "index": 4,
       "angle": 157.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-orbit-4.png",
-      "bytes": 3742917,
-      "sha256": "dd612bc807f5386309fe047d4a8c59e62168bfcdc4d99c4357adbe15a30b6154",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-orbit-4.png",
+      "bytes": 3897116,
+      "sha256": "decd8819680b905423e83defede98e5156298289c9abeafeebd3cba6731e0e06",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -4071,34 +4052,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 32.19559999999981,
+        "animationTime": 41.48140000009537,
         "camera": [
-          149.96425090421687,
-          129.99999999999997,
-          -420.0151031304684
+          162.70035042763988,
+          156,
+          -500.1656734065527
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 33.30000000000291,
+        "p95ms": 32.60000000000582,
         "drawCalls": {
-          "main": 173,
-          "normal": 169,
+          "main": 186,
+          "normal": 182,
           "reflection": 0,
           "shadow": 0,
-          "total": 360
+          "total": 386
         },
-        "totalCalls": 360,
-        "trianglesAllPasses": 1531026,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 386,
+        "trianglesAllPasses": 1479362,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -4212,20 +4193,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-orbit-4.png"
+      }
     },
     {
       "name": "night-orbit-5",
@@ -4233,9 +4213,9 @@
       "time": "night",
       "index": 5,
       "angle": 202.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-orbit-5.png",
-      "bytes": 3827423,
-      "sha256": "2ec74139fc4d12fe5d5fe93a747adbe1b66b2e1349a61d2b440cf4333496b7fd",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-orbit-5.png",
+      "bytes": 3870686,
+      "sha256": "3f767a91d9b754cd3791cea0fed6eb3745421ac9f0fc4b44666d0cb065517ffa",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -4247,34 +4227,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 32.74639999999983,
+        "animationTime": 43.05020000004768,
         "camera": [
-          -144.992848097263,
-          129.99999999999994,
-          -422.0743255971283
+          -157.30673845724462,
+          156,
+          -502.39978063486825
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 32.30000000000291,
+        "p95ms": 33.5,
         "drawCalls": {
-          "main": 169,
-          "normal": 164,
+          "main": 188,
+          "normal": 183,
           "reflection": 0,
           "shadow": 0,
-          "total": 351
+          "total": 389
         },
-        "totalCalls": 351,
-        "trianglesAllPasses": 1479696,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 389,
+        "trianglesAllPasses": 1479620,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -4388,20 +4368,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-orbit-5.png"
+      }
     },
     {
       "name": "night-orbit-6",
@@ -4409,9 +4388,9 @@
       "time": "night",
       "index": 6,
       "angle": 247.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-orbit-6.png",
-      "bytes": 3801223,
-      "sha256": "1b0bacec1b1aeec07d775e4128c11b2c02d484cec1f13ba63daeb27f1c73773c",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-orbit-6.png",
+      "bytes": 3883178,
+      "sha256": "b4747c07a9c483a4b9ab32fe2263b5c51d5ff623e528ee00e226d369b2809eff",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -4423,34 +4402,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 33.26289999999986,
+        "animationTime": 44.833599999904635,
         "camera": [
-          -355.01510313046833,
-          129.99999999999994,
-          -214.96425090421687
+          -385.1656734065527,
+          156,
+          -277.70035042763993
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.69999999999709,
+        "p95ms": 33.599999999998545,
         "drawCalls": {
-          "main": 174,
-          "normal": 169,
+          "main": 186,
+          "normal": 180,
           "reflection": 0,
           "shadow": 0,
-          "total": 361
+          "total": 384
         },
-        "totalCalls": 361,
-        "trianglesAllPasses": 1529936,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 384,
+        "trianglesAllPasses": 1474678,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -4564,20 +4543,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-orbit-6.png"
+      }
     },
     {
       "name": "night-orbit-7",
@@ -4585,9 +4563,9 @@
       "time": "night",
       "index": 7,
       "angle": 292.1,
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/night-orbit-7.png",
-      "bytes": 3861335,
-      "sha256": "de16394a22e1046a30de94c117f87719c05b4f1a803838707c624a8dba9f25d1",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/night-orbit-7.png",
+      "bytes": 3913499,
+      "sha256": "921aa5e363017ca80a9c95bfdfe3ac01768ef99037b1c7bc1dad5a3fd8e58265",
       "state": {
         "version": 2,
         "subject": "scene",
@@ -4599,34 +4577,34 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 33.763099999999895,
+        "animationTime": 46.27059999990463,
         "camera": [
-          -357.0743255971281,
-          129.99999999999994,
-          79.99284809726336
+          -387.39978063486814,
+          156,
+          42.30673845724502
         ],
         "target": [
           0,
-          25,
-          -65
+          30,
+          -115
         ],
         "drawingBuffer": {
           "width": 1919,
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.69999999999709,
+        "p95ms": 33.5,
         "drawCalls": {
-          "main": 166,
-          "normal": 161,
+          "main": 177,
+          "normal": 172,
           "reflection": 0,
           "shadow": 0,
-          "total": 345
+          "total": 367
         },
-        "totalCalls": 345,
-        "trianglesAllPasses": 1528480,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 367,
+        "trianglesAllPasses": 1476768,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -4740,28 +4718,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/night-orbit-7.png"
+      }
     },
     {
       "name": "model-pearl",
       "kind": "model",
       "id": "pearl",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/model-pearl.png",
-      "bytes": 126045,
-      "sha256": "84ba1012cd08a0ed527a2bb7fb3a47e3fb026dd3b142df766fd4d85942d6c266",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/model-pearl.png",
+      "bytes": 125827,
+      "sha256": "c4bde2ff06ddf3f7628c1e4728aed74e232bd00453f6c104a69bda917bd9c011",
       "state": {
         "version": 2,
         "subject": "pearl",
@@ -4773,7 +4750,7 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 36.69650000000001,
+        "animationTime": 49.29859999990463,
         "camera": [
           93.59446308898926,
           93.78999999999999,
@@ -4789,7 +4766,7 @@
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.5,
+        "p95ms": 33.30000000000291,
         "drawCalls": {
           "main": 5,
           "normal": 5,
@@ -4799,8 +4776,8 @@
         },
         "totalCalls": 28,
         "trianglesAllPasses": 43442,
-        "geometries": 157,
-        "textures": 38,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -4914,28 +4891,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/model-pearl.png"
+      }
     },
     {
       "name": "model-shanghai",
       "kind": "model",
       "id": "shanghai",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/model-shanghai.png",
-      "bytes": 209588,
-      "sha256": "386231cdfb3497c1082e33a7b999b68ec70cbb322f1a08a3dd7b608517332707",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/model-shanghai.png",
+      "bytes": 198891,
+      "sha256": "73553789788fd24956320c0bea884d5e2db8fd0e17d6364b5e5cf85dcd2a3bb0",
       "state": {
         "version": 2,
         "subject": "shanghai",
@@ -4947,7 +4923,7 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 36.929700000000025,
+        "animationTime": 49.54870000004768,
         "camera": [
           127.59524133110048,
           129.18824190616607,
@@ -4963,7 +4939,7 @@
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.5,
+        "p95ms": 33.30000000000291,
         "drawCalls": {
           "main": 3,
           "normal": 3,
@@ -4972,9 +4948,9 @@
           "total": 24
         },
         "totalCalls": 24,
-        "trianglesAllPasses": 50074,
-        "geometries": 157,
-        "textures": 38,
+        "trianglesAllPasses": 50026,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -5088,28 +5064,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/model-shanghai.png"
+      }
     },
     {
       "name": "model-swfc",
       "kind": "model",
       "id": "swfc",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/model-swfc.png",
-      "bytes": 253436,
-      "sha256": "d2e49635f563c18a28907121929a2b4f016f96739809230e418518b4ad0c39d4",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/model-swfc.png",
+      "bytes": 239678,
+      "sha256": "4fc742e4f678af1c63e40e0b27a9cc59369df879b0f59bb6bf872fe1dafed1a4",
       "state": {
         "version": 2,
         "subject": "swfc",
@@ -5121,7 +5096,7 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 37.17970000000004,
+        "animationTime": 49.81440000009537,
         "camera": [
           106.414178604126,
           107.74591533660887,
@@ -5137,18 +5112,18 @@
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.599999999998545,
+        "p95ms": 33.299999999995634,
         "drawCalls": {
           "main": 2,
           "normal": 2,
           "reflection": 0,
-          "shadow": 2,
-          "total": 24
+          "shadow": 0,
+          "total": 22
         },
-        "totalCalls": 24,
-        "trianglesAllPasses": 2076,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 22,
+        "trianglesAllPasses": 1390,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -5262,28 +5237,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/model-swfc.png"
+      }
     },
     {
       "name": "model-jinmao",
       "kind": "model",
       "id": "jinmao",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/model-jinmao.png",
-      "bytes": 212869,
-      "sha256": "c5aae12b5b205ddcbac728472e39fb5eb5168fefbefc9e0551dfea24a3d22556",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/model-jinmao.png",
+      "bytes": 203032,
+      "sha256": "d4fa16ef22bbbc8928a5a232e7924012502995f4df681a0708e174d448f4fff2",
       "state": {
         "version": 2,
         "subject": "jinmao",
@@ -5295,7 +5269,7 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 37.44550000000005,
+        "animationTime": 50.048799999952315,
         "camera": [
           102.87288034057616,
           104.16340034484867,
@@ -5311,7 +5285,7 @@
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.599999999998545,
+        "p95ms": 33.099999999998545,
         "drawCalls": {
           "main": 4,
           "normal": 4,
@@ -5320,9 +5294,9 @@
           "total": 26
         },
         "totalCalls": 26,
-        "trianglesAllPasses": 12682,
-        "geometries": 157,
-        "textures": 38,
+        "trianglesAllPasses": 8074,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -5436,28 +5410,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/model-jinmao.png"
+      }
     },
     {
       "name": "model-customs",
       "kind": "model",
       "id": "customs",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/model-customs.png",
-      "bytes": 991790,
-      "sha256": "3cffdf14c825af1c72a9138e7400ed70420f9f2a02f4659e3cfa1134d70ead24",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/model-customs.png",
+      "bytes": 995194,
+      "sha256": "26197475f1d0478924a7c80d52bf77ea812a4618946e374b17dd333007b39f8c",
       "state": {
         "version": 2,
         "subject": "customs",
@@ -5469,7 +5442,7 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 37.74640000000007,
+        "animationTime": 50.364400000095365,
         "camera": [
           35.71200000000002,
           36.16,
@@ -5485,18 +5458,18 @@
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.599999999998545,
+        "p95ms": 33,
         "drawCalls": {
           "main": 7,
           "normal": 7,
           "reflection": 0,
-          "shadow": 7,
-          "total": 39
+          "shadow": 0,
+          "total": 32
         },
-        "totalCalls": 39,
-        "trianglesAllPasses": 10182,
-        "geometries": 157,
-        "textures": 38,
+        "totalCalls": 32,
+        "trianglesAllPasses": 6794,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -5610,28 +5583,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/model-customs.png"
+      }
     },
     {
       "name": "model-hsbc",
       "kind": "model",
       "id": "hsbc",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/model-hsbc.png",
-      "bytes": 1497924,
-      "sha256": "1b5ffb732f1421d18d7b76ac6d62f9079e01e2086424d83f96b8a41376edbb01",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/model-hsbc.png",
+      "bytes": 1509762,
+      "sha256": "151bd49e3f0965b34a244760de58c50cffce4baf7e91be462399cfed594ad36e",
       "state": {
         "version": 2,
         "subject": "hsbc",
@@ -5643,7 +5615,7 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 38.0631000000001,
+        "animationTime": 50.69870000004769,
         "camera": [
           30.243600425720217,
           30.222999858856195,
@@ -5659,7 +5631,7 @@
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.599999999998545,
+        "p95ms": 33,
         "drawCalls": {
           "main": 6,
           "normal": 6,
@@ -5669,8 +5641,8 @@
         },
         "totalCalls": 30,
         "trianglesAllPasses": 15934,
-        "geometries": 157,
-        "textures": 38,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -5784,28 +5756,27 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/model-hsbc.png"
+      }
     },
     {
       "name": "model-peace",
       "kind": "model",
       "id": "peace",
-      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-887fc453-1c48-48fe-b32e-d0af8fd486f8/model-peace.png",
-      "bytes": 832373,
-      "sha256": "74927bf149748b7e0360ddf2f232c40d4124d6e96db0ba10b0d6fe2b39371db0",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-795d8192-b00c-4a8b-9641-294374b970d9/model-peace.png",
+      "bytes": 835882,
+      "sha256": "28de7a7e05803eafd5881b77fbfb088fd495dd4b111000153c8ab7a6e80c3246",
       "state": {
         "version": 2,
         "subject": "peace",
@@ -5817,7 +5788,7 @@
         "labels": false,
         "autoRotate": false,
         "motionReduced": false,
-        "animationTime": 38.34540000000011,
+        "animationTime": 50.982,
         "camera": [
           41.57099999999999,
           42.09250000000001,
@@ -5833,7 +5804,7 @@
           "height": 1080
         },
         "medianFPS": 59.880239520968516,
-        "p95ms": 17.599999999998545,
+        "p95ms": 32.900000000001455,
         "drawCalls": {
           "main": 4,
           "normal": 4,
@@ -5843,8 +5814,8 @@
         },
         "totalCalls": 26,
         "trianglesAllPasses": 1254,
-        "geometries": 157,
-        "textures": 38,
+        "geometries": 163,
+        "textures": 39,
         "models": [
           {
             "id": "pearl",
@@ -5958,20 +5929,19 @@
           }
         ],
         "landmarks": [
-          "peace",
-          "customs",
           "hsbc",
-          "swfc",
+          "customs",
+          "peace",
           "pearl",
-          "jinmao",
-          "shanghai"
+          "swfc",
+          "shanghai",
+          "jinmao"
         ],
-        "instances": 536,
+        "instances": 861,
         "disposed": false,
         "contextLost": false,
         "visualAcceptance": "pending user review"
-      },
-      "localPath": "output/art-renovation/v2/captures/model-peace.png"
+      }
     }
   ],
   "errors": [],

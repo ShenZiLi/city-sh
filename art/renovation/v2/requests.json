@@ -54,6 +54,16 @@
       "name": "独立水彩云朵",
       "transparent": true,
       "prompt": "Use case: stylized-concept. Production asset: ONE isolated wide airy cumulus cloud for an interactive 3D watercolor Shanghai city. Genuine transparent RGBA background, no sky rectangle. Delicate fine transparent watercolor brushwork, warm ivory and pale gold upper lobes, faint lavender-blue soft undersides, irregular evaporating edge and small wispy tendrils, subtle granulation. Light fluffy varied silhouette, wide 3:1 cloud, no hard outline, no dark shadow, no horizon, no objects, no border, no text. Reference image for painting style only. Preserve fine cloud gaps and transparent margins. Cloud should fill most of horizontal frame. Request 2048x1024, record actual size."
+    },
+    {
+      "id": "V211",
+      "name": "克制的蓝灰玻璃幕墙",
+      "prompt": "Use case: stylized-concept. Asset type: UV-aligned production albedo texture for the glass curtain walls of real-time 3D Shanghai buildings. Input image is STYLE REFERENCE ONLY, not a texture to copy. Generate one square edge-to-edge orthographic glass facade module with EXACTLY 8 columns and 16 equal horizontal rows of rectangular panes, all grid lines perfectly straight and parallel to image edges. Thin cool silver-grey mullions, muted pale blue-grey and dusty teal panes, subtle watercolor pigment granulation and tiny pane-to-pane value variation. Understated and crisp, with softly painted surface detail. Light even diffuse illumination. This is flat unlit base color: NO yellow/gold/cream/white paint scratches, NO diagonal marks, NO abstract scribbles, NO drawn reflected clouds or buildings, NO sunlight, NO glow, NO deep contrast, NO perspective, NO text, NO roof or border. The entire surface should read as luminous restrained blue-grey architectural glazing, not a painting of a tower. Target 2048 square; actual returned size will be recorded."
+    },
+    {
+      "id": "V212",
+      "name": "公园地表水彩笔触",
+      "prompt": "Use case: stylized-concept. Asset type: repeating ground albedo for 3D parks in an illustrated Shanghai city, NOT a landscape picture. Reference image for watercolor technique only. Generate a square seamless top-down close-up field of fine mottled sage, olive, muted yellow-green lawn and small mossy pigment variation. Delicate watercolor and gouache granulation, extremely small brush flecks, earthy natural colors, medium lightness, restrained variation. Even diffuse illumination, no directional sunlight, no cast shadow, no large gradient. Flat 2D surface edge to edge, no trees, leaves, flowers, paths, objects, buildings, sky, horizon or perspective; no white paper border. Fine patchy organic pigments to break up flat lawns while remaining quiet next to warm limestone buildings. No large circular blotches, neon green or photograph. Requested 2048 square, actual dimensions will be recorded."
     }
   ]
 }

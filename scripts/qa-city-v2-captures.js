@@ -24,6 +24,13 @@ const environment = await page.evaluate(() => {
   };
 });
 const report = {
+  capturedAt: new Date().toISOString(),
+  entryBundles: await page.evaluate(() =>
+    performance
+      .getEntriesByType("resource")
+      .map((r) => r.name)
+      .filter((url) => /\/assets\/artLab-[^/]+\.js$/.test(url)),
+  ),
   environment,
   captures: [],
   errors,

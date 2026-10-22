@@ -23,8 +23,8 @@
     {
       "name": "three detail levels and stable resources after repeated cycles",
       "pass": true,
-      "geometries": 219,
-      "textures": 38
+      "geometries": 255,
+      "textures": 39
     },
     {
       "name": "quality limits and sustained frame-time samples",
@@ -63,34 +63,34 @@
       "labels": true,
       "autoRotate": false,
       "motionReduced": false,
-      "animationTime": 10.316800000000011,
+      "animationTime": 12.29,
       "camera": [
-        -150,
-        129.99999999999997,
-        290
+        -170.00000000000003,
+        156,
+        267
       ],
       "target": [
         0,
-        25,
-        -65
+        30,
+        -115
       ],
       "drawingBuffer": {
         "width": 1919,
         "height": 1080
       },
-      "medianFPS": 59.880239520962,
-      "p95ms": 17.599999999998545,
+      "medianFPS": 59.88023952095548,
+      "p95ms": 33.399999999999636,
       "drawCalls": {
-        "main": 172,
-        "normal": 168,
+        "main": 180,
+        "normal": 175,
         "reflection": 0,
         "shadow": 0,
-        "total": 358
+        "total": 373
       },
-      "totalCalls": 358,
-      "trianglesAllPasses": 1535032,
-      "geometries": 219,
-      "textures": 38,
+      "totalCalls": 373,
+      "trianglesAllPasses": 1478374,
+      "geometries": 255,
+      "textures": 39,
       "models": [
         {
           "id": "pearl",
@@ -212,7 +212,7 @@
         "swfc",
         "jinmao"
       ],
-      "instances": 536,
+      "instances": 861,
       "disposed": false,
       "contextLost": false,
       "visualAcceptance": "pending user review"
@@ -228,34 +228,34 @@
       "labels": true,
       "autoRotate": false,
       "motionReduced": false,
-      "animationTime": 16.216599999999975,
+      "animationTime": 18.607299999952318,
       "camera": [
-        -150,
-        129.99999999999997,
-        290
+        -170.00000000000003,
+        156,
+        267
       ],
       "target": [
         0,
-        25,
-        -65
+        30,
+        -115
       ],
       "drawingBuffer": {
         "width": 1535,
         "height": 864
       },
-      "medianFPS": 59.88023952095548,
-      "p95ms": 34.20000000000073,
+      "medianFPS": 59.880239520968516,
+      "p95ms": 17.5,
       "drawCalls": {
-        "main": 172,
+        "main": 180,
         "normal": 0,
         "reflection": 0,
         "shadow": 0,
-        "total": 189
+        "total": 197
       },
-      "totalCalls": 189,
-      "trianglesAllPasses": 769870,
-      "geometries": 219,
-      "textures": 36,
+      "totalCalls": 197,
+      "trianglesAllPasses": 741542,
+      "geometries": 255,
+      "textures": 37,
       "models": [
         {
           "id": "pearl",
@@ -377,7 +377,7 @@
         "swfc",
         "jinmao"
       ],
-      "instances": 536,
+      "instances": 861,
       "disposed": false,
       "contextLost": false,
       "visualAcceptance": "pending user review"

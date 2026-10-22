@@ -47,6 +47,7 @@ async function boot() {
   const lighting = createLighting(scene),
     listeners = new AbortController(),
     reduced = matchMedia("(prefers-reduced-motion: reduce)");
+  const clockStart = performance.now();
   let assets: CityAssets | undefined,
     city: City | undefined,
     environment: Awaited<ReturnType<typeof createEnvironment>> | undefined,
@@ -58,6 +59,7 @@ async function boot() {
     last = performance.now(),
     lastMetric = 0,
     lastShadow = -1,
+    lastShadowPhase = -1,
     lod = 0,
     time: TimeOfDay = "day",
     quality: Quality = innerWidth < 680 ? "low" : "high",
@@ -121,7 +123,7 @@ async function boot() {
     ViewName,
     { target: [number, number, number]; offset: [number, number, number] }
   > = {
-    overview: { target: [0, 25, -65], offset: [-150, 105, 355] },
+    overview: { target: [0, 30, -115], offset: [-170, 126, 382] },
     lujiazui: { target: [155, 43, -155], offset: [-25, 95, 260] },
     bund: { target: [-104, 10, 35], offset: [95, 65, 170] },
     river: { target: [0, 5, -25], offset: [65, 83, 270] },
@@ -194,6 +196,7 @@ async function boot() {
     city!.group.visible = value === "scene";
     environment!.group.visible = environment!.sky.visible = value === "scene";
     if (value === "scene") {
+      lastShadow = -1;
       setView("overview");
       return;
     }
@@ -213,7 +216,7 @@ async function boot() {
       distance * 0.55,
       distance * 3,
     );
-    lighting.sun.shadow.needsUpdate = true;
+    lastShadow = -1;
   }
   async function setLod(value: number) {
     if (![0, 1, 2].includes(value)) throw Error("Invalid LOD");
@@ -313,9 +316,15 @@ async function boot() {
     if (subject !== "scene")
       scene.background = new T.Color(p > 1 ? "#263849" : "#e9e4d8");
     renderer.shadowMap.autoUpdate = false;
-    if (elapsed - lastShadow > 0.28) {
+    // Architecture and sun are stationary once the time transition settles.
+    // Reuse that map; only lighting/LOD/quality/context changes invalidate it.
+    if (
+      lastShadow < 0 ||
+      (Math.abs(p - lastShadowPhase) > 0.001 && elapsed - lastShadow > 0.12)
+    ) {
       renderer.shadowMap.needsUpdate = true;
       lastShadow = elapsed;
+      lastShadowPhase = p;
     }
     renderer.info.reset();
     pipeline!.render(dt, p, [environment!.water, environment!.sky]);
@@ -381,13 +390,15 @@ async function boot() {
     last = now;
     if (!lost) {
       const dt = Math.min(raw, 0.05);
-      elapsed += dt;
+      // The camera integrator stays clamped, while the 2.4-second art
+      // transition follows wall time even if a cold shader stalls one frame.
+      elapsed = (performance.now() - clockStart) / 1000;
       syncMotion();
       orbit.update();
       render(dt);
-      if (raw > 0 && raw < 0.5) {
+      if (raw > 0 && document.visibilityState === "visible") {
         frames.push(raw * 1000);
-        if (frames.length > 180) frames.shift();
+        if (frames.length > 1800) frames.shift();
       }
       if (elapsed - lastMetric > 1) {
         lastMetric = elapsed;
@@ -603,6 +614,7 @@ async function boot() {
       clearMetrics: () => frames.splice(0),
       renderer,
     };
+    last = performance.now();
     frame = requestAnimationFrame(tick);
   } catch (error) {
     dispose();

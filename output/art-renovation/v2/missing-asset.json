@@ -1,0 +1,8 @@
+{
+  "createdAt": "2026-10-22T01:40:13.938Z",
+  "fault": {
+    "status": "资源异常：Error: 建筑资源 customs 加载失败：assets/renovation/v2/models/customs-lod0.glb · Error: fetch for \"http://127.0.0.1:4183/assets/renovation/v2/models/customs-lod0.glb\" responded with 404: Not Found",
+    "noPlaceholderCanvas": true
+  },
+  "normalReload": true
+}

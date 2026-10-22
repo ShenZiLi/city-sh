@@ -3,6 +3,10 @@ import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import type { ArtModelDefinition } from "../art-library";
 
 export interface CityAsset extends ArtModelDefinition {
+  boundsBlender: {
+    min: [number, number, number];
+    max: [number, number, number];
+  };
   category: "landmark" | "heritage" | "modern" | "prop";
   materialSlots: string[];
   artIds: string[];
@@ -10,25 +14,27 @@ export interface CityAsset extends ArtModelDefinition {
 const paints: Record<string, string> = {
   stone: "V201",
   brick: "V202",
-  glass: "V203",
+  glass: "V211",
   slate: "V204",
   copper: "RT02-copper",
   rose: "RT03-rose",
   trim: "V201-stone",
   white: "V201-stone",
+  frame: "V201-stone",
 };
 const colors: Record<string, string> = {
   stone: "#fff8e8",
   brick: "#fff0e4",
-  glass: "#bdcdd1",
+  glass: "#e2edf1",
   slate: "#9dabbc",
   copper: "#739581",
   rose: "#d57b86",
-  trim: "#f4dfae",
+  trim: "#ece3d0",
   white: "#fff0d2",
   dark: "#193443",
   gold: "#bba061",
   asphalt: "#545e60",
+  frame: "#afc3cb",
 };
 
 export class CityAssets {
@@ -98,30 +104,32 @@ export class CityAssets {
       m.emissiveMap = await this.texture(paints[name] + "-windows");
       m.emissive.set("#ffc674");
       m.emissiveIntensity = 0;
-      this.lit.set(m, name === "glass" ? 0.48 : 0.36);
+      this.lit.set(m, name === "glass" ? 0.26 : 0.36);
     } else if (["gold", "rose"].includes(name)) {
       m.emissive.set(name === "rose" ? "#f590a2" : "#ffd092");
-      this.lit.set(m, name === "rose" ? 0.44 : 0.12);
+      this.lit.set(m, name === "rose" ? 0.1 : 0.12);
     }
     const bund =
       asset.startsWith("heritage") ||
       ["customs", "hsbc", "peace"].includes(asset);
-    if (bund) {
-      const flood = ["stone", "trim", "white"].includes(name)
-        ? 0.12
-        : name === "copper"
-          ? 0.055
-          : 0.022;
+    if (bund || ["glass", "frame", "stone"].includes(name)) {
+      const flood = !bund
+        ? 0.038
+        : ["stone", "trim", "white"].includes(name)
+          ? 0.12
+          : name === "copper"
+            ? 0.055
+            : 0.022;
       m.onBeforeCompile = (shader) => {
         shader.uniforms.uNightFlood = this.nightFlood;
         shader.fragmentShader =
           "uniform float uNightFlood;\n" + shader.fragmentShader;
         shader.fragmentShader = shader.fragmentShader.replace(
           "#include <emissivemap_fragment>",
-          `#include <emissivemap_fragment>\n totalEmissiveRadiance += diffuseColor.rgb * vec3(1.,.54,.23) * uNightFlood * ${flood.toFixed(4)};`,
+          `#include <emissivemap_fragment>\n totalEmissiveRadiance += diffuseColor.rgb * ${bund ? "vec3(1.,.54,.23)" : "vec3(.36,.62,1.)"} * uNightFlood * ${flood.toFixed(4)};`,
         );
       };
-      m.customProgramCacheKey = () => `waterfront-night-${flood}`;
+      m.customProgramCacheKey = () => `waterfront-night-${bund}-${flood}`;
     }
     this.materials.set(key, m);
     return m;

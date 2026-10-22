@@ -1,0 +1,5946 @@
+{
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "viewport": {
+      "width": 1745,
+      "height": 982
+    },
+    "dpr": 1.100000023841858
+  },
+  "captures": [
+    {
+      "name": "day-main",
+      "kind": "main",
+      "time": "day",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-main.png",
+      "bytes": 3783196,
+      "sha256": "64373941e83a2525f54c716ac3ece3bbe015871ce6a490c9e12d9dd3ce902258",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 5.950900000000014,
+        "camera": [
+          -150,
+          129.99999999999997,
+          290
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.599999999999454,
+        "drawCalls": {
+          "main": 172,
+          "normal": 168,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 358
+        },
+        "totalCalls": 358,
+        "trianglesAllPasses": 1530424,
+        "geometries": 152,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "day-orbit-0",
+      "kind": "orbit",
+      "time": "day",
+      "index": 0,
+      "angle": -22.9,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-orbit-0.png",
+      "bytes": 3783089,
+      "sha256": "11fa350a0c9a7ab5abedd1ee47302b2ca86db3271549528fff0e16802642e23b",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 6.450900000000018,
+        "camera": [
+          -149.96425090421684,
+          129.99999999999997,
+          290.0151031304684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 172,
+          "normal": 168,
+          "reflection": 171,
+          "shadow": 0,
+          "total": 529
+        },
+        "totalCalls": 529,
+        "trianglesAllPasses": 2274107,
+        "geometries": 152,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "day-orbit-1",
+      "kind": "orbit",
+      "time": "day",
+      "index": 1,
+      "angle": 22.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-orbit-1.png",
+      "bytes": 3717905,
+      "sha256": "f5bb559b809bfb64dc3f1414cac6dc34f78b0581edad4d06023230470a477948",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 6.9675000000000225,
+        "camera": [
+          144.99284809726316,
+          129.99999999999997,
+          292.0743255971283
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 171,
+          "normal": 167,
+          "reflection": 0,
+          "shadow": 95,
+          "total": 451
+        },
+        "totalCalls": 451,
+        "trianglesAllPasses": 2066834,
+        "geometries": 152,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "day-orbit-2",
+      "kind": "orbit",
+      "time": "day",
+      "index": 2,
+      "angle": 67.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-orbit-2.png",
+      "bytes": 3466005,
+      "sha256": "42755441a0657d8b4d5606f7ad0ce1cab1501f9755a7d4400b227ed3106c83c5",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 7.417500000000028,
+        "camera": [
+          355.0151031304684,
+          129.99999999999997,
+          84.96425090421684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 166,
+          "normal": 162,
+          "reflection": 167,
+          "shadow": 0,
+          "total": 513
+        },
+        "totalCalls": 513,
+        "trianglesAllPasses": 2197519,
+        "geometries": 153,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "day-orbit-3",
+      "kind": "orbit",
+      "time": "day",
+      "index": 3,
+      "angle": 112.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-orbit-3.png",
+      "bytes": 3381527,
+      "sha256": "520f33753a2d7417b492c46dd4fe3fd4ecee01eeb662f23b110d3f33f336f1f3",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 7.850900000000034,
+        "camera": [
+          357.0743255971283,
+          129.99999999999997,
+          -209.9928480972631
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 167,
+          "normal": 163,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 348
+        },
+        "totalCalls": 348,
+        "trianglesAllPasses": 1528152,
+        "geometries": 154,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "day-orbit-4",
+      "kind": "orbit",
+      "time": "day",
+      "index": 4,
+      "angle": 157.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-orbit-4.png",
+      "bytes": 3515432,
+      "sha256": "31545708ef0e8fd0a7067053e89e0973b8785b4f3478e9011f2f645495007a7c",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 8.267600000000034,
+        "camera": [
+          149.96425090421687,
+          129.99999999999997,
+          -420.0151031304684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 173,
+          "normal": 169,
+          "reflection": 164,
+          "shadow": 0,
+          "total": 524
+        },
+        "totalCalls": 524,
+        "trianglesAllPasses": 2238494,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "day-orbit-5",
+      "kind": "orbit",
+      "time": "day",
+      "index": 5,
+      "angle": 202.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-orbit-5.png",
+      "bytes": 3678211,
+      "sha256": "d54f0144cd09b807f58dbffe22c300f828f33fa926398e7801ce6d3b8b8037ee",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 8.78340000000003,
+        "camera": [
+          -144.992848097263,
+          129.99999999999994,
+          -422.0743255971283
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 169,
+          "normal": 164,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 351
+        },
+        "totalCalls": 351,
+        "trianglesAllPasses": 1475088,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "day-orbit-6",
+      "kind": "orbit",
+      "time": "day",
+      "index": 6,
+      "angle": 247.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-orbit-6.png",
+      "bytes": 3784527,
+      "sha256": "5deb0e313ba85488dc897c6c778587d4ec0d3dce34c4b9af8548fc8b5457f58a",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 9.28360000000003,
+        "camera": [
+          -355.01510313046833,
+          129.99999999999994,
+          -214.96425090421687
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095874,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 174,
+          "normal": 169,
+          "reflection": 172,
+          "shadow": 0,
+          "total": 533
+        },
+        "totalCalls": 533,
+        "trianglesAllPasses": 2266384,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "day-orbit-7",
+      "kind": "orbit",
+      "time": "day",
+      "index": 7,
+      "angle": 292.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/day-orbit-7.png",
+      "bytes": 3848296,
+      "sha256": "b0ece209662e21573753121030bc558ebd7305f480aa07071e234d3614cf0edf",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 9.800200000000023,
+        "camera": [
+          -357.0743255971281,
+          129.99999999999994,
+          79.99284809726336
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 166,
+          "normal": 161,
+          "reflection": 0,
+          "shadow": 95,
+          "total": 440
+        },
+        "totalCalls": 440,
+        "trianglesAllPasses": 2060286,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-main",
+      "kind": "main",
+      "time": "dusk",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-main.png",
+      "bytes": 3867923,
+      "sha256": "5e65ea8a4fd6320b431491c9b12785c78184782ca02d11a722247e9ba27b6415",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 15.334199999999992,
+        "camera": [
+          -150,
+          129.99999999999997,
+          290
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 172,
+          "normal": 168,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 358
+        },
+        "totalCalls": 358,
+        "trianglesAllPasses": 1530424,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-0",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 0,
+      "angle": -22.9,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-orbit-0.png",
+      "bytes": 3867194,
+      "sha256": "45e6cb80bd5d117cc6527da6b0205a5579789198eddfe4ae0feda87f5149efd2",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 15.850799999999989,
+        "camera": [
+          -149.96425090421684,
+          129.99999999999997,
+          290.0151031304684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 172,
+          "normal": 168,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 358
+        },
+        "totalCalls": 358,
+        "trianglesAllPasses": 1530424,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-1",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 1,
+      "angle": 22.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-orbit-1.png",
+      "bytes": 3770720,
+      "sha256": "1532d8eb63bb30878758e0b51cd691b47523b7abe97979de89f44b9f83af4bed",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 16.35089999999998,
+        "camera": [
+          144.99284809726316,
+          129.99999999999997,
+          292.0743255971283
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.600000000000364,
+        "drawCalls": {
+          "main": 171,
+          "normal": 167,
+          "reflection": 169,
+          "shadow": 0,
+          "total": 525
+        },
+        "totalCalls": 525,
+        "trianglesAllPasses": 2274099,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-2",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 2,
+      "angle": 67.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-orbit-2.png",
+      "bytes": 3559626,
+      "sha256": "74e6c1e6e3e37b1471c15f27c965120af38c00481c8f13ab7ff549ec491d7c78",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 16.78419999999997,
+        "camera": [
+          355.0151031304684,
+          129.99999999999997,
+          84.96425090421684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520962,
+        "p95ms": 17.599999999998545,
+        "drawCalls": {
+          "main": 166,
+          "normal": 162,
+          "reflection": 167,
+          "shadow": 0,
+          "total": 513
+        },
+        "totalCalls": 513,
+        "trianglesAllPasses": 2197519,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-3",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 3,
+      "angle": 112.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-orbit-3.png",
+      "bytes": 3486605,
+      "sha256": "4f615430f1e4a24df5f183edef3d24507317a741d26cb99944de51dee7909fca",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 17.267499999999963,
+        "camera": [
+          357.0743255971283,
+          129.99999999999997,
+          -209.9928480972631
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.599999999998545,
+        "drawCalls": {
+          "main": 167,
+          "normal": 163,
+          "reflection": 162,
+          "shadow": 0,
+          "total": 510
+        },
+        "totalCalls": 510,
+        "trianglesAllPasses": 2245637,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-4",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 4,
+      "angle": 157.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-orbit-4.png",
+      "bytes": 3615057,
+      "sha256": "f546a8e42b8ac17a8e177f550b8433b7ea6ec48bd6b688799eb9edd44e4bfd77",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 17.817499999999953,
+        "camera": [
+          149.96425090421687,
+          129.99999999999997,
+          -420.0151031304684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.599999999998545,
+        "drawCalls": {
+          "main": 173,
+          "normal": 169,
+          "reflection": 164,
+          "shadow": 0,
+          "total": 524
+        },
+        "totalCalls": 524,
+        "trianglesAllPasses": 2238494,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-5",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 5,
+      "angle": 202.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-orbit-5.png",
+      "bytes": 3723245,
+      "sha256": "ec6ce6796200e382c461871ecabedbf0a464c3d6debaac1b6f61cee0d184f9c2",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 18.317499999999942,
+        "camera": [
+          -144.992848097263,
+          129.99999999999994,
+          -422.0743255971283
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.5,
+        "drawCalls": {
+          "main": 169,
+          "normal": 164,
+          "reflection": 0,
+          "shadow": 95,
+          "total": 446
+        },
+        "totalCalls": 446,
+        "trianglesAllPasses": 2011502,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-6",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 6,
+      "angle": 247.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-orbit-6.png",
+      "bytes": 3859022,
+      "sha256": "b6f18266adaa8b2a26d1e1469d49fa70acaa6769e405bfcbb066f9f465fc42a1",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 18.834199999999928,
+        "camera": [
+          -355.01510313046833,
+          129.99999999999994,
+          -214.96425090421687
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.5,
+        "drawCalls": {
+          "main": 174,
+          "normal": 169,
+          "reflection": 172,
+          "shadow": 0,
+          "total": 533
+        },
+        "totalCalls": 533,
+        "trianglesAllPasses": 2266384,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "dusk-orbit-7",
+      "kind": "orbit",
+      "time": "dusk",
+      "index": 7,
+      "angle": 292.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/dusk-orbit-7.png",
+      "bytes": 3960479,
+      "sha256": "468ebfed489987b45cd106889ff2d60379f4e59bf8230d607c006a6be42553f0",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "dusk",
+        "phase": 1,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 19.416799999999913,
+        "camera": [
+          -357.0743255971281,
+          129.99999999999994,
+          79.99284809726336
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.599999999998545,
+        "drawCalls": {
+          "main": 166,
+          "normal": 161,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 345
+        },
+        "totalCalls": 345,
+        "trianglesAllPasses": 1523872,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-main",
+      "kind": "main",
+      "time": "night",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-main.png",
+      "bytes": 3826792,
+      "sha256": "6edbe1014122c272179ba6a769ec98af6feae9b6df29375c1606a4e6ada95a20",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 24.884099999999833,
+        "camera": [
+          -150,
+          129.99999999999997,
+          290
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.700000000000728,
+        "drawCalls": {
+          "main": 171,
+          "normal": 167,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 356
+        },
+        "totalCalls": 356,
+        "trianglesAllPasses": 1530420,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-orbit-0",
+      "kind": "orbit",
+      "time": "night",
+      "index": 0,
+      "angle": -22.9,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-orbit-0.png",
+      "bytes": 3827419,
+      "sha256": "d547c5dc726e15df97a6703a40f157d6dc605d89bfb2fb9b07eda4a84a567d93",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 25.383299999999828,
+        "camera": [
+          -149.96425090421684,
+          129.99999999999997,
+          290.0151031304684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.69999999999709,
+        "drawCalls": {
+          "main": 171,
+          "normal": 167,
+          "reflection": 0,
+          "shadow": 95,
+          "total": 451
+        },
+        "totalCalls": 451,
+        "trianglesAllPasses": 2066834,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-orbit-1",
+      "kind": "orbit",
+      "time": "night",
+      "index": 1,
+      "angle": 22.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-orbit-1.png",
+      "bytes": 3830540,
+      "sha256": "42551eaad3c9b46349815bfe339d485ccfa6d461809008bca3671aff270bb982",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 25.884099999999822,
+        "camera": [
+          144.99284809726316,
+          129.99999999999997,
+          292.0743255971283
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.69999999999709,
+        "drawCalls": {
+          "main": 171,
+          "normal": 167,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 356
+        },
+        "totalCalls": 356,
+        "trianglesAllPasses": 1530420,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-orbit-2",
+      "kind": "orbit",
+      "time": "night",
+      "index": 2,
+      "angle": 67.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-orbit-2.png",
+      "bytes": 3728460,
+      "sha256": "e86ae6e917b4019bff88d3366ddfc9c1ca2835b26cc9aea01e9c9a95a4ccae14",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 26.384099999999812,
+        "camera": [
+          355.0151031304684,
+          129.99999999999997,
+          84.96425090421684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.69999999999709,
+        "drawCalls": {
+          "main": 166,
+          "normal": 162,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 346
+        },
+        "totalCalls": 346,
+        "trianglesAllPasses": 1478856,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-orbit-3",
+      "kind": "orbit",
+      "time": "night",
+      "index": 3,
+      "angle": 112.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-orbit-3.png",
+      "bytes": 3690785,
+      "sha256": "ee34a42a04f0a82ba3b6f05d074c8eaae989c812092b7c2692fabac798949cfb",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 26.95069999999979,
+        "camera": [
+          357.0743255971283,
+          129.99999999999997,
+          -209.9928480972631
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.69999999999709,
+        "drawCalls": {
+          "main": 170,
+          "normal": 166,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 354
+        },
+        "totalCalls": 354,
+        "trianglesAllPasses": 1529778,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-orbit-4",
+      "kind": "orbit",
+      "time": "night",
+      "index": 4,
+      "angle": 157.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-orbit-4.png",
+      "bytes": 3731728,
+      "sha256": "960d419bb2502ccc6dae95f6ac823be600bb7f138aa4cd1d10a634830af110a6",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 27.450199999999786,
+        "camera": [
+          149.96425090421687,
+          129.99999999999997,
+          -420.0151031304684
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.600000000002183,
+        "drawCalls": {
+          "main": 173,
+          "normal": 169,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 360
+        },
+        "totalCalls": 360,
+        "trianglesAllPasses": 1526418,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-orbit-5",
+      "kind": "orbit",
+      "time": "night",
+      "index": 5,
+      "angle": 202.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-orbit-5.png",
+      "bytes": 3810127,
+      "sha256": "3504280c07b1697c17b485838ce809838008e9dc2cc26439fd427824651dfe81",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 28.050499999999776,
+        "camera": [
+          -144.992848097263,
+          129.99999999999994,
+          -422.0743255971283
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.69999999999709,
+        "drawCalls": {
+          "main": 169,
+          "normal": 164,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 351
+        },
+        "totalCalls": 351,
+        "trianglesAllPasses": 1475088,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-orbit-6",
+      "kind": "orbit",
+      "time": "night",
+      "index": 6,
+      "angle": 247.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-orbit-6.png",
+      "bytes": 3784450,
+      "sha256": "8c0acfc296a1fe7fd2ab72306e10af11c5a92fbf2ea8dc43c0b1adb237e2bb25",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 28.45059999999977,
+        "camera": [
+          -355.01510313046833,
+          129.99999999999994,
+          -214.96425090421687
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.700000000000728,
+        "drawCalls": {
+          "main": 174,
+          "normal": 169,
+          "reflection": 172,
+          "shadow": 0,
+          "total": 533
+        },
+        "totalCalls": 533,
+        "trianglesAllPasses": 2266384,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "night-orbit-7",
+      "kind": "orbit",
+      "time": "night",
+      "index": 7,
+      "angle": 292.1,
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/night-orbit-7.png",
+      "bytes": 3850129,
+      "sha256": "6c9fcb6c1c19fd073a0b730e315416489b2fa785228abdae32b88ac25ce65b09",
+      "state": {
+        "version": 2,
+        "subject": "scene",
+        "time": "night",
+        "phase": 2,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 28.83409999999976,
+        "camera": [
+          -357.0743255971281,
+          129.99999999999994,
+          79.99284809726336
+        ],
+        "target": [
+          0,
+          25,
+          -65
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.700000000000728,
+        "drawCalls": {
+          "main": 166,
+          "normal": 161,
+          "reflection": 163,
+          "shadow": 0,
+          "total": 508
+        },
+        "totalCalls": 508,
+        "trianglesAllPasses": 2264198,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "model-pearl",
+      "kind": "model",
+      "id": "pearl",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/model-pearl.png",
+      "bytes": 126045,
+      "sha256": "84ba1012cd08a0ed527a2bb7fb3a47e3fb026dd3b142df766fd4d85942d6c266",
+      "state": {
+        "version": 2,
+        "subject": "pearl",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 31.76269999999967,
+        "camera": [
+          93.59446308898926,
+          93.78999999999999,
+          149.4
+        ],
+        "target": [
+          0.9664630889892578,
+          41.5,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.69999999999709,
+        "drawCalls": {
+          "main": 5,
+          "normal": 5,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 28
+        },
+        "totalCalls": 28,
+        "trianglesAllPasses": 43442,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "model-shanghai",
+      "kind": "model",
+      "id": "shanghai",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/model-shanghai.png",
+      "bytes": 209842,
+      "sha256": "a861822f69cca128ae9d9e18d039046b588b47cf791d639df65159f1089d7e0b",
+      "state": {
+        "version": 2,
+        "subject": "shanghai",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 32.01279999999966,
+        "camera": [
+          127.59524133110048,
+          129.18824190616607,
+          205.7987763404847
+        ],
+        "target": [
+          0,
+          57.15867018699646,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.69999999999709,
+        "drawCalls": {
+          "main": 3,
+          "normal": 3,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 24
+        },
+        "totalCalls": 24,
+        "trianglesAllPasses": 50074,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "model-swfc",
+      "kind": "model",
+      "id": "swfc",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/model-swfc.png",
+      "bytes": 253436,
+      "sha256": "d2e49635f563c18a28907121929a2b4f016f96739809230e418518b4ad0c39d4",
+      "state": {
+        "version": 2,
+        "subject": "swfc",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 32.26269999999966,
+        "camera": [
+          106.414178604126,
+          107.74591533660887,
+          171.6357719421387
+        ],
+        "target": [
+          0,
+          47.67339515686035,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.88023952095548,
+        "p95ms": 17.600000000002183,
+        "drawCalls": {
+          "main": 2,
+          "normal": 2,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 22
+        },
+        "totalCalls": 22,
+        "trianglesAllPasses": 1390,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "model-jinmao",
+      "kind": "model",
+      "id": "jinmao",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/model-jinmao.png",
+      "bytes": 210607,
+      "sha256": "ac017b430666804ef17d2394fee246a257d23669e0c1c55a7f99aaaa5667ad19",
+      "state": {
+        "version": 2,
+        "subject": "jinmao",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 32.49509999999968,
+        "camera": [
+          102.87288034057616,
+          104.16340034484867,
+          165.92400054931642
+        ],
+        "target": [
+          0,
+          46.09000015258789,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.600000000002183,
+        "drawCalls": {
+          "main": 4,
+          "normal": 4,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 26
+        },
+        "totalCalls": 26,
+        "trianglesAllPasses": 8074,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "model-customs",
+      "kind": "model",
+      "id": "customs",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/model-customs.png",
+      "bytes": 992263,
+      "sha256": "57797f17a4450854a139ea85f7d64b059f6013d23f881b59cb490524f4738375",
+      "state": {
+        "version": 2,
+        "subject": "customs",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 32.79609999999969,
+        "camera": [
+          35.71200000000002,
+          36.16,
+          57.6
+        ],
+        "target": [
+          0,
+          16,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.599999999998545,
+        "drawCalls": {
+          "main": 7,
+          "normal": 7,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 32
+        },
+        "totalCalls": 32,
+        "trianglesAllPasses": 6794,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "model-hsbc",
+      "kind": "model",
+      "id": "hsbc",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/model-hsbc.png",
+      "bytes": 1505945,
+      "sha256": "40ca9fc4f8734b27e2afb9bf814829fef9d2224476326a656167d3a0d71a295a",
+      "state": {
+        "version": 2,
+        "subject": "hsbc",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 33.12939999999971,
+        "camera": [
+          30.243600425720217,
+          30.222999858856195,
+          48.78000068664552
+        ],
+        "target": [
+          0,
+          13.149999618530273,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.60000000000582,
+        "drawCalls": {
+          "main": 6,
+          "normal": 6,
+          "reflection": 0,
+          "shadow": 6,
+          "total": 36
+        },
+        "totalCalls": 36,
+        "trianglesAllPasses": 23892,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    },
+    {
+      "name": "model-peace",
+      "kind": "model",
+      "id": "peace",
+      "path": "/Users/shen/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-6cceeaa8-7d5a-4ee9-b002-31da7edbab86/model-peace.png",
+      "bytes": 832373,
+      "sha256": "74927bf149748b7e0360ddf2f232c40d4124d6e96db0ba10b0d6fe2b39371db0",
+      "state": {
+        "version": 2,
+        "subject": "peace",
+        "time": "day",
+        "phase": 0,
+        "quality": "high",
+        "level": 0,
+        "selected": null,
+        "labels": false,
+        "autoRotate": false,
+        "motionReduced": false,
+        "animationTime": 33.395699999999714,
+        "camera": [
+          41.57099999999999,
+          42.09250000000001,
+          67.05
+        ],
+        "target": [
+          0,
+          18.625,
+          0
+        ],
+        "drawingBuffer": {
+          "width": 1919,
+          "height": 1080
+        },
+        "medianFPS": 59.880239520968516,
+        "p95ms": 17.60000000000582,
+        "drawCalls": {
+          "main": 4,
+          "normal": 4,
+          "reflection": 0,
+          "shadow": 0,
+          "total": 26
+        },
+        "totalCalls": 26,
+        "trianglesAllPasses": 1254,
+        "geometries": 157,
+        "textures": 38,
+        "models": [
+          {
+            "id": "pearl",
+            "height": 83.5,
+            "category": "landmark"
+          },
+          {
+            "id": "shanghai",
+            "height": 114.8,
+            "category": "landmark"
+          },
+          {
+            "id": "swfc",
+            "height": 96,
+            "category": "landmark"
+          },
+          {
+            "id": "jinmao",
+            "height": 92.18,
+            "category": "landmark"
+          },
+          {
+            "id": "customs",
+            "height": 32,
+            "category": "landmark"
+          },
+          {
+            "id": "hsbc",
+            "height": 26.5,
+            "category": "landmark"
+          },
+          {
+            "id": "peace",
+            "height": 37.5,
+            "category": "landmark"
+          },
+          {
+            "id": "heritage-0",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-1",
+            "height": 18,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-2",
+            "height": 31,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-3",
+            "height": 16,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-4",
+            "height": 19,
+            "category": "heritage"
+          },
+          {
+            "id": "heritage-5",
+            "height": 21,
+            "category": "heritage"
+          },
+          {
+            "id": "modern-0",
+            "height": 45,
+            "category": "modern"
+          },
+          {
+            "id": "modern-1",
+            "height": 33,
+            "category": "modern"
+          },
+          {
+            "id": "modern-2",
+            "height": 36,
+            "category": "modern"
+          },
+          {
+            "id": "modern-3",
+            "height": 24,
+            "category": "modern"
+          },
+          {
+            "id": "modern-4",
+            "height": 32,
+            "category": "modern"
+          },
+          {
+            "id": "modern-5",
+            "height": 42,
+            "category": "modern"
+          },
+          {
+            "id": "boat-0",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "boat-1",
+            "height": 5.6,
+            "category": "prop"
+          },
+          {
+            "id": "bridge",
+            "height": 8.5,
+            "category": "prop"
+          }
+        ],
+        "landmarks": [
+          "pearl",
+          "swfc",
+          "shanghai",
+          "customs",
+          "peace",
+          "hsbc",
+          "jinmao"
+        ],
+        "instances": 536,
+        "disposed": false,
+        "contextLost": false,
+        "visualAcceptance": "pending user review"
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "visualAcceptance": "requires human review; screenshots are unmodified render-path PNGs"
+}

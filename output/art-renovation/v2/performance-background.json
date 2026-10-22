@@ -1,0 +1,64 @@
+{
+  "createdAt": "2026-10-22T01:36:23.417Z",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "dpr": 1.100000023841858,
+    "viewport": {
+      "width": 1745,
+      "height": 982
+    },
+    "hardwareMobile": false
+  },
+  "results": [
+    {
+      "sampleSeconds": 20,
+      "quality": "high",
+      "medianFPS": 57.80346820809492,
+      "p95ms": 150,
+      "drawingBuffer": {
+        "width": 1919,
+        "height": 1080
+      },
+      "drawCalls": {
+        "main": 180,
+        "normal": 175,
+        "reflection": 0,
+        "shadow": 0,
+        "total": 373
+      },
+      "trianglesAllPasses": 1478374,
+      "geometryCount": 157,
+      "textureCount": 39,
+      "meetsMedian": true,
+      "meetsP95": false
+    },
+    {
+      "sampleSeconds": 20,
+      "quality": "low",
+      "medianFPS": 59.880239520968516,
+      "p95ms": 50.60000000000582,
+      "drawingBuffer": {
+        "width": 1535,
+        "height": 864
+      },
+      "drawCalls": {
+        "main": 180,
+        "normal": 0,
+        "reflection": 0,
+        "shadow": 0,
+        "total": 197
+      },
+      "trianglesAllPasses": 741542,
+      "geometryCount": 157,
+      "textureCount": 37,
+      "meetsMedian": true,
+      "meetsP95": false
+    }
+  ],
+  "limitations": [
+    "20-second steady daytime samples on the listed desktop only.",
+    "No screenshot export or LOD/time switching during samples.",
+    "Phone hardware and thermal/long-running stress not tested."
+  ]
+}

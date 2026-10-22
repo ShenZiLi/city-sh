@@ -153,43 +153,46 @@ export function cityLayout(): CityInstance[] {
   add("hsbc", 25, -1, 45, 1, "hsbc");
   add("customs", -27, -1, 44, 1, "customs");
   add("peace", -130, -1, 46, 1, "peace");
-  add("pearl", -100, 1, 35, 1, "pearl");
-  add("shanghai", -155, 1, 190, 1, "shanghai");
-  add("swfc", -239, 1, 143, 1, "swfc");
-  add("jinmao", -196, 1, 99, 1, "jinmao");
+  add("pearl", -210, 1, 35, 1, "pearl");
+  add("shanghai", -96, 1, 190, 1, "shanghai");
+  add("swfc", -176, 1, 151, 1, "swfc");
+  add("jinmao", -157, 1, 99, 1, "jinmao");
   // Explicit river-facing frontage. No landmark is randomly repeated.
   const frontage: [number, number][] = [
     [-285, 0],
-    [-247, 4],
-    [-207, 1],
+    [-250, 4],
+    [-212, 1],
+    [-174, 3],
     [-80, 3],
     [75, 5],
-    [120, 3],
-    [165, 0],
-    [210, 4],
-    [255, 1],
-    [300, 5],
-    [345, 3],
+    [110, 3],
+    [145, 0],
+    [180, 4],
+    [215, 1],
+    [250, 5],
+    [285, 3],
+    [320, 0],
+    [355, 4],
   ];
   for (const [z, type] of frontage)
     add("heritage-" + type, z, -1, 43, 0.9 + hash(z) * 0.13);
   const rows = [
     {
-      offset: 91,
+      offset: 78,
       zs: [
         -325, -280, -235, -190, -145, -100, -55, -10, 35, 80, 125, 170, 215,
         260, 305, 350,
       ],
     },
     {
-      offset: 138,
+      offset: 114,
       zs: [
         -350, -303, -256, -209, -162, -115, -68, -21, 26, 73, 120, 167, 214,
         261, 308, 355,
       ],
     },
     {
-      offset: 190,
+      offset: 151,
       zs: [
         -340, -288, -236, -184, -132, -80, -28, 24, 76, 128, 180, 232, 284, 336,
       ],
@@ -206,6 +209,19 @@ export function cityLayout(): CityInstance[] {
       ),
     ),
   );
+  // A second, staggered rank closes the long lawn gaps between the old rows.
+  // These are separate building assets and complete roofs, not stretched facades.
+  for (const [row, offset] of [190, 227, 264, 301, 338].entries())
+    for (let i = 0; i < 22; i++) {
+      const z = -365 + i * 34 + (row % 2) * 12;
+      add(
+        "heritage-" + ((i * 5 + row * 3) % 6),
+        z,
+        -1,
+        offset,
+        0.86 + hash(i + row * 101) * 0.19,
+      );
+    }
   // Curated height bands: commercial podiums on the river, towers set behind.
   const modern: [number, number, number, number][] = [
     [-315, 64, 1, 0.8],
@@ -287,7 +303,7 @@ export function cityLayout(): CityInstance[] {
           z,
           side,
           offset,
-          side < 0 ? 0.75 + hash(seed + 1) * 0.3 : 0.45 + hash(seed + 1) * 0.5,
+          side < 0 ? 0.9 + hash(seed + 1) * 0.25 : 0.65 + hash(seed + 1) * 0.5,
           undefined,
           seed,
         );
@@ -307,6 +323,23 @@ export function cityLayout(): CityInstance[] {
           undefined,
           seed,
         );
+      }
+  // Tangible back streets on every side instead of empty terrain behind the
+  // main silhouette. Lower detail is assigned by the city loader at distance.
+  for (const side of [-1, 1])
+    for (let row = 0; row < 19; row++)
+      for (let col = 0; col < 6; col++) {
+        const seed = 6000 + (side + 1) * 1000 + row * 6 + col;
+        add(
+          (side < 0 ? "heritage-" : "modern-") + ((row * 5 + col * 3) % 6),
+          -580 + row * 64 + hash(seed) * 10,
+          side,
+          390 + col * 39 + hash(seed + 2) * 8,
+          side < 0 ? 1.05 + hash(seed + 1) * 0.3 : 0.8 + hash(seed + 1) * 0.55,
+          undefined,
+          seed,
+        );
+        result[result.length - 1].district = "distance";
       }
   return result.filter((item) => !inCreek(new T.Vector3(...item.position), 19));
 }

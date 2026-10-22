@@ -41,18 +41,7 @@ for (const spec of specs.assets) {
     );
   } catch (error) {
     if (error.code !== "ENOENT") throw error;
-    receipt = {
-      id: spec.id,
-      tool: "OpenAI built-in image_gen",
-      toolOutput:
-        "/Users/shen/.codex/generated_images/01a15c07-001e-78b3-a36a-ce3c2d2e5b06/exec-d7bd1664-c451-4f57-8867-b68ef9d7a4dd.png",
-      prompt: spec.prompt,
-      reference: specs.reference,
-    };
-    await fs.writeFile(
-      path.join(dir, "prompts", spec.id + ".json"),
-      JSON.stringify(receipt, null, 2) + "\n",
-    );
+    throw new Error("Missing actual imagegen receipt: " + spec.id);
   }
   const channels = await sharp(data)
     .ensureAlpha()
@@ -73,7 +62,8 @@ for (const spec of specs.assets) {
     method: "image_gen",
     generator: receipt.tool,
     toolOutput: receipt.toolOutput,
-    status: "integrated",
+    status: spec.id === "V203" ? "candidate" : "integrated",
+    ...(spec.id === "V203" ? { supersededBy: "V211" } : {}),
     original: `art/renovation/v2/originals/${spec.id}.png`,
     promptFile: `art/renovation/v2/prompts/${spec.id}.json`,
     promptSha256: sha(Buffer.from(spec.prompt)),
@@ -143,6 +133,7 @@ for (const [id, cols, rows, x0, x1, y0, y1] of [
   ["V201", 6, 4, 0.31, 0.77, 0.2, 0.79],
   ["V202", 5, 4, 0.28, 0.72, 0.24, 0.75],
   ["V203", 8, 16, 0.18, 0.82, 0.18, 0.82],
+  ["V211", 8, 16, 0.1, 0.9, 0.12, 0.88],
 ]) {
   const size = 512,
     data = Buffer.alloc(size * size * 4);
@@ -153,7 +144,8 @@ for (const [id, cols, rows, x0, x1, y0, y1] of [
         u = ((x / size) * cols) % 1,
         v = ((y / size) * rows) % 1;
       const selected =
-        (col * 13 + row * 7 + col * row * 3) % 11 < (id === "V203" ? 3 : 5);
+        (col * 13 + row * 7 + col * row * 3) % 11 <
+        (["V203", "V211"].includes(id) ? 3 : 5);
       const value = selected && u > x0 && u < x1 && v > y0 && v < y1 ? 255 : 0;
       const i = (y * size + x) * 4;
       data[i] = data[i + 1] = data[i + 2] = value;
